@@ -1,0 +1,73 @@
+(ExpressProject "radiotelescope"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/09/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\radiotelescope.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "zach")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn")
+      (Path "Design Resources"
+         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn"
+         "Design Cache")
+      (Select "Design Resources"
+         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn"
+         "SCHEMATIC1" "Processor & Communication"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 314 0 590"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 631")
+        (Scroll "-84 135")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Title Page"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 631")
+        (Scroll "-84 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Processor & Communication"))))
