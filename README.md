@@ -5,7 +5,7 @@ Created by Zach Martin, Aaron Olsen, Loc Pham.
 Init date October 2022. 
 
 # Schematic (In-progress)
-![SCH](https://github.com/drkntz/radiotelescope-pcb/blob/master/Docs/radiotelescope-SCH-V01.png)
+![SCH](https://github.com/drkntz/radiotelescope-pcb/blob/main/Docs/radiotelescope-SCH-V01.png)
 
 # PCB Layout
 (None yet)
