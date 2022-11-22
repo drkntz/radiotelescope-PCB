@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/09/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/21/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -11,7 +11,8 @@
     (File ".\radiotelescope.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -25,37 +26,54 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TP_0
+      (FullPartName "TP_0.Normal")
+      (LibraryName
+         "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (1050170001
+      (FullPartName "1050170001.Normal")
+      (LibraryName
+         "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\SYMBOLS\USB_1050170001\1050170001.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "F:\ORCADWIN\CAPTURE\LIBRARY\RLC.OLB")
+      (DeviceIndex "0"))
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "zach")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn")
-      (Path "Design Resources"
-         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn"
-         "Design Cache")
       (Select "Design Resources"
-         "S:\projects\radiotelescope-PCB\Main Project\radiotelescope.dsn"
-         "SCHEMATIC1" "Processor & Communication"))
+         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 314 0 590"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 613"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 631")
-        (Scroll "-84 135")
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
+        (Scroll "-141 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
@@ -64,10 +82,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 631")
-        (Scroll "-84 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
+        (Scroll "-178 -1")
+        (Zoom "59")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Processor & Communication"))))
+      (Page "Processor & Communication")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
