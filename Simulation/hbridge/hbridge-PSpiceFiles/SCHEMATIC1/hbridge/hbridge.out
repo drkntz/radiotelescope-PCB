@@ -1,0 +1,198 @@
+
+**** 11/23/22 14:46:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope-PCB\Simulation\hbridge\hbridge-PSpiceFiles\SCHEMATIC1\hbridge.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "hbridge.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\zach\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 500u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source HBRIDGE
+R_R8         N03767 N03783 100
+R_R1         N03583 N03557 100R
+V_V1         N03377 0 12VDC
+R_R9         N03791 N03745 100
+R_R7         N03525 N03377 1k
+R_R6         N03745 N03761 10k
+V_V4         N03767 0  
++PULSE 0 5 100u 10u 10u 50u 100u
+V_V3         N03745 0 0
+Q_Q1         N03525 N03761 0 QbreakN 
+R_R5         N04776 N03767 10k
+Q_Q2         N03543 N04776 0 QbreakN 
+M_M4         N03583 N03791 0 0 power_Mbreakn           
+R_R3         N03543 N03377 1k
+M_M3         N03557 N03783 0 0 power_Mbreakn           
+M_M8         N03557 N03525 N03377 N03377 M2N6845
+M_M7         N03583 N03543 N03377 N03377 M2N6845
+
+**** RESUMING hbridge.cir ****
+.END
+
+**** 11/23/22 14:46:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope-PCB\Simulation\hbridge\hbridge-PSpiceFiles\SCHEMATIC1\hbridge.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QbreakN         
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF  100            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 11/23/22 14:46:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope-PCB\Simulation\hbridge\hbridge-PSpiceFiles\SCHEMATIC1\hbridge.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               power_Mbreakn   M2N6845         
+               NMOS            PMOS            
+       LEVEL    3               3            
+           L    1.000000E-06    2.000000E-06 
+           W    1                .68         
+         VTO    3              -3.533        
+          KP   20.718860E-06   10.430000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          RD     .1              .1672       
+          RS     .01             .284        
+          RG     .5             7.701        
+         RDS    1.000000E+06  444.400000E+06 
+          IS   10.000000E-15  793.100000E-15 
+          JS    0               0            
+           N                    3            
+          PB     .8              .8          
+        PBSW     .8              .8          
+         CBD    1.000000E-09  899.200000E-12 
+          CJ    0               0            
+        CJSW    0               0            
+          TT    1.000000E-09  425.000000E-09 
+        CGSO    1.000000E-09    2.288000E-09 
+        CGDO  100.000000E-12  138.500000E-12 
+        CGBO    0               0            
+         TOX  100.000000E-09  100.000000E-09 
+          XJ    0               0            
+          UO                  300            
+       UCRIT   10.000000E+03   10.000000E+03 
+       DELTA                    0            
+         ETA                    0            
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 11/23/22 14:46:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope-PCB\Simulation\hbridge\hbridge-PSpiceFiles\SCHEMATIC1\hbridge.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N03377)   12.0000 (N03525)   12.0000 (N03543)   12.0000 (N03557)     .0270     
+
+(N03583)     .0270 (N03745)    0.0000 (N03761) 120.0E-09 (N03767)    0.0000     
+
+(N03783)    0.0000 (N03791)    0.0000 (N04776) 120.0E-09 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.396E-08
+    V_V4         1.200E-11
+    V_V3         1.200E-11
+
+    TOTAL POWER DISSIPATION   6.47E-07  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/23/22 14:46:07 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope-PCB\Simulation\hbridge\hbridge-PSpiceFiles\SCHEMATIC1\hbridge.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/21/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/23/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -26,9 +26,25 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (2N3904
+      (FullPartName "2N3904.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (2N2904
+      (FullPartName "2N2904.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("NPN DIAC"
+      (FullPartName "NPN DIAC.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (7414
+      (FullPartName "7414.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
       (DeviceIndex "0"))
     (TP_0
       (FullPartName "TP_0.Normal")
@@ -61,8 +77,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Select "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"))
+      (Select "Design Resources" ".\radiotelescope.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -88,5 +103,15 @@
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Processor & Communication")))
+      (Page "Processor & Communication"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 631")
+        (Scroll "-178 -1")
+        (Zoom "59")
+        (Occurrence "/"))
+      (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Power & H-Bridge")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
