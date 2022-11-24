@@ -1,3 +1,5 @@
- lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\breakout.lib, offset=780, size=131
  lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\breakout.lib, offset=1006, size=23
- lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\pwrmos.lib, offset=14058, size=335
+ lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\diz.lib, offset=242335, size=676
+ lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\irf.lib, offset=649833, size=1749
+ lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\irf.lib, offset=651583, size=1745
+ lib=C:\Cadence\SPB_17.4\tools\PSpice\Library\templates.lib, offset=13466, size=8781

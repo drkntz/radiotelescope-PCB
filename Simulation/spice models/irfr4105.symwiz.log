@@ -1,0 +1,13 @@
+STATUS: PSpice Model Import Wizard for "Capture" (17.4.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: S:\projects\radiotelescope-PCB\Simulation\spice models\irfr4105.lib
+   INFO: Output File: S:\projects\radiotelescope-PCB\Simulation\spice models\irfr4105.olb
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Thursday, November 24, 2022 09:09:39
+STATUS:  
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Thursday, November 24, 2022 09:09:39
+STATUS:  
+   INFO: Symbol "IRFRU4105" created for model "IRFRU4105".
+STATUS: 0 Error messages, 0 Warning messages

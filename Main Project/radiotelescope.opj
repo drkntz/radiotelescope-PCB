@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/23/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/24/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -26,6 +26,10 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (BZX84C5V1/SOT
+      (FullPartName "BZX84C5V1/SOT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (2N3904
       (FullPartName "2N3904.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
@@ -77,7 +81,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Select "Design Resources" ".\radiotelescope.dsn"))
+      (Path "Design Resources"
+         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn")
+      (Path "Design Resources"
+         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.4.0.d001)
+STATUS:  
+STATUS: Translator started at Thursday, November 24, 2022 09:21:01
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'S:\projects\radiotelescope-PCB\Simulation\spice models\irfr5305.olb'.
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\capture\library\Transistor.olb'.
+STATUS: Translator stopped at Thursday, November 24, 2022 09:22:54
+STATUS: 0 Error messages, 0 Warning messages
