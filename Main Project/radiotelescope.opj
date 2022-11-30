@@ -42,6 +42,18 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (74HCT14
       (FullPartName "74HCT14.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
@@ -105,11 +117,6 @@
       (FullPartName "LED.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (1050170001
       (FullPartName "1050170001.Normal")
       (LibraryName
@@ -127,14 +134,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn")
-      (Path "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "SCHEMATIC1")
-      (Select "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "SCHEMATIC1"))
+      (Path "Design Resources" ".\radiotelescope.dsn")
+      (Path "Design Resources" ".\radiotelescope.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\radiotelescope.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -144,8 +146,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
-        (Scroll "64 524")
+        (Placement "44 0 1 -1 -1 5 24 5 983 24 631")
+        (Scroll "0 512")
         (Zoom "158")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
@@ -154,9 +156,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
-        (Scroll "531 86")
-        (Zoom "118")
+        (Placement "44 0 1 -1 -1 5 24 5 983 24 631")
+        (Scroll "682 317")
+        (Zoom "236")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
@@ -164,11 +166,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
-        (Scroll "-178 -1")
+        (Placement "44 0 1 -1 -1 5 24 5 983 24 631")
+        (Scroll "-25 -1")
         (Zoom "59")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Power & H-Bridge")))
-  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
+  (LastUsedLibraryBrowseDirectory "c:\cadence\spb_17.4\tools\capture\library"))
