@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/26/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/30/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -42,6 +42,14 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (74HCT14
+      (FullPartName "74HCT14.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "5"))
+    (74LCX14/SO
+      (FullPartName "74LCX14/SO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
     (TLC27M2
       (FullPartName "TLC27M2.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
@@ -136,8 +144,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 983 24 631")
-        (Scroll "278 553")
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
+        (Scroll "64 524")
         (Zoom "158")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
@@ -146,9 +154,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 983 24 631")
-        (Scroll "630 618")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
+        (Scroll "531 86")
+        (Zoom "118")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
@@ -156,9 +164,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 983 24 631")
-        (Scroll "2516 1822")
-        (Zoom "248")
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 631")
+        (Scroll "-178 -1")
+        (Zoom "59")
         (Occurrence "/"))
       (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
