@@ -1,0 +1,240 @@
+Date and Time : 01/16/23 11:55:42
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict U3,OUT  Output Connected to Bidirectional
+                    SCHEMATIC1, Power & H-Bridge  (12.80, 4.30) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RB3  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (7.60, 2.70) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,OUT  Output Connected to Bidirectional
+                    SCHEMATIC1, Power & H-Bridge  (8.10, 7.90) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RB2  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (7.60, 2.60) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (11.80, 6.90) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RC3  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 2.90) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (12.20, 2.10) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RA4  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 1.50) 
+WARNING(ORCAP-1829): Possible pin type conflict U5,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (11.80, 7.40) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RC4  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 3.00) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RA9  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 1.80) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (12.20, 3.50) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RA8  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 1.70) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (12.20, 4.00) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (12.20, 1.40) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RA7  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 1.60) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,Y  Output Connected to Bidirectional
+                    SCHEMATIC1, Main Electronics  (11.80, 6.40) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,RC2  Bidirectional Connected to Output
+                    SCHEMATIC1, Main Electronics  (6.70, 2.80) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections Diags 
+                    SCHEMATIC1, Main Electronics  (1.80, 1.70) 
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: RADIOTELESCOPE 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+#1 ERROR(ORCAP-36055): Illegal character in \rlc281 (ats lamp timer with display)\.
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "VDD" found on Package PIC24FV32KA304_1 , U1 Pin Number 17: SCHEMATIC1, Main Electronics (6.80, 1.00). Please renumber one of these.
+#3 ERROR(ORCAP-36041): Duplicate Pin Name "VDD" found on Package PIC24FV32KA304_1 , U1 Pin Number 40: SCHEMATIC1, Main Electronics (6.80, 1.00). Please renumber one of these.
+#4 ERROR(ORCAP-36041): Duplicate Pin Name "VSS" found on Package PIC24FV32KA304_1 , U1 Pin Number 39: SCHEMATIC1, Main Electronics (6.80, 1.00). Please renumber one of these.
+#5 ERROR(ORCAP-36041): Duplicate Pin Name "VSS" found on Package PIC24FV32KA304_1 , U1 Pin Number 29: SCHEMATIC1, Main Electronics (6.80, 1.00). Please renumber one of these.
+#6 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP12: SCHEMATIC1, Main Electronics (7.80, 3.30). All pins should be numbered.
+#7 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP13: SCHEMATIC1, Main Electronics (7.80, 3.40). All pins should be numbered.
+#8 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP10: SCHEMATIC1, Main Electronics (7.90, 2.90). All pins should be numbered.
+#9 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP3: SCHEMATIC1, Main Electronics (6.10, 1.80). All pins should be numbered.
+#10 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP11: SCHEMATIC1, Main Electronics (7.90, 3.00). All pins should be numbered.
+#11 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP2: SCHEMATIC1, Main Electronics (2.10, 8.00). All pins should be numbered.
+#12 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package R , R1: SCHEMATIC1, Main Electronics (1.30, 0.70). All pins should be numbered.
+#13 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package R , R1: SCHEMATIC1, Main Electronics (1.30, 0.70). All pins should be numbered.
+#14 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP1: SCHEMATIC1, Main Electronics (5.30, 6.40). All pins should be numbered.
+#15 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP7: SCHEMATIC1, Main Electronics (6.10, 3.40). All pins should be numbered.
+#16 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP6: SCHEMATIC1, Main Electronics (6.10, 3.30). All pins should be numbered.
+#17 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package 100nf , C7: SCHEMATIC1, Main Electronics (1.30, 1.90). All pins should be numbered.
+#18 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package 100nf , C7: SCHEMATIC1, Main Electronics (1.30, 1.90). All pins should be numbered.
+#19 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP5: SCHEMATIC1, Main Electronics (5.20, 3.00). All pins should be numbered.
+#20 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP4: SCHEMATIC1, Main Electronics (6.10, 1.90). All pins should be numbered.
+#21 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP9: SCHEMATIC1, Main Electronics (7.90, 2.80). All pins should be numbered.
+#22 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP16: SCHEMATIC1, Main Electronics (7.80, 3.70). All pins should be numbered.
+#23 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP8: SCHEMATIC1, Main Electronics (7.90, 2.70). All pins should be numbered.
+#24 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP17: SCHEMATIC1, Main Electronics (7.80, 3.80). All pins should be numbered.
+#25 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP14: SCHEMATIC1, Main Electronics (7.80, 3.50). All pins should be numbered.
+#26 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package TP_0 , TP15: SCHEMATIC1, Main Electronics (7.80, 3.60). All pins should be numbered.
+#27 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package HEADER 6 , J1: SCHEMATIC1, Main Electronics (0.10, 1.10). All pins should be numbered.
+#28 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package HEADER 6 , J1: SCHEMATIC1, Main Electronics (0.10, 1.10). All pins should be numbered.
+#29 ERROR(ORCAP-36022): Pin number missing from Pin "3" of Package HEADER 6 , J1: SCHEMATIC1, Main Electronics (0.10, 1.10). All pins should be numbered.
+#30 ERROR(ORCAP-36022): Pin number missing from Pin "4" of Package HEADER 6 , J1: SCHEMATIC1, Main Electronics (0.10, 1.10). All pins should be numbered.
+#31 ERROR(ORCAP-36022): Pin number missing from Pin "5" of Package HEADER 6 , J1: SCHEMATIC1, Main Electronics (0.10, 1.10). All pins should be numbered.
+#32 ERROR(ORCAP-36022): Pin number missing from Pin "6" of Package HEADER 6 , J1: SCHEMATIC1, Main Electronics (0.10, 1.10). All pins should be numbered.
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#33 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP12: SCHEMATIC1, Main Electronics (7.80, 3.30).
+#34 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D22: SCHEMATIC1, Power & H-Bridge (9.10, 2.60).
+#35 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R49: SCHEMATIC1, Power & H-Bridge (5.50, 7.30).
+#36 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R31: SCHEMATIC1, Power & H-Bridge (7.90, 1.50).
+#37 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP13: SCHEMATIC1, Main Electronics (7.80, 3.40).
+#38 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D25: SCHEMATIC1, Power & H-Bridge (4.40, 6.20).
+#39 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R3: SCHEMATIC1, Main Electronics (13.70, 0.70).
+#40 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R48: SCHEMATIC1, Power & H-Bridge (5.10, 7.30).
+#41 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R32: SCHEMATIC1, Power & H-Bridge (11.80, 1.50).
+#42 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP10: SCHEMATIC1, Main Electronics (7.90, 2.90).
+#43 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP3: SCHEMATIC1, Main Electronics (6.10, 1.80).
+#44 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R58: SCHEMATIC1, Main Electronics (4.40, 1.30).
+#45 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D24: SCHEMATIC1, Power & H-Bridge (5.90, 5.40).
+#46 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D17: SCHEMATIC1, Power & H-Bridge (1.00, 2.40).
+#47 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R2: SCHEMATIC1, Main Electronics (13.30, 0.70).
+#48 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R33: SCHEMATIC1, Power & H-Bridge (6.40, 2.20).
+#49 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP11: SCHEMATIC1, Main Electronics (7.90, 3.00).
+#50 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D27: SCHEMATIC1, Power & H-Bridge (2.80, 1.20).
+#51 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D18: SCHEMATIC1, Power & H-Bridge (2.50, 3.30).
+#52 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q8: SCHEMATIC1, Power & H-Bridge (6.50, 5.60).
+#53 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP2: SCHEMATIC1, Main Electronics (2.10, 8.00).
+#54 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D26: SCHEMATIC1, Power & H-Bridge (5.90, 6.20).
+#55 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D19: SCHEMATIC1, Power & H-Bridge (4.40, 5.40).
+#56 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q11: SCHEMATIC1, Power & H-Bridge (3.80, 6.40).
+#57 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q9: SCHEMATIC1, Power & H-Bridge (2.30, 5.80).
+#58 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP1: SCHEMATIC1, Main Electronics (5.30, 6.40).
+#59 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R56: SCHEMATIC1, Main Electronics (4.60, 1.10).
+#60 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q10: SCHEMATIC1, Power & H-Bridge (8.20, 5.80).
+#61 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R29: SCHEMATIC1, Main Electronics (1.80, 7.40).
+#62 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP7: SCHEMATIC1, Main Electronics (6.10, 3.40).
+#63 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R57: SCHEMATIC1, Main Electronics (4.50, 1.20).
+#64 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R28: SCHEMATIC1, Main Electronics (5.30, 7.20).
+#65 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R19: SCHEMATIC1, Main Electronics (1.70, 6.50).
+#66 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP6: SCHEMATIC1, Main Electronics (6.10, 3.30).
+#67 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R54: SCHEMATIC1, Power & H-Bridge (2.50, 0.90).
+#68 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q12: SCHEMATIC1, Power & H-Bridge (6.50, 6.40).
+#69 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R27: SCHEMATIC1, Main Electronics (5.30, 7.10).
+#70 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP5: SCHEMATIC1, Main Electronics (5.20, 3.00).
+#71 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R55: SCHEMATIC1, Main Electronics (4.70, 1.00).
+#72 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R41: SCHEMATIC1, Power & H-Bridge (3.20, 5.10).
+#73 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R38: SCHEMATIC1, Power & H-Bridge (10.20, 3.70).
+#74 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R26: SCHEMATIC1, Main Electronics (5.80, 6.90).
+#75 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP4: SCHEMATIC1, Main Electronics (6.10, 1.90).
+#76 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, Main Electronics (4.90, 2.50).
+#77 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J8: SCHEMATIC1, Power & H-Bridge (5.90, 4.00).
+#78 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R52: SCHEMATIC1, Power & H-Bridge (7.50, 8.40).
+#79 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R39: SCHEMATIC1, Power & H-Bridge (11.00, 4.10).
+#80 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R40: SCHEMATIC1, Power & H-Bridge (11.00, 4.30).
+#81 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q2: SCHEMATIC1, Power & H-Bridge (11.20, 2.00).
+#82 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R25: SCHEMATIC1, Main Electronics (5.80, 6.80).
+#83 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R53: SCHEMATIC1, Power & H-Bridge (2.50, 2.70).
+#84 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q3: SCHEMATIC1, Power & H-Bridge (7.00, 2.20).
+#85 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R43: SCHEMATIC1, Power & H-Bridge (12.20, 5.20).
+#86 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J7: SCHEMATIC1, Power & H-Bridge (0.30, 0.80).
+#87 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R24: SCHEMATIC1, Main Electronics (5.80, 6.70).
+#88 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R42: SCHEMATIC1, Power & H-Bridge (7.10, 5.10).
+#89 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R50: SCHEMATIC1, Power & H-Bridge (6.30, 7.70).
+#90 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J6: SCHEMATIC1, Power & H-Bridge (10.60, 0.40).
+#91 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R23: SCHEMATIC1, Main Electronics (6.00, 6.50).
+#92 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D3: SCHEMATIC1, Main Electronics (6.10, 7.70).
+#93 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP9: SCHEMATIC1, Main Electronics (7.90, 2.80).
+#94 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4A: SCHEMATIC1, Main Electronics (12.50, 1.20).
+#95 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4B: SCHEMATIC1, Main Electronics (12.50, 1.90).
+#96 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4C: SCHEMATIC1, Main Electronics (12.50, 3.30).
+#97 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4D: SCHEMATIC1, Main Electronics (12.50, 3.80).
+#98 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4E: SCHEMATIC1, Main Electronics (12.10, 6.20).
+#99 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4F: SCHEMATIC1, Main Electronics (12.10, 6.70).
+#100 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R8: SCHEMATIC1, Main Electronics (13.70, 2.80).
+#101 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D10: SCHEMATIC1, Power & H-Bridge (2.70, 5.50).
+#102 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R45: SCHEMATIC1, Power & H-Bridge (8.70, 5.80).
+#103 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R51: SCHEMATIC1, Power & H-Bridge (6.30, 7.90).
+#104 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R34: SCHEMATIC1, Power & H-Bridge (13.30, 2.30).
+#105 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q1: SCHEMATIC1, Power & H-Bridge (8.50, 2.00).
+#106 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D2: SCHEMATIC1, Main Electronics (6.10, 7.40).
+#107 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R22: SCHEMATIC1, Main Electronics (5.20, 6.30).
+#108 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP16: SCHEMATIC1, Main Electronics (7.80, 3.70).
+#109 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP8: SCHEMATIC1, Main Electronics (7.90, 2.70).
+#110 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5A: SCHEMATIC1, Main Electronics (12.10, 7.20).
+#111 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5B: SCHEMATIC1, Main Electronics (10.90, 5.70).
+#112 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5C: SCHEMATIC1, Main Electronics (8.50, 6.10).
+#113 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5D: SCHEMATIC1, Main Electronics (8.50, 6.60).
+#114 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5E: SCHEMATIC1, Main Electronics (8.50, 5.60).
+#115 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5F: SCHEMATIC1, Main Electronics (8.50, 7.10).
+#116 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J4: SCHEMATIC1, Main Electronics (14.20, 5.40).
+#117 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R44: SCHEMATIC1, Power & H-Bridge (1.70, 5.80).
+#118 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R35: SCHEMATIC1, Power & H-Bridge (9.00, 3.70).
+#119 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q6: SCHEMATIC1, Power & H-Bridge (11.20, 2.80).
+#120 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R21: SCHEMATIC1, Main Electronics (5.20, 6.20).
+#121 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP17: SCHEMATIC1, Main Electronics (7.80, 3.80).
+#122 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D21: SCHEMATIC1, Power & H-Bridge (10.60, 1.80).
+#123 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J3: SCHEMATIC1, Main Electronics (14.40, 3.20).
+#124 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R7: SCHEMATIC1, Main Electronics (13.30, 2.80).
+#125 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D4: SCHEMATIC1, Power & H-Bridge (7.50, 1.90).
+#126 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q7: SCHEMATIC1, Power & H-Bridge (3.80, 5.60).
+#127 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R47: SCHEMATIC1, Power & H-Bridge (4.70, 7.30).
+#128 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R36: SCHEMATIC1, Power & H-Bridge (9.40, 3.70).
+#129 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP14: SCHEMATIC1, Main Electronics (7.80, 3.50).
+#130 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D20: SCHEMATIC1, Power & H-Bridge (9.10, 1.80).
+#131 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3A: SCHEMATIC1, Power & H-Bridge (12.10, 4.10).
+#132 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3B: SCHEMATIC1, Power & H-Bridge (7.40, 7.70).
+#133 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R6: SCHEMATIC1, Main Electronics (4.20, 2.50).
+#134 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, Main Electronics (14.40, 1.10).
+#135 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D13: SCHEMATIC1, Power & H-Bridge (7.40, 5.50).
+#136 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D7: SCHEMATIC1, Power & H-Bridge (12.10, 1.90).
+#137 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R46: SCHEMATIC1, Power & H-Bridge (4.30, 7.30).
+#138 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q4: SCHEMATIC1, Power & H-Bridge (12.80, 2.30).
+#139 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R37: SCHEMATIC1, Power & H-Bridge (9.80, 3.70).
+#140 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance TP15: SCHEMATIC1, Main Electronics (7.80, 3.60).
+#141 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D23: SCHEMATIC1, Power & H-Bridge (10.60, 2.60).
+#142 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q5: SCHEMATIC1, Power & H-Bridge (8.50, 2.80).
+#143 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R30: SCHEMATIC1, Main Electronics (1.90, 8.70).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? +5V  +5V  VCC  VDD  
+                    SCHEMATIC1, Power & H-Bridge  (12.30, 3.50) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VCC  VCC  +5V
+                    SCHEMATIC1, Power & H-Bridge  (7.60, 7.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VCC  VCC  +5V
+                    SCHEMATIC1, Power & H-Bridge  (12.30, 3.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? GND  GND  0  
+                    SCHEMATIC1, Power & H-Bridge  (9.10, 4.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,GND  GND  0
+                    SCHEMATIC1, Power & H-Bridge  (7.60, 8.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,GND  GND  0
+                    SCHEMATIC1, Power & H-Bridge  (12.30, 4.80) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
