@@ -1,0 +1,1357 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Feb-01-2023 at 17:37:38 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='RADIOTELESCOPE';
+ POST_TIME='Oct  7 2019 04:16:49';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS52759@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins52759@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins52759@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_SMC0805_100NF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS15686@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins15686@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins15686@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS15738@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins15738@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins15738@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS10232@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins10232@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins10232@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS65341@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins65341@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins65341@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS34548@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins34548@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins34548@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS44082@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins44082@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins44082@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS70166@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins70166@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins70166@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS89626@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins89626@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins89626@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS48717@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins48717@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins48717@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS90866@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins90866@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins90866@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS90964@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins90964@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins90964@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS91847@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins91847@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins91847@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS96489@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins96489@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins96489@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS96639@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins96639@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins96639@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS96665@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins96665@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins96665@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SMC0805_100NF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS9217@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins9217@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins9217@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_SMC0805_100NF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS9164@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins9164@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins9164@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_SMC0805_100NF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS6515@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins6515@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins6515@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS9516@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins9516@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins9516@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_SMC0805_100N':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS135364@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins135364@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins135364@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS53819@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins53819@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins53819@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_SMC0805_10UF':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS55183@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins55183@analog.\c.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins55183@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_SMD0805_RED':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS56055@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins56055@discrete.\led.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins56055@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'BZX84C5V1/SOT_SOT23_BZX84C5V1/SOT':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS47245@DISCRETE.BZX84C5V1/SOT.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins47245@discrete.\bzx84c5v1/sot.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins47245@discrete.\bzx84c5v1/sot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'BZX84C5V1/SOT_SOT23_BZX84C5V1/SOT':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS47536@DISCRETE.BZX84C5V1/SOT.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins47536@discrete.\bzx84c5v1/sot.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins47536@discrete.\bzx84c5v1/sot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D17 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS90483@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins90483@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins90483@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D18 'LED_SMD0805_GREEN':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS92090@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins92090@discrete.\led.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins92090@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D19 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93017@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93017@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93017@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_SMD0805_RED':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS17018@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins17018@discrete.\led.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins17018@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D20 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93251@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93251@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93251@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D21 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93337@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93337@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93337@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D22 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93423@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93423@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93423@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D23 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93490@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93490@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93490@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D24 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93827@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93827@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93827@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D25 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93911@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93911@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93911@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D26 'DIODE SCHOTTKY_SMDO214AA_SK24-TP':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS93978@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins93978@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins93978@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D27 'LED_SMD0805_GREEN':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS94089@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins94089@discrete.\led.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins94089@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_SMD0805_RED':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS17423@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins17423@discrete.\led.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins17423@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'BZX84C5V1/SOT_SOT23_BZX84C5V1/SOT':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS46271@DISCRETE.BZX84C5V1/SOT.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins46271@discrete.\bzx84c5v1/sot.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins46271@discrete.\bzx84c5v1/sot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'BZX84C5V1/SOT_SOT23_BZX84C5V1/SOT':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS46811@DISCRETE.BZX84C5V1/SOT.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins46811@discrete.\bzx84c5v1/sot.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins46811@discrete.\bzx84c5v1/sot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS130097@TC2030-IDC-NL.TC2030-IDC-NL.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'CON8_BLKCON100VHTM1SQW10010_SPARE':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS127318@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins127318@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS51819@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins51819@connector.\4 header.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins51819@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS53915@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins53915@connector.\4 header.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins53915@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON10_BLKCON100VHTM1SQW10010_CON10':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS125609@CONNECTOR.CON10.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins125609@connector.\con10.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 '1050170001_MOLEX_1050170001_1050170001':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS13014@1050170001.1050170001.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins13014@\1050170001\.\1050170001.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON3_BLKCON156VHTM1SQSW1563_3-MTA-156':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32431@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32431@connector.\con3.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32431@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 '4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS31849@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins31849@connector.\4 header.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins31849@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON3_BLKCON156VHTM1SQSW1563_3-MTA-156':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43368@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43368@connector.\con3.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43368@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'CON2_BLKCON100VHTM1SQW1002_2-MTA-100':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS90217@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins90217@connector.\con2.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins90217@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'MOSFET P DGS_SMDPAK_IRFR5305':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS31929@TRANSISTOR.MOSFET P DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins31929@transistor.\mosfet p dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins31929@transistor.\mosfet p dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q10 '2N3904_SMSOT23BEC_MMBT4401LT1G':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43608@TRANSISTOR.2N3904.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43608@transistor.\2n3904.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43608@transistor.\2n3904.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q11 'MOSFET N DGS_SMDPAK_IRFR4105':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43762@TRANSISTOR.MOSFET N DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43762@transistor.\mosfet n dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43762@transistor.\mosfet n dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q12 'MOSFET N DGS_SMDPAK_IRFR4105':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43780@TRANSISTOR.MOSFET N DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43780@transistor.\mosfet n dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43780@transistor.\mosfet n dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'MOSFET P DGS_SMDPAK_IRFR5305':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32270@TRANSISTOR.MOSFET P DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32270@transistor.\mosfet p dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32270@transistor.\mosfet p dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 '2N3904_SMSOT23BEC_MMBT4401LT1G':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS39345@TRANSISTOR.2N3904.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins39345@transistor.\2n3904.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins39345@transistor.\2n3904.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 '2N3904_SMSOT23BEC_MMBT4401LT1G':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS40104@TRANSISTOR.2N3904.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins40104@transistor.\2n3904.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins40104@transistor.\2n3904.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q5 'MOSFET N DGS_SMDPAK_IRFR4105':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS31882@TRANSISTOR.MOSFET N DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins31882@transistor.\mosfet n dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins31882@transistor.\mosfet n dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q6 'MOSFET N DGS_SMDPAK_IRFR4105':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32324@TRANSISTOR.MOSFET N DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32324@transistor.\mosfet n dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32324@transistor.\mosfet n dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q7 'MOSFET P DGS_SMDPAK_IRFR5305':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43534@TRANSISTOR.MOSFET P DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43534@transistor.\mosfet p dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43534@transistor.\mosfet p dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q8 'MOSFET P DGS_SMDPAK_IRFR5305':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43552@TRANSISTOR.MOSFET P DGS.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43552@transistor.\mosfet p dgs.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43552@transistor.\mosfet p dgs.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q9 '2N3904_SMSOT23BEC_MMBT4401LT1G':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43590@TRANSISTOR.2N3904.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43590@transistor.\2n3904.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43590@transistor.\2n3904.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS135013@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins135013@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins135013@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS5771@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins5771@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins5771@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS5787@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins5787@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins5787@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS60246@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins60246@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins60246@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS60344@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins60344@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins60344@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS60437@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins60437@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins60437@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS59804@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins59804@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins59804@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS10597@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins10597@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins10597@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS52264@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins52264@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins52264@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS12303@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins12303@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins12303@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS12335@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins12335@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins12335@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS18271@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins18271@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins18271@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS21698@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins21698@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins21698@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS21728@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins21728@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins21728@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS21758@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins21758@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins21758@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'R_SMR0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS17043@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins17043@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins17043@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_SMR0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS17407@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins17407@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins17407@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'R_SMR0805_4.7K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS13246@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins13246@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins13246@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS52306@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins52306@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins52306@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'R_SMR0805_OMIT':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS20422@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins20422@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins20422@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS38933@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins38933@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins38933@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS39201@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins39201@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins39201@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS40029@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins40029@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins40029@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS40088@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins40088@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins40088@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32662@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32662@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32662@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32584@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32584@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32584@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32610@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32610@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32610@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS32636@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins32636@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins32636@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS33670@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins33670@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins33670@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS33417@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins33417@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins33417@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43458@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43458@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43458@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43474@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43474@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43474@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'R_SMR0805_20K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS33401@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins33401@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins33401@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43574@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43574@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43574@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43626@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43626@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43626@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R46 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43874@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43874@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43874@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R47 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43890@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43890@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43890@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43906@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43906@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43906@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R49 'R_SMR1206_50MR':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43922@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43922@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43922@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R50 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS43954@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins43954@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins43954@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS44000@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins44000@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins44000@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'R_SMR0805_20K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS44102@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins44102@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins44102@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R53 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS92074@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins92074@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins92074@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS94069@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins94069@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins94069@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100760@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100760@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100760@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R56 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100802@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100802@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100802@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100830@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100830@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100830@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'R_SMR0805_0R':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100858@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100858@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100858@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_SMR0805_1K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS57424@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins57424@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins57424@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS53875@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins53875@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins53875@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_SMR0805_10K':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS53891@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins53891@discrete.\r.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins53891@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TP_1_TP_RTS':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS18210@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins18210@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins18210@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP16 'TP_1_TP_TP3':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS101238@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins101238@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins101238@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP17 'TP_1_TP_TP3':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS101256@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins101256@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins101256@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TP_1_TP_USB ID':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS19562@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins19562@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins19562@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP3 'TP_1_TP_TP3':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100902@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100902@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100902@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP4 'TP_1_TP_TP3':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100922@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100922@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100922@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP6 'TP_1_TP_TP3':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100980@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100980@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100980@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP7 'TP_1_TP_TP3':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS100998@RADIOTELESCOPE.TP_1.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins100998@radiotelescope.\tp_1.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins100998@radiotelescope.\tp_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'PIC24FV32KA304_0_PIC24FV32KA304_PIC24FV32KA304_1':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS132631@RADIOTELESCOPE.PIC24FV32KA304_0.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS7204@INTERFACE-FT232RLSSOP28.INTERFACE-FT232RL.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'TLC27M2_SOIC8_TLC27M2':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS64558@OPAMP.TLC27M2.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins64558@opamp.\tlc27m2.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins64558@opamp.\tlc27m2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS65828@OPAMP.TLC27M2.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins65828@opamp.\tlc27m2.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page3_ins65828@opamp.\tlc27m2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U4 '74HCT14_SOIC14_74HCT14_+5V_0':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS74053@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins74053@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins74053@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS74270@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins74270@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins74270@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS74485@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins74485@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins74485@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS74702@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins74702@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins74702@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS74917@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins74917@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins74917@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS75132@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins75132@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins75132@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+PART_NAME
+ U5 '74HCT14_SOIC14_74HCT14_+5V_0':;
+
+SECTION_NUMBER 1
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS80512@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins80512@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins80512@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS80727@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins80727@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins80727@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS80942@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins80942@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins80942@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS81157@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins81157@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins81157@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS81372@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins81372@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins81372@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@RADIOTELESCOPE.SCHEMATIC1(SCH_1):INS81587@GATE.74HCT14.NORMAL(CHIPS)':
+ C_PATH='@radiotelescope.schematic1(sch_1):ins81587@gate.\74hct14.normal\(chips)',
+ P_PATH='@radiotelescope.schematic1(sch_1):page2_ins81587@gate.\74hct14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+END.

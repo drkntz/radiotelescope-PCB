@@ -1,0 +1,22 @@
+Revisions to Radiotelescope Project PCB design. 
+Revision log is in reverse chronological order. Add revisions at the top of the file below this line.
+
+1/16/23 Zach Martin:  Added footprint for PIC, added footprints for caps, LEDs, and resistors except for current shunts
+
+1/16/23 Zach Martin: Some changes from design review, added test points
+
+11/30/22 Zach Martin: added power input for +5v, added power LEDs, changed snubber diodes to schottky sk24 type
+
+11/30/22 Zach Martin: added 74HCT14 buffers to i/o and H-bridge drivers
+
+11/26/22 Zach Martin:  add display interface w/leds & PB. Add encoders, added opamp tlc27m2,
+    connected inter-page references to main MCU
+
+11/24/22 Zach Martin: Added Zener diodes to H-bridge to protect PMOS Vsg_max. Import vendor
+    SPICE models & re-ran simulation. Update README.
+
+11/23/22 Zach Martin:   Simulation for H-bridge. Added H-bridge to main schematic
+
+11/21/22 Zach Martin: Added FT232 USB-UART interface.
+
+11/09/22 Zach Martin: Started main schematic. Added processor & debug header

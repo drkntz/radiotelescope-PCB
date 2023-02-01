@@ -1,10 +1,13 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/16/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/01/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory"
+       "S:\projects\radiotelescope\radiotelescope-PCB\Main Project\allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -30,7 +33,7 @@
     (width_End "80")
     (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
-    (DRC_Action "1")
+    (DRC_Action "0")
     (DRC_Create_Warnings "FALSE")
     (DRC_View_Output "TRUE")
     (DRC_View_Output_Type "2")
@@ -82,11 +85,36 @@
     (DRC_Identical_References "TRUE")
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
-       "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DRC"))
+       "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.drc")
+    (Display_Online_DRC_Results "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\RADIOTELESCOPE.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\radiotelescope.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -98,6 +126,24 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (PIC24FV32KA304_1
+      (FullPartName "PIC24FV32KA304_1.Normal")
+      (LibraryName
+         "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TC2030-IDC-NL
+      (FullPartName "TC2030-IDC-NL.Normal")
+      (LibraryName
+         "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\SYMBOLS\TC2030-IDC-NL\TC2030-IDC-NL.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -181,58 +227,53 @@
     (TP
       (FullPartName "TP.Normal")
       (LibraryName "F:\ORCADWIN\CAPTURE\LIBRARY\RLC.OLB")
-      (DeviceIndex "0"))
-    ("TEST POINT"
-      (FullPartName "TEST POINT.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "zach")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn")
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn")
       (Path "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
          "SCHEMATIC1")
+      (Path "Design Resources"
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\library1.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "s:\projects\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "SCHEMATIC1" "Power & H-Bridge"))
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 613"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 294 0 370"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1084 24 631")
-        (Scroll "0 512")
-        (Zoom "158")
+        (Placement "44 0 1 -1 -1 5 24 5 889 24 388")
+        (Scroll "687 170")
+        (Zoom "152")
         (Occurrence "/"))
-      (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
+      (Path
+         "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Title Page"))
+      (Page "Power & H-Bridge"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1084 24 631")
-        (Scroll "0 589")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 5 24 5 889 24 388")
+        (Scroll "0 121")
+        (Zoom "108")
         (Occurrence "/"))
-      (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
+      (Path
+         "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Main Electronics"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1084 24 631")
-        (Scroll "0 14")
-        (Zoom "88")
-        (Occurrence "/"))
-      (Path "S:\PROJECTS\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "Power & H-Bridge")))
-  (LastUsedLibraryBrowseDirectory "c:\cadence\spb_17.4\tools\capture\library"))
+      (Page "Main Electronics")))
+  (LastUsedLibraryBrowseDirectory
+     "S:\projects\radiotelescope\radiotelescope-PCB\Main Project")
+  (ISPCBBASICLICENSE "false"))
