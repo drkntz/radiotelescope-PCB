@@ -1,0 +1,143 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Feb  2 12:49:47 2023
+\t (00:00:00)         Host=DESKTOP-NLG79LP User=zach Pid=7908 CPUs=4
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
+\d (00:00:03) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:03) trapsize 18771
+\i (00:00:03) trapsize 21318
+\i (00:00:03) trapsize 18771
+\i (00:00:03) trapsize 40146
+\i (00:00:03) trapsize 40146
+\i (00:00:04) trapsize 5601
+\i (00:00:04) generaledit 
+\i (00:00:08) netin 
+\i (00:00:10) setwindow form.niparams
+\i (00:00:10) FORM niparams import  
+\t (00:00:10) Starting Cadence Logic Import...
+\e (00:00:10) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:00:44) setwindow pcb
+\i (00:00:44) xname_flush 
+\i (00:04:34) xname_flush '!' 
+\i (00:04:34) xname_flush 
+\i (00:04:36) xname_flush '!' 
+\i (00:04:36) xname_flush 
+\i (00:05:07) xname_flush 
+\i (00:05:09) xname_flush '!' 
+\i (00:05:21) xname_flush 
+\i (00:05:22) xname_flush 
+\i (00:05:25) xname_flush '!' 
+\i (00:05:26) xname_flush 
+\i (00:05:27) xname_flush '!' 
+\i (00:05:27) xname_flush 
+\i (00:05:29) xname_flush '!' 
+\i (00:05:29) xname_flush 
+\i (00:06:32) xname_flush '!' 
+\i (00:06:34) xname_flush 
+\i (00:06:35) xname_flush '!' 
+\i (00:06:41) xname_flush 
+\i (00:06:42) xname_flush '!' 
+\i (00:06:42) xname_flush 
+\i (00:06:44) xname_flush 
+\i (00:06:53) xname_flush '!' 
+\i (00:06:53) xname_flush 
+\i (00:06:55) xname_flush '!' 
+\i (00:06:58) xname_flush 
+\i (00:06:59) xname_flush 
+\i (00:07:03) xname_flush '!' 
+\i (00:07:03) xname_flush 
+\i (00:07:04) xname_flush '!' 
+\i (00:07:04) xname_flush 
+\i (00:07:06) xname_flush 
+\i (00:07:07) xname_flush '!' 
+\i (00:07:13) xname_flush 
+\i (00:07:36) xname_flush '!' 
+\i (00:07:36) xname_flush 
+\i (00:08:11) xname_flush '!' 
+\i (00:08:28) setwindow text
+\i (00:08:28) close
+\i (00:08:29) setwindow form.niparams
+\i (00:08:29) FORM niparams import  
+\t (00:08:29) Starting Cadence Logic Import...
+\w (00:08:31) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:08:31) Opening existing design...
+\i (00:08:31) setwindow pcb
+\i (00:08:31) trapsize 5601
+\i (00:08:32) generaledit 
+\i (00:09:35) xrefdes U1 
+\t (00:09:35) Can not select unplaced component U1.
+\t (00:09:35) Can not select unplaced component U1.
+\i (00:09:35) xname_flush 
+\i (00:10:34) xrefdes U1 
+\t (00:10:34) Can not select unplaced component U1.
+\t (00:10:34) Can not select unplaced component U1.
+\i (00:10:34) xname_flush '!' 
+\i (00:10:51) setwindow text
+\i (00:10:51) close
+\i (00:10:53) netin 
+\i (00:10:54) setwindow form.niparams
+\i (00:10:54) FORM niparams import  
+\t (00:10:54) Starting Cadence Logic Import...
+\w (00:10:56) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:10:56) Opening existing design...
+\i (00:10:56) setwindow pcb
+\i (00:10:56) trapsize 5601
+\i (00:10:57) generaledit 
+\i (00:15:21) setwindow text
+\i (00:15:21) close
+\i (00:15:31) done 
+\i (00:15:31) place manual 
+\i (00:15:31) setwindow form.plc_manual
+\i (00:15:31) FORM plc_manual tree  'Components by refdes' 
+\i (00:15:31) setwindow pcb
+\i (00:15:31) FORM plc_manual placement_list 
+\i (00:15:31) FORM plc_manual categories Components by refdes 
+\i (00:15:31) trapsize 5601
+\i (00:15:33) setwindow form.plc_manual
+\i (00:15:33) FORM plc_manual advanced_settings  
+\i (00:15:34) FORM plc_manual library YES 
+\i (00:15:38) FORM plc_manual placement_list  
+\i (00:15:41) FORM plc_manual categories Package symbols 
+\i (00:15:46) FORM plc_manual alpha_filter *qfp* 
+\i (00:15:50) FORM plc_manual tree  CQFP44_AMD 'Package symbols' 
+\i (00:17:20) FORM plc_manual alpha_filter *TQFP* 
+\i (00:17:22) FORM plc_manual tree  TQFP100 'Package symbols' 
+\i (00:17:23) FORM plc_manual tree  TQFP32 'Package symbols' 
+\w (00:17:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:17:30) FORM plc_manual alpha_filter *qfp* 
+\i (00:17:35) FORM plc_manual tree  CQFP132 'Package symbols' 
+\i (00:17:36) FORM plc_manual tree  CQFP100 'Package symbols' 
+\i (00:17:37) FORM plc_manual tree  CQFP164 'Package symbols' 
+\i (00:17:37) FORM plc_manual tree  CQFP64_IDT 'Package symbols' 
+\i (00:17:37) FORM plc_manual tree  CQFP84 'Package symbols' 
+\i (00:17:55) FORM plc_manual tree  CQFP44_AMD 'Package symbols' 
+\i (00:17:59) FORM plc_manual tree  PQFP44 'Package symbols' 
+\i (00:18:02) FORM plc_manual tree  CQFP44_AMD 'Package symbols' 
+\i (00:18:03) FORM plc_manual tree  PQFP44 'Package symbols' 
+\i (00:18:15) setwindow pcb
+\i (00:18:15) refdes U1 
+\e (00:18:15) Cannot load symbol 'QFP80P1200X1200X120-44N'
+\i (00:18:15) xname_flush 
+\i (00:18:30) refdes U1 
+\i (00:18:30) xname_flush '!' 
+\i (00:18:30) refdes U1 
+\i (00:18:30) xname_flush 
+\i (00:19:04) setwindow form.plc_manual
+\i (00:19:04) FORM plc_manual cancel  
+\i (00:19:04) setwindow pcb
+\i (00:19:04) generaledit 
+\i (00:19:07) open 
+\e (00:19:07) Do you want to save the changes you made to S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd?
+\i (00:19:09) fillin yes 
+\i (00:24:29) fillin "C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols/pqfp44.dra"
+\i (00:24:29) cd "C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols"
+\t (00:24:29) Opening existing design...
+\i (00:24:32) fillin yes 
+\i (00:24:32) trapsize 731
+\i (00:24:32) trapsize 758
+\i (00:24:32) trapsize 731
+\i (00:24:32) trapsize 731
+\t (00:24:32)     Journal end - Thu Feb  2 13:14:19 2023

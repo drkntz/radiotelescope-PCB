@@ -1,5 +1,8 @@
 Revisions to Radiotelescope Project PCB design. 
-Revision log is in reverse chronological order. Add revisions at the top of the file below this line.
+Revision log is in reverse chronological order.
+==================== ADD REVISION NOTES BELOW THIS LINE ====================
+
+2/1/23 Zach Martin: Completed footprints, fixed DRC
 
 1/16/23 Zach Martin:  Added footprint for PIC, added footprints for caps, LEDs, and resistors except for current shunts
 

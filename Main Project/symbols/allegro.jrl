@@ -1,0 +1,15 @@
+\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Feb  2 12:45:14 2023
+\t (00:00:00)         Host=DESKTOP-NLG79LP User=zach Pid=7312 CPUs=4
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:03) trapsize 116667
+\i (00:00:04) generaledit 
+\i (00:00:08) trapsize 1069
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:08) opencd 'S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd' 
+\t (00:00:08) Opening existing design...
+\i (00:00:08) trapsize 5601
+\t (00:00:08)     Journal end - Thu Feb  2 12:45:21 2023

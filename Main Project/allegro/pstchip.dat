@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Feb-01-2023 at 17:37:38}
+{ Using PSTWRITER 17.4.0 d001Feb-02-2023 at 13:24:29}
 primitive 'C_SMC0805_10UF';
   pin
     '1':
@@ -45,22 +45,22 @@ primitive 'C_SMC0805_100N';
     VALUE='100n';
   end_body;
 end_primitive;
-primitive 'LED_SMD0805_RED';
+primitive 'LED_3_SMD0805_RED';
   pin
-    'ANODE':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(A)';
       PINUSE='UNSPEC';
-    'CATHODE':
-      PIN_NUMBER='(1)';
+    'C':
+      PIN_NUMBER='(C)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='LED';
+    PART_NAME='LED_3';
     JEDEC_TYPE='SMD0805';
     VALUE='RED';
   end_body;
 end_primitive;
-primitive 'BZX84C5V1/SOT_SOT23_BZX84C5V1/SOT';
+primitive 'BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT';
   pin
     'ANODE':
       PIN_NUMBER='(1)';
@@ -68,41 +68,59 @@ primitive 'BZX84C5V1/SOT_SOT23_BZX84C5V1/SOT';
     'CATHODE':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='BZX84C5V1/SOT';
+    PART_NAME='BZX84C5V1/SOT_1';
     JEDEC_TYPE='SOT23';
     VALUE='BZX84C5V1/SOT';
   end_body;
 end_primitive;
-primitive 'DIODE SCHOTTKY_SMDO214AA_SK24-TP';
+primitive 'DIODE SCHOTTKY_1_SMDO214AA_SK24-TP';
   pin
-    'ANODE':
-      PIN_NUMBER='(1)';
+    'A':
+      PIN_NUMBER='(A)';
       PINUSE='UNSPEC';
-    'CATHODE':
-      PIN_NUMBER='(2)';
+    'C':
+      PIN_NUMBER='(C)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='DIODE SCHOTTKY';
+    PART_NAME='DIODE SCHOTTKY_1';
     JEDEC_TYPE='SMDO214AA';
     VALUE='SK24-TP';
   end_body;
 end_primitive;
-primitive 'LED_SMD0805_GREEN';
+primitive 'LED_3_SMD0805_GREEN';
   pin
-    'ANODE':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(A)';
       PINUSE='UNSPEC';
-    'CATHODE':
-      PIN_NUMBER='(1)';
+    'C':
+      PIN_NUMBER='(C)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='LED';
+    PART_NAME='LED_3';
     JEDEC_TYPE='SMD0805';
     VALUE='GREEN';
+  end_body;
+end_primitive;
+primitive 'LED_2_SMD0805_RED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_2';
+    JEDEC_TYPE='SMD0805';
+    VALUE='RED';
   end_body;
 end_primitive;
 primitive 'TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL';
@@ -132,7 +150,7 @@ primitive 'TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL';
     VALUE='TC2030-IDC-NL';
   end_body;
 end_primitive;
-primitive 'CON8_BLKCON100VHTM1SQW10010_SPARE';
+primitive 'CON8_BLKCON100VHTM1SQSW1008_SPARE';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -161,7 +179,7 @@ primitive 'CON8_BLKCON100VHTM1SQW10010_SPARE';
   end_pin;
   body
     PART_NAME='CON8';
-    JEDEC_TYPE='BLKCON100VHTM1SQW10010';
+    JEDEC_TYPE='BLKCON100VHTM1SQSW1008';
     VALUE='SPARE';
   end_body;
 end_primitive;
@@ -312,7 +330,7 @@ primitive '4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156';
     VALUE='4-MTA-156';
   end_body;
 end_primitive;
-primitive 'CON2_BLKCON100VHTM1SQW1002_2-MTA-100';
+primitive 'HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -322,62 +340,61 @@ primitive 'CON2_BLKCON100VHTM1SQW1002_2-MTA-100';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CON2';
+    PART_NAME='HEADER 2';
     JEDEC_TYPE='BLKCON100VHTM1SQW1002';
     VALUE='2-MTA-100';
-    NC_PINS='(3)';
   end_body;
 end_primitive;
-primitive 'MOSFET P DGS_SMDPAK_IRFR5305';
+primitive 'MOSFET P DGS_1_SMDPAK_IRFR5305';
   pin
     'G':
-      PIN_NUMBER='(2)';
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'D':
-      PIN_NUMBER='(1)';
+      PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
     'S':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='MOSFET P DGS';
+    PART_NAME='MOSFET P DGS_1';
     JEDEC_TYPE='SMDPAK';
     VALUE='IRFR5305';
   end_body;
 end_primitive;
-primitive '2N3904_SMSOT23BEC_MMBT4401LT1G';
+primitive '2N3904_0_SMSOT23BEC_MMBT4401LT1G';
   pin
-    'COLLECTOR':
-      PIN_NUMBER='(3)';
+    'C':
+      PIN_NUMBER='(C)';
       PINUSE='UNSPEC';
-    'EMITTER':
-      PIN_NUMBER='(1)';
+    'E':
+      PIN_NUMBER='(E)';
       PINUSE='UNSPEC';
-    'BASE':
-      PIN_NUMBER='(2)';
+    'B':
+      PIN_NUMBER='(B)';
       INPUT_LOAD='(*)';
   end_pin;
   body
-    PART_NAME='2N3904';
+    PART_NAME='2N3904_0';
     JEDEC_TYPE='SMSOT23BEC';
     VALUE='MMBT4401LT1G';
   end_body;
 end_primitive;
-primitive 'MOSFET N DGS_SMDPAK_IRFR4105';
+primitive 'MOSFET N DGS_0_SMDPAK_IRFR4105';
   pin
     'G':
-      PIN_NUMBER='(2)';
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'D':
-      PIN_NUMBER='(1)';
+      PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
     'S':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='MOSFET N DGS';
+    PART_NAME='MOSFET N DGS_0';
     JEDEC_TYPE='SMDPAK';
     VALUE='IRFR4105';
   end_body;
@@ -523,7 +540,7 @@ primitive 'TP_1_TP_USB ID';
     VALUE='USB ID';
   end_body;
 end_primitive;
-primitive 'PIC24FV32KA304_0_PIC24FV32KA304_PIC24FV32KA304_1';
+primitive 'PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1';
   pin
     'RA10':
       PIN_NUMBER='(12)';
@@ -736,7 +753,7 @@ primitive 'PIC24FV32KA304_0_PIC24FV32KA304_PIC24FV32KA304_1';
   end_pin;
   body
     PART_NAME='PIC24FV32KA304_0';
-    JEDEC_TYPE='PIC24FV32KA304';
+    JEDEC_TYPE='PQFP44';
     VALUE='PIC24FV32KA304_1';
   end_body;
 end_primitive;

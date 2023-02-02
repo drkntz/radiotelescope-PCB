@@ -1,0 +1,43 @@
+\t (00:00:07) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Thu Feb  2 13:24:45 2023
+\t (00:00:07)         Host=DESKTOP-NLG79LP User=zach Pid=21108 CPUs=4
+\t (00:00:07) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:07) 
+\d (00:00:07) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:08) generaledit 
+\i (00:00:11) netin 
+\i (00:00:12) setwindow form.niparams
+\i (00:00:12) FORM niparams import  
+\t (00:00:12) Starting Cadence Logic Import...
+\t (00:00:14) Opening existing design...
+\i (00:00:14) setwindow pcb
+\i (00:00:14) trapsize 5601
+\i (00:00:15) generaledit 
+\i (00:00:21) done 
+\i (00:00:21) place manual 
+\i (00:00:21) setwindow form.plc_manual
+\i (00:00:21) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) FORM plc_manual placement_list 
+\i (00:00:21) FORM plc_manual categories Components by refdes 
+\i (00:00:21) trapsize 5601
+\i (00:00:22) setwindow form.plc_manual
+\i (00:00:22) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:00:22) Placing C1 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:00:39) FORM plc_manual cancel  
+\i (00:00:39) setwindow pcb
+\i (00:00:39) generaledit 
+\i (00:00:43) quickplace 
+\i (00:00:47) setwindow form.quickplc
+\i (00:00:47) FORM quickplc done  
+\i (00:00:47) setwindow pcb
+\i (00:00:47) generaledit 
+\i (00:00:48) pick grid -963.34 430.25
+\t (00:00:48) last pick:  -950.00 450.00
+\i (00:01:01) trapsize 40146
+\i (00:01:01) trapsize 39007
+\i (00:01:01) trapsize 5578
+\i (00:03:10) exit 
+\e (00:03:10) Do you want to save the changes you made to S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd?
+\i (00:03:12) fillin yes 
+\t (00:03:12)     Journal end - Thu Feb  2 13:27:50 2023
