@@ -1,143 +1,1262 @@
-\t (00:00:00) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Thu Feb  2 12:49:47 2023
-\t (00:00:00)         Host=DESKTOP-NLG79LP User=zach Pid=7908 CPUs=4
-\t (00:00:00) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
-\t (00:00:00) 
-   (00:00:00) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
-\d (00:00:03) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
-\i (00:00:03) trapsize 18771
-\i (00:00:03) trapsize 21318
-\i (00:00:03) trapsize 18771
-\i (00:00:03) trapsize 40146
-\i (00:00:03) trapsize 40146
-\i (00:00:04) trapsize 5601
-\i (00:00:04) generaledit 
-\i (00:00:08) netin 
-\i (00:00:10) setwindow form.niparams
-\i (00:00:10) FORM niparams import  
-\t (00:00:10) Starting Cadence Logic Import...
-\e (00:00:10) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
-\i (00:00:44) setwindow pcb
-\i (00:00:44) xname_flush 
-\i (00:04:34) xname_flush '!' 
-\i (00:04:34) xname_flush 
-\i (00:04:36) xname_flush '!' 
-\i (00:04:36) xname_flush 
-\i (00:05:07) xname_flush 
-\i (00:05:09) xname_flush '!' 
-\i (00:05:21) xname_flush 
-\i (00:05:22) xname_flush 
-\i (00:05:25) xname_flush '!' 
-\i (00:05:26) xname_flush 
-\i (00:05:27) xname_flush '!' 
-\i (00:05:27) xname_flush 
-\i (00:05:29) xname_flush '!' 
-\i (00:05:29) xname_flush 
-\i (00:06:32) xname_flush '!' 
-\i (00:06:34) xname_flush 
-\i (00:06:35) xname_flush '!' 
-\i (00:06:41) xname_flush 
-\i (00:06:42) xname_flush '!' 
-\i (00:06:42) xname_flush 
-\i (00:06:44) xname_flush 
-\i (00:06:53) xname_flush '!' 
-\i (00:06:53) xname_flush 
-\i (00:06:55) xname_flush '!' 
-\i (00:06:58) xname_flush 
-\i (00:06:59) xname_flush 
-\i (00:07:03) xname_flush '!' 
-\i (00:07:03) xname_flush 
-\i (00:07:04) xname_flush '!' 
-\i (00:07:04) xname_flush 
-\i (00:07:06) xname_flush 
-\i (00:07:07) xname_flush '!' 
-\i (00:07:13) xname_flush 
-\i (00:07:36) xname_flush '!' 
-\i (00:07:36) xname_flush 
-\i (00:08:11) xname_flush '!' 
-\i (00:08:28) setwindow text
-\i (00:08:28) close
-\i (00:08:29) setwindow form.niparams
-\i (00:08:29) FORM niparams import  
-\t (00:08:29) Starting Cadence Logic Import...
-\w (00:08:31) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
-\t (00:08:31) Opening existing design...
-\i (00:08:31) setwindow pcb
-\i (00:08:31) trapsize 5601
-\i (00:08:32) generaledit 
-\i (00:09:35) xrefdes U1 
-\t (00:09:35) Can not select unplaced component U1.
-\t (00:09:35) Can not select unplaced component U1.
-\i (00:09:35) xname_flush 
-\i (00:10:34) xrefdes U1 
-\t (00:10:34) Can not select unplaced component U1.
-\t (00:10:34) Can not select unplaced component U1.
-\i (00:10:34) xname_flush '!' 
-\i (00:10:51) setwindow text
-\i (00:10:51) close
-\i (00:10:53) netin 
-\i (00:10:54) setwindow form.niparams
-\i (00:10:54) FORM niparams import  
-\t (00:10:54) Starting Cadence Logic Import...
-\w (00:10:56) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
-\t (00:10:56) Opening existing design...
-\i (00:10:56) setwindow pcb
-\i (00:10:56) trapsize 5601
-\i (00:10:57) generaledit 
-\i (00:15:21) setwindow text
-\i (00:15:21) close
-\i (00:15:31) done 
-\i (00:15:31) place manual 
-\i (00:15:31) setwindow form.plc_manual
-\i (00:15:31) FORM plc_manual tree  'Components by refdes' 
-\i (00:15:31) setwindow pcb
-\i (00:15:31) FORM plc_manual placement_list 
-\i (00:15:31) FORM plc_manual categories Components by refdes 
-\i (00:15:31) trapsize 5601
-\i (00:15:33) setwindow form.plc_manual
-\i (00:15:33) FORM plc_manual advanced_settings  
-\i (00:15:34) FORM plc_manual library YES 
-\i (00:15:38) FORM plc_manual placement_list  
-\i (00:15:41) FORM plc_manual categories Package symbols 
-\i (00:15:46) FORM plc_manual alpha_filter *qfp* 
-\i (00:15:50) FORM plc_manual tree  CQFP44_AMD 'Package symbols' 
-\i (00:17:20) FORM plc_manual alpha_filter *TQFP* 
-\i (00:17:22) FORM plc_manual tree  TQFP100 'Package symbols' 
-\i (00:17:23) FORM plc_manual tree  TQFP32 'Package symbols' 
-\w (00:17:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:17:30) FORM plc_manual alpha_filter *qfp* 
-\i (00:17:35) FORM plc_manual tree  CQFP132 'Package symbols' 
-\i (00:17:36) FORM plc_manual tree  CQFP100 'Package symbols' 
-\i (00:17:37) FORM plc_manual tree  CQFP164 'Package symbols' 
-\i (00:17:37) FORM plc_manual tree  CQFP64_IDT 'Package symbols' 
-\i (00:17:37) FORM plc_manual tree  CQFP84 'Package symbols' 
-\i (00:17:55) FORM plc_manual tree  CQFP44_AMD 'Package symbols' 
-\i (00:17:59) FORM plc_manual tree  PQFP44 'Package symbols' 
-\i (00:18:02) FORM plc_manual tree  CQFP44_AMD 'Package symbols' 
-\i (00:18:03) FORM plc_manual tree  PQFP44 'Package symbols' 
-\i (00:18:15) setwindow pcb
-\i (00:18:15) refdes U1 
-\e (00:18:15) Cannot load symbol 'QFP80P1200X1200X120-44N'
-\i (00:18:15) xname_flush 
-\i (00:18:30) refdes U1 
-\i (00:18:30) xname_flush '!' 
-\i (00:18:30) refdes U1 
-\i (00:18:30) xname_flush 
-\i (00:19:04) setwindow form.plc_manual
-\i (00:19:04) FORM plc_manual cancel  
-\i (00:19:04) setwindow pcb
-\i (00:19:04) generaledit 
-\i (00:19:07) open 
-\e (00:19:07) Do you want to save the changes you made to S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd?
-\i (00:19:09) fillin yes 
-\i (00:24:29) fillin "C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols/pqfp44.dra"
-\i (00:24:29) cd "C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols"
-\t (00:24:29) Opening existing design...
-\i (00:24:32) fillin yes 
-\i (00:24:32) trapsize 731
-\i (00:24:32) trapsize 758
-\i (00:24:32) trapsize 731
-\i (00:24:32) trapsize 731
-\t (00:24:32)     Journal end - Thu Feb  2 13:14:19 2023
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Feb  2 14:44:14 2023
+\t (00:00:01)         Host=DESKTOP-NLG79LP User=zach Pid=20012 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
+\d (00:00:04) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:04) trapsize 18771
+\i (00:00:04) trapsize 21318
+\i (00:00:04) trapsize 18771
+\i (00:00:04) trapsize 39007
+\i (00:00:04) trapsize 39007
+\i (00:00:05) trapsize 5578
+\i (00:00:05) generaledit 
+\i (00:06:25) done 
+\i (00:06:25) place manual 
+\i (00:06:25) setwindow form.plc_manual
+\i (00:06:25) FORM plc_manual tree  'Components by refdes' 
+\i (00:06:25) setwindow pcb
+\i (00:06:25) FORM plc_manual placement_list 
+\i (00:06:25) FORM plc_manual categories Components by refdes 
+\i (00:06:25) trapsize 5578
+\i (00:06:37) setwindow form.plc_manual
+\i (00:06:37) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:06:37) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\w (00:06:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:37) Placing J1 / TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL / TAG_TC2030-IDC-NL on Top.
+\i (00:06:37) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:06:37) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\i (00:06:38) FORM plc_manual tree  J3 'Components by refdes' 
+\i (00:06:38) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
+\i (00:06:38) FORM plc_manual tree  J4 'Components by refdes' 
+\i (00:06:38) FORM plc_manual tree 'MULTISEL YES' J4 'Components by refdes' 
+\i (00:06:39) FORM plc_manual tree  J5 'Components by refdes' 
+\i (00:06:39) FORM plc_manual tree 'MULTISEL YES' J5 'Components by refdes' 
+\i (00:06:39) FORM plc_manual tree  J6 'Components by refdes' 
+\i (00:06:39) FORM plc_manual tree 'MULTISEL YES' J6 'Components by refdes' 
+\i (00:06:40) FORM plc_manual tree  J7 'Components by refdes' 
+\i (00:06:40) FORM plc_manual tree 'MULTISEL YES' J7 'Components by refdes' 
+\i (00:06:41) FORM plc_manual tree  J8 'Components by refdes' 
+\i (00:06:41) FORM plc_manual tree 'MULTISEL YES' J8 'Components by refdes' 
+\i (00:06:42) FORM plc_manual tree  J9 'Components by refdes' 
+\i (00:06:42) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\i (00:06:43) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:06:43) FORM plc_manual tree 'MULTISEL NO' J1 'Components by refdes' 
+\t (00:06:43) Placing J2 / 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100 / BLKCON100VHTM1SQSW1004 on Top.
+\i (00:06:44) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:06:44) FORM plc_manual tree  J3 'Components by refdes' 
+\i (00:06:45) FORM plc_manual tree  J4 'Components by refdes' 
+\i (00:06:46) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:06:49) FORM plc_manual tree  J10 'Components by refdes' 
+\i (00:06:49) FORM plc_manual tree 'MULTISEL YES' J10 'Components by refdes' 
+\i (00:07:03) setwindow pcb
+\i (00:07:03) zoom in 1 
+\i (00:07:03) setwindow pcb
+\i (00:07:03) zoom in -2186.61 1639.45
+\i (00:07:03) trapsize 2789
+\i (00:07:03) zoom in 1 
+\i (00:07:03) setwindow pcb
+\i (00:07:03) zoom in -2186.61 1639.45
+\i (00:07:03) trapsize 1395
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out -2186.60 1639.45
+\i (00:07:04) trapsize 2789
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out -2186.60 1639.46
+\i (00:07:04) trapsize 5578
+\i (00:07:05) zoom in 1 
+\i (00:07:05) setwindow pcb
+\i (00:07:05) zoom in -2164.30 1594.83
+\i (00:07:05) trapsize 2789
+\i (00:07:06) zoom out 1 
+\i (00:07:06) setwindow pcb
+\i (00:07:06) zoom out -2164.30 1583.67
+\i (00:07:06) trapsize 5578
+\i (00:07:11) zoom in 1 
+\i (00:07:11) setwindow pcb
+\i (00:07:11) zoom in 2153.14 1672.92
+\i (00:07:11) trapsize 2789
+\i (00:07:17) pick grid 1679.00 1695.24
+\t (00:07:17) last pick:  1700.00 1700.00
+\t (00:07:17) Placing J3 / 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100 / BLKCON100VHTM1SQSW1004 on Top.
+\i (00:07:21) zoom out 1 
+\i (00:07:21) setwindow pcb
+\i (00:07:21) zoom out 730.73 -123.22
+\i (00:07:21) trapsize 5578
+\i (00:07:21) zoom out 1 
+\i (00:07:21) setwindow pcb
+\i (00:07:21) zoom out -691.68 -1919.37
+\i (00:07:21) trapsize 5578
+\i (00:07:21) zoom out 1 
+\i (00:07:21) setwindow pcb
+\i (00:07:21) zoom out -691.68 -1919.37
+\i (00:07:21) trapsize 5578
+\i (00:07:21) zoom in 1 
+\i (00:07:21) setwindow pcb
+\i (00:07:21) zoom in 580.12 -2309.84
+\i (00:07:21) trapsize 2789
+\i (00:07:21) zoom in 1 
+\i (00:07:21) setwindow pcb
+\i (00:07:21) zoom in 803.24 -2203.85
+\i (00:07:21) trapsize 1395
+\i (00:07:22) zoom in 1 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) zoom in 953.85 -1958.41
+\i (00:07:22) trapsize 697
+\i (00:07:22) zoom out 1 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) zoom out 953.85 -1958.41
+\i (00:07:22) trapsize 1395
+\i (00:07:22) zoom out 1 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) zoom out 953.85 -1958.41
+\i (00:07:22) trapsize 2789
+\i (00:07:23) pick grid 1996.96 -1673.93
+\t (00:07:23) last pick:  2000.00 -1650.00
+\t (00:07:23) Placing J4 / CON10_BLKCON100VHTM1SQW10010_CON10 / BLKCON100VHTM1SQW10010 on Top.
+\i (00:07:31) zoom out 1 
+\i (00:07:31) setwindow pcb
+\i (00:07:31) zoom out 195.24 -591.78
+\i (00:07:31) trapsize 5578
+\i (00:07:31) zoom out 1 
+\i (00:07:31) setwindow pcb
+\i (00:07:31) zoom out 111.56 1605.98
+\i (00:07:31) trapsize 5578
+\i (00:07:33) zoom in 1 
+\i (00:07:33) setwindow pcb
+\i (00:07:33) zoom in -2432.05 1628.30
+\i (00:07:33) trapsize 2789
+\i (00:07:33) zoom in 1 
+\i (00:07:33) setwindow pcb
+\i (00:07:33) zoom in -2420.89 1611.57
+\i (00:07:33) trapsize 1395
+\i (00:07:34) pick grid -2387.42 1717.56
+\t (00:07:34) last pick:  -2400.00 1700.00
+\w (00:07:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:07:34) Placing J5 / 1050170001_MOLEX_1050170001_1050170001 / MOLEX_1050170001 on Top.
+\i (00:07:37) zoom out 1 
+\i (00:07:37) setwindow pcb
+\i (00:07:37) zoom out -2061.10 1078.87
+\i (00:07:37) trapsize 2789
+\i (00:07:37) zoom out 1 
+\i (00:07:37) setwindow pcb
+\i (00:07:37) zoom out -2061.09 1078.87
+\i (00:07:37) trapsize 5578
+\i (00:07:39) zoom in 1 
+\i (00:07:39) setwindow pcb
+\i (00:07:39) zoom in -2565.92 958.92
+\i (00:07:39) trapsize 2789
+\i (00:07:40) zoom in 1 
+\i (00:07:40) setwindow pcb
+\i (00:07:40) zoom in -2565.92 958.93
+\i (00:07:40) trapsize 1395
+\i (00:07:42) pick grid -2627.28 1009.13
+\t (00:07:42) last pick:  -2650.00 1000.00
+\t (00:07:42) Placing J6 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563 on Top.
+\i (00:07:52) zoom out 1 
+\i (00:07:52) setwindow pcb
+\i (00:07:52) zoom out -1994.17 613.09
+\i (00:07:52) trapsize 2789
+\i (00:07:52) zoom out 1 
+\i (00:07:52) setwindow pcb
+\i (00:07:52) zoom out -1994.16 613.09
+\i (00:07:52) trapsize 5578
+\i (00:07:54) zoom in 1 
+\i (00:07:54) setwindow pcb
+\i (00:07:54) zoom in 3201.83 992.39
+\i (00:07:54) trapsize 2789
+\i (00:07:54) zoom in 1 
+\i (00:07:54) setwindow pcb
+\i (00:07:54) zoom in 3201.83 986.81
+\i (00:07:54) trapsize 1395
+\i (00:07:55) pick grid 2423.69 1190.42
+\t (00:07:55) last pick:  2400.00 1200.00
+\t (00:07:55) Placing J7 / 4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156 / BLKCON156VHTM1SQSW1564 on Top.
+\i (00:07:56) zoom out 1 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) zoom out 2398.59 44.12
+\i (00:07:56) trapsize 2789
+\i (00:07:56) zoom out 1 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) zoom out 2398.60 21.81
+\i (00:07:56) trapsize 5578
+\i (00:08:01) pick grid 2208.92 -134.38
+\t (00:08:01) last pick:  2200.00 -150.00
+\t (00:08:01) Placing J8 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563 on Top.
+\i (00:08:03) pick grid 2476.67 -948.78
+\t (00:08:03) last pick:  2500.00 -950.00
+\t (00:08:03) Placing J9 / HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100 / BLKCON100VHTM1SQW1002 on Top.
+\i (00:08:09) pick grid 2420.89 456.90
+\t (00:08:09) last pick:  2400.00 450.00
+\t (00:08:09) Placing J10 / CON8_BLKCON100VHTM1SQSW1008_SPARE / BLKCON100VHTM1SQSW1008 on Top.
+\i (00:08:12) pick grid -145.03 -0.51
+\t (00:08:12) last pick:  -150.00 0.00
+\i (00:08:14) setwindow form.plc_manual
+\i (00:08:14) FORM plc_manual cancel  
+\i (00:08:15) setwindow pcb
+\i (00:08:15) generaledit 
+\i (00:09:25) done 
+\i (00:09:25) place manual 
+\i (00:09:25) setwindow form.plc_manual
+\i (00:09:25) FORM plc_manual tree  'Components by refdes' 
+\i (00:09:25) setwindow pcb
+\i (00:09:25) FORM plc_manual placement_list 
+\i (00:09:25) FORM plc_manual categories Components by refdes 
+\i (00:09:25) trapsize 5578
+\i (00:09:29) setwindow form.plc_manual
+\i (00:09:29) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:09:29) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:09:29) Placing J2 / 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100 / BLKCON100VHTM1SQSW1004 on Top.
+\i (00:09:30) FORM plc_manual tree  J3 'Components by refdes' 
+\i (00:09:30) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
+\i (00:09:30) FORM plc_manual tree  J4 'Components by refdes' 
+\i (00:09:30) FORM plc_manual tree 'MULTISEL YES' J4 'Components by refdes' 
+\i (00:09:31) FORM plc_manual tree  J5 'Components by refdes' 
+\i (00:09:31) FORM plc_manual tree 'MULTISEL YES' J5 'Components by refdes' 
+\i (00:09:31) FORM plc_manual tree  J6 'Components by refdes' 
+\i (00:09:31) FORM plc_manual tree 'MULTISEL YES' J6 'Components by refdes' 
+\i (00:09:32) FORM plc_manual tree  J7 'Components by refdes' 
+\i (00:09:32) FORM plc_manual tree 'MULTISEL YES' J7 'Components by refdes' 
+\i (00:09:32) FORM plc_manual tree  J8 'Components by refdes' 
+\i (00:09:33) FORM plc_manual tree 'MULTISEL YES' J8 'Components by refdes' 
+\i (00:09:33) FORM plc_manual tree  J9 'Components by refdes' 
+\i (00:09:33) FORM plc_manual tree 'MULTISEL YES' J9 'Components by refdes' 
+\i (00:09:33) FORM plc_manual tree  J10 'Components by refdes' 
+\i (00:09:34) FORM plc_manual tree 'MULTISEL YES' J10 'Components by refdes' 
+\i (00:09:37) setwindow pcb
+\i (00:09:37) pick grid -1974.65 1505.58
+\t (00:09:37) last pick:  -1950.00 1500.00
+\t (00:09:37) Placing J3 / 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100 / BLKCON100VHTM1SQSW1004 on Top.
+\i (00:09:37) pick grid -1294.12 914.30
+\t (00:09:37) last pick:  -1300.00 900.00
+\t (00:09:37) Placing J4 / CON10_BLKCON100VHTM1SQW10010_CON10 / BLKCON100VHTM1SQW10010 on Top.
+\i (00:09:37) pick grid -524.34 1427.48
+\t (00:09:37) last pick:  -500.00 1450.00
+\w (00:09:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:09:37) Placing J5 / 1050170001_MOLEX_1050170001_1050170001 / MOLEX_1050170001 on Top.
+\i (00:09:38) pick grid -1584.18 323.02
+\t (00:09:38) last pick:  -1600.00 300.00
+\t (00:09:38) Placing J6 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563 on Top.
+\i (00:09:38) pick grid 44.62 155.68
+\t (00:09:38) last pick:  50.00 150.00
+\t (00:09:38) Placing J7 / 4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156 / BLKCON156VHTM1SQSW1564 on Top.
+\i (00:09:39) pick grid -2432.05 590.77
+\t (00:09:39) last pick:  -2450.00 600.00
+\t (00:09:39) Placing J8 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563 on Top.
+\i (00:09:39) pick grid 189.66 836.21
+\t (00:09:39) last pick:  200.00 850.00
+\t (00:09:39) Placing J9 / HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100 / BLKCON100VHTM1SQW1002 on Top.
+\i (00:09:40) pick grid -1137.93 -513.69
+\t (00:09:40) last pick:  -1150.00 -500.00
+\t (00:09:40) Placing J10 / CON8_BLKCON100VHTM1SQSW1008_SPARE / BLKCON100VHTM1SQSW1008 on Top.
+\i (00:09:40) pick grid 1093.31 -435.60
+\t (00:09:40) last pick:  1100.00 -450.00
+\i (00:09:41) pick grid -2175.46 -424.44
+\t (00:09:41) last pick:  -2200.00 -400.00
+\e (00:09:44) Command not found: rrrr
+\i (00:09:45) zoom in 1 
+\i (00:09:45) setwindow pcb
+\i (00:09:45) zoom in -502.03 -2019.78
+\i (00:09:45) trapsize 2789
+\i (00:09:45) zoom out 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom out -502.02 -2019.77
+\i (00:09:46) trapsize 5578
+\i (00:09:46) zoom out 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom out -513.18 -1908.22
+\i (00:09:46) trapsize 5578
+\i (00:09:46) zoom in 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom in -535.50 -1752.03
+\i (00:09:46) trapsize 2789
+\i (00:09:48) setwindow form.plc_manual
+\i (00:09:48) FORM plc_manual done  
+\i (00:09:48) setwindow pcb
+\i (00:09:48) generaledit 
+\i (00:09:49) zoom out 1 
+\i (00:09:49) setwindow pcb
+\i (00:09:49) zoom out 11.15 -257.10
+\i (00:09:49) trapsize 5578
+\i (00:09:49) zoom out 1 
+\i (00:09:49) setwindow pcb
+\i (00:09:49) zoom out 557.81 1237.83
+\i (00:09:49) trapsize 5578
+\i (00:09:50) zoom in 1 
+\i (00:09:50) setwindow pcb
+\i (00:09:50) zoom in 33.47 958.92
+\i (00:09:50) trapsize 2789
+\i (00:10:11) 3d 
+\i (00:10:13) generaledit 
+\i (00:10:14) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 375 230 2613 364 0 0 120
+\i (00:10:14) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 375 230 2613 364 0 0 120
+\i (00:10:14) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 375 230 2613 364 0 0 120
+\i (00:10:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 348 203 2586 337 1 1 +
+\i (00:10:15) QtSignal 0 -174.606 -205.795 42.7506
+\i (00:10:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 376 454 2614 588 1 +
+\i (00:10:15) QtSignal 0 0 395.246 -567.634 -1098.33
+\i (00:10:17) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777249 67108864 false 1
+\i (00:10:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 259 316 2497 450 1 1 +
+\i (00:10:17) QtSignal 0 -295.473 -746.109 -470.964
+\i (00:10:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 582 290 2820 424 1 +
+\i (00:10:18) QtSignal 0 0 856.056 501.93 -352.765
+\i (00:10:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 487 375 2725 509 1 1 +
+\i (00:10:18) QtSignal 0 660.935 -8.70398 -739.187
+\i (00:10:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 352 259 2590 393 1 +
+\i (00:10:18) QtSignal 0 0 -55.8142 -294.871 -211.834
+\i (00:10:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 332 296 2570 430 1 1 +
+\i (00:10:19) QtSignal 0 -61.4338 -437.831 -380.041
+\i (00:10:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 409 306 2647 440 1 +
+\i (00:10:19) QtSignal 0 0 243.142 -170.374 -425.503
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 501 339 2739 473 0 0 -120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 500 339 2738 473 0 0 -120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 500 339 2738 473 0 0 -120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 500 339 2738 473 0 0 120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 500 339 2738 473 0 0 120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 500 339 2738 473 0 0 120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 500 339 2738 473 0 0 -120
+\i (00:10:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 490 317 2728 451 0 0 -120
+\i (00:10:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 312 299 2550 433 0 0 120
+\i (00:10:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 467 481 2387 536 1 1 +
+\i (00:10:24) QtSignal 0 -788.847 -1614.12 -929.805
+\i (00:10:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 685 470 2605 525 1 +
+\i (00:10:24) QtSignal 0 0 212.302 -561.189 -866.379
+\i (00:10:25) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:14:39) enved 
+\i (00:14:40) setwindow form.prfedit
+\i (00:14:40) FORM prfedit treelist  My_favorites 
+\i (00:14:40) setwindow pcb
+\i (00:14:40) generaledit 
+\i (00:14:43) setwindow form.prfedit
+\i (00:14:43) FORM prfedit treelist  Paths 
+\i (00:14:46) FORM prfedit treelist  Library Paths 
+\i (00:14:48) FORM prfedit steppath  
+\i (00:14:58) FORM prfedit cancel  
+\i (00:15:48) setwindow pcb
+\i (00:15:48) 3d 
+\i (00:15:49) generaledit 
+\i (00:15:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 120
+\i (00:15:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 120
+\i (00:15:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 120
+\i (00:15:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 120
+\i (00:15:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 120
+\i (00:15:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 120
+\i (00:15:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 -120
+\i (00:15:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 -120
+\i (00:15:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 -120
+\i (00:15:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 -120
+\i (00:15:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 -120
+\i (00:15:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 573 282 2493 337 0 0 -120
+\i (00:15:52) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:16:02) 3d 
+\i (00:16:03) generaledit 
+\i (00:16:13) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:16:15) 3d 
+\i (00:16:16) generaledit 
+\i (00:16:21) QtSignal pcb3dViewerWindowsMenu pcb3dViewerVisibilityAction triggered 1
+\i (00:16:30) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:16:32) 3d 
+\i (00:16:34) generaledit 
+\i (00:16:53) QtSignal pcb3dViewerSetupMenu pcb3dViewerPreferences triggered
+\i (00:16:57) QtSignal Categories 3DPreferencesTree itemSelectionChanged Interactive
+\i (00:16:58) QtSignal Categories 3DPreferencesTree itemSelectionChanged "Symbol Representation"
+\i (00:17:00) QtSignal Categories 3DPreferencesTree itemSelectionChanged Appearance
+\i (00:17:17) QtSignal Collision_Detection collisionTolerance editingFinished 0
+\i (00:17:17) QtSignal ViewerPanePanel ViewerPaneButton4:1ColorButton clicked
+\i (00:17:18) QtSignal ViewerPanePanel ViewerPaneButton4:1ColorButton clicked
+\i (00:17:21) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:19:46) pick grid 965.02 -993.41
+\t (00:19:46) last pick:  950.00 -1000.00
+\i (00:19:47) drag_start grid 1980.23 -1104.97
+\i (00:19:48) drag_stop -2588.23 1756.59
+\i (00:19:49) prepopup -1243.91 1143.00
+\i (00:19:52) pick grid 1455.89 1460.96
+\t (00:19:52) last pick:  1450.00 1450.00
+\i (00:19:54) done 
+\i (00:19:54) place manual 
+\i (00:19:54) setwindow form.plc_manual
+\i (00:19:54) FORM plc_manual tree  'Components by refdes' 
+\i (00:19:54) setwindow pcb
+\i (00:19:54) FORM plc_manual placement_list 
+\i (00:19:54) FORM plc_manual categories Components by refdes 
+\i (00:19:54) trapsize 2789
+\i (00:19:55) setwindow form.plc_manual
+\i (00:19:55) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:19:55) Placing C1 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:19:56) setwindow pcb
+\i (00:19:56) pick grid -1991.37 -865.11
+\t (00:19:56) last pick:  -2000.00 -850.00
+\t (00:19:56) Placing C2 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:19:57) pick grid -624.74 -1144.01
+\t (00:19:57) last pick:  -600.00 -1150.00
+\t (00:19:57) Placing C3 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:19:57) pick grid -647.05 -363.08
+\t (00:19:57) last pick:  -650.00 -350.00
+\t (00:19:57) Placing C4 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:19:57) pick grid -1483.77 -1177.48
+\t (00:19:57) last pick:  -1500.00 -1200.00
+\t (00:19:57) Placing C5 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:19:58) pick grid 457.41 -826.06
+\t (00:19:58) last pick:  450.00 -850.00
+\t (00:19:58) Placing C6 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:19:58) pick grid -1924.44 -469.06
+\t (00:19:58) last pick:  -1900.00 -450.00
+\t (00:19:58) Placing C7 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:19:58) pick grid -1349.89 -792.59
+\t (00:19:58) last pick:  -1350.00 -800.00
+\t (00:19:58) Placing C8 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:19:59) pick grid -674.94 -759.13
+\t (00:19:59) last pick:  -650.00 -750.00
+\t (00:19:59) Placing C9 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:19:59) pick grid -1779.41 -1205.37
+\t (00:19:59) last pick:  -1800.00 -1200.00
+\t (00:19:59) Placing C10 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:20:00) pick grid -970.58 -1528.90
+\t (00:20:00) last pick:  -950.00 -1550.00
+\t (00:20:00) Placing C11 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:00) pick grid -1004.05 -1216.53
+\t (00:20:00) last pick:  -1000.00 -1200.00
+\t (00:20:00) Placing C12 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:20:01) pick grid -2175.45 -496.96
+\t (00:20:01) last pick:  -2200.00 -500.00
+\t (00:20:01) Placing C13 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:20:01) pick grid -1573.02 -173.43
+\t (00:20:01) last pick:  -1550.00 -150.00
+\t (00:20:01) Placing C14 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:20:01) pick grid -914.80 77.59
+\t (00:20:01) last pick:  -900.00 100.00
+\t (00:20:01) Placing C15 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:20:02) pick grid -2063.89 32.96
+\t (00:20:02) last pick:  -2050.00 50.00
+\t (00:20:02) Placing C16 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:20:02) pick grid -2231.23 -1350.40
+\t (00:20:02) last pick:  -2250.00 -1350.00
+\t (00:20:02) Placing C17 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:20:03) pick grid 128.30 -1400.61
+\t (00:20:03) last pick:  150.00 -1400.00
+\t (00:20:03) Placing C20 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:03) pick grid -273.32 -781.44
+\t (00:20:03) last pick:  -250.00 -800.00
+\t (00:20:03) Placing C21 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:03) pick grid -1584.17 -608.52
+\t (00:20:03) last pick:  -1600.00 -600.00
+\t (00:20:03) Placing C22 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:04) pick grid -1043.10 -273.83
+\t (00:20:04) last pick:  -1050.00 -250.00
+\t (00:20:04) Placing C23 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:04) pick grid -574.54 27.39
+\t (00:20:04) last pick:  -550.00 50.00
+\t (00:20:04) Placing C24 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:05) pick grid -925.96 562.88
+\t (00:20:05) last pick:  -950.00 550.00
+\t (00:20:05) Placing C25 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:20:05) pick grid -2521.29 16.23
+\t (00:20:05) last pick:  -2500.00 0.00
+\t (00:20:05) Placing D1 / LED_3_SMD0805_RED / SMD0805 on Top.
+\i (00:20:06) pick grid 172.93 -608.52
+\t (00:20:06) last pick:  150.00 -600.00
+\t (00:20:06) Placing D2 / LED_2_SMD0805_RED / SMD0805 on Top.
+\i (00:20:06) pick grid 903.66 -268.25
+\t (00:20:06) last pick:  900.00 -250.00
+\t (00:20:06) Placing D3 / LED_3_SMD0805_RED / SMD0805 on Top.
+\i (00:20:07) pick grid 217.55 -368.66
+\t (00:20:07) last pick:  200.00 -350.00
+\t (00:20:07) Placing D4 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:20:07) pick grid 981.75 -1501.01
+\t (00:20:07) last pick:  1000.00 -1500.00
+\t (00:20:07) Placing D7 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:20:07) pick grid -356.99 -569.47
+\t (00:20:08) last pick:  -350.00 -550.00
+\t (00:20:08) Placing D10 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:20:08) pick grid 931.55 127.79
+\t (00:20:08) last pick:  950.00 150.00
+\t (00:20:08) Placing D13 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:20:08) pick grid 1216.03 685.60
+\t (00:20:08) last pick:  1200.00 700.00
+\t (00:20:08) Placing D17 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:09) pick grid 423.94 -190.16
+\t (00:20:09) last pick:  400.00 -200.00
+\t (00:20:09) Placing D18 / LED_3_SMD0805_GREEN / SMD0805 on Top.
+\i (00:20:10) pick grid 1589.76 83.17
+\t (00:20:10) last pick:  1600.00 100.00
+\t (00:20:10) Placing D19 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:10) pick grid 1634.39 -1088.23
+\t (00:20:10) last pick:  1650.00 -1100.00
+\t (00:20:10) Placing D20 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:11) pick grid -647.05 -1768.76
+\t (00:20:11) last pick:  -650.00 -1750.00
+\t (00:20:11) Placing D21 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:11) pick grid 529.92 -965.52
+\t (00:20:11) last pick:  550.00 -950.00
+\t (00:20:11) Placing D22 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:12) pick grid 1048.69 -820.48
+\t (00:20:12) last pick:  1050.00 -800.00
+\t (00:20:12) Placing D23 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:13) pick grid -284.48 389.96
+\t (00:20:13) last pick:  -300.00 400.00
+\t (00:20:13) Placing D24 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:13) pick grid 998.48 1031.44
+\t (00:20:13) last pick:  1000.00 1050.00
+\t (00:20:13) Placing D25 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:14) pick grid 1701.32 1282.46
+\t (00:20:14) last pick:  1700.00 1300.00
+\t (00:20:14) Placing D26 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:20:14) pick grid -624.74 992.40
+\t (00:20:14) last pick:  -600.00 1000.00
+\t (00:20:14) Placing D27 / LED_3_SMD0805_GREEN / SMD0805 on Top.
+\i (00:20:15) pick grid -1528.39 1126.27
+\t (00:20:15) last pick:  -1550.00 1150.00
+\w (00:20:15) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:20:15) Placing J1 / TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL / TAG_TC2030-IDC-NL on Top.
+\i (00:20:16) pick grid -2560.34 -580.63
+\t (00:20:16) last pick:  -2550.00 -600.00
+\t (00:20:16) Placing Q1 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:20:17) pick grid -1779.41 -1952.84
+\t (00:20:17) last pick:  -1800.00 -1950.00
+\t (00:20:17) Placing Q2 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:20:18) pick grid 2298.18 568.46
+\t (00:20:18) last pick:  2300.00 550.00
+\t (00:20:18) Placing Q3 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:20:18) pick grid 2365.12 -876.27
+\t (00:20:18) last pick:  2350.00 -900.00
+\t (00:20:18) Placing Q4 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:20:19) pick grid 2086.21 -223.63
+\t (00:20:19) last pick:  2100.00 -200.00
+\t (00:20:19) Placing Q5 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:20:19) pick grid 2432.05 -569.47
+\t (00:20:19) last pick:  2450.00 -550.00
+\t (00:20:19) Placing Q6 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:20:21) zoom out 1 
+\i (00:20:21) setwindow pcb
+\i (00:20:21) zoom out 1037.53 -1378.29
+\i (00:20:21) trapsize 5578
+\i (00:20:22) pick grid 2275.86 -1640.47
+\t (00:20:22) last pick:  2300.00 -1650.00
+\t (00:20:22) Placing Q7 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:20:22) pick grid 1573.02 -1673.94
+\t (00:20:22) last pick:  1550.00 -1650.00
+\t (00:20:22) Placing Q8 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:20:23) pick grid 1851.93 -2019.78
+\t (00:20:23) last pick:  1850.00 -2000.00
+\t (00:20:23) Placing Q9 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:20:23) pick grid 1137.93 -2164.81
+\t (00:20:23) last pick:  1150.00 -2150.00
+\t (00:20:23) Placing Q10 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:20:24) pick grid 2956.39 -2019.78
+\t (00:20:24) last pick:  2950.00 -2000.00
+\t (00:20:24) Placing Q11 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:20:25) pick grid 1517.24 -2689.15
+\t (00:20:25) last pick:  1500.00 -2700.00
+\t (00:20:25) Placing Q12 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:20:25) pick grid 3625.76 -2968.05
+\t (00:20:25) last pick:  3650.00 -2950.00
+\t (00:20:25) Placing R1 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:20:27) undo 
+\i (00:20:27) trapsize 2789
+\i (00:20:28) undo 
+\i (00:20:28) generaledit 
+\i (00:20:29) pick grid -702.83 1338.24
+\t (00:20:29) last pick:  -700.00 1350.00
+\i (00:20:30) drag_start grid 1790.57 -1038.03
+\i (00:20:30) drag_stop -2404.15 1734.28
+\i (00:20:31) prepopup -1628.80 1455.38
+\i (00:20:37) pick grid -1863.08 1466.53
+\t (00:20:37) last pick:  -1850.00 1450.00
+\i (00:20:38) drag_start grid 1690.17 -1272.31
+\i (00:20:39) drag_stop -2275.86 1751.02
+\i (00:20:43) pick grid 156.19 -720.08
+\t (00:20:43) last pick:  150.00 -700.00
+\i (00:20:43) drag_start grid 1941.18 -1138.44
+\i (00:20:44) roam x -16
+\i (00:20:44) roam x -16
+\i (00:20:44) roam x -16
+\i (00:20:45) drag_stop -2621.70 1778.91
+\i (00:20:45) prepopup -1706.89 1483.27
+\i (00:20:48) prepopup -1829.61 1449.80
+\i (00:20:49) prepopup -1840.77 1516.74
+\i (00:20:50) pick grid -2532.45 1684.08
+\t (00:20:50) last pick:  -2550.00 1700.00
+\i (00:20:51) prepopup -1907.70 1494.42
+\i (00:20:52) pick grid -2348.37 1399.60
+\t (00:20:52) last pick:  -2350.00 1400.00
+\i (00:20:53) drag_start grid 2102.95 -1093.81
+\i (00:20:54) drag_stop -2610.54 1812.38
+\i (00:20:54) prepopup -1913.28 1522.31
+\i (00:21:16) prepopup -1729.20 1500.00
+\i (00:21:31) pick grid -2326.06 958.93
+\t (00:21:31) last pick:  -2350.00 950.00
+\i (00:21:31) prepopup -2326.06 958.93
+\i (00:21:33) pick grid -1009.63 1667.34
+\t (00:21:33) last pick:  -1000.00 1650.00
+\i (00:22:55) pick grid -1751.52 1500.00
+\t (00:22:55) last pick:  -1750.00 1500.00
+\i (00:22:56) pick grid -1784.99 1477.69
+\t (00:22:56) last pick:  -1800.00 1500.00
+\i (00:22:57) drag_start grid -1388.94 1198.79
+\i (00:22:57) drag_stop -2314.90 1762.17
+\i (00:22:59) drag_start grid 1918.87 -976.67
+\i (00:23:00) drag_stop -2649.59 1706.39
+\i (00:23:00) prepopup -1712.47 1511.16
+\i (00:23:13) pick grid 1199.29 429.01
+\t (00:23:13) last pick:  1200.00 450.00
+\i (00:24:08) pick grid 1890.98 1449.80
+\t (00:24:08) last pick:  1900.00 1450.00
+\i (00:24:28) viewlog -last 
+\i (00:24:29) fillin "menu_cancel"
+\i (00:25:46) cdsdoc allegro allegrolaunch 
+\i (00:25:53) about 
+\i (00:26:15) pick grid -925.96 1276.88
+\t (00:26:15) last pick:  -950.00 1300.00
+\i (00:26:19) drag_start grid 1773.84 -893.00
+\i (00:26:20) drag_stop -2621.70 1700.81
+\i (00:26:21) prepopup -1935.59 1516.74
+\i (00:26:22) pick grid -2504.56 1728.70
+\t (00:26:22) last pick:  -2500.00 1750.00
+\i (00:26:23) prepopup -2236.81 646.55
+\i (00:26:25) pop dyn_option_select @:@Move 
+\i (00:26:25) move 
+\t (00:26:25) last pick:  -2250.00 650.00
+\t (00:26:25) last pick:  -2450.00 600.00
+\t (00:26:25) Moving J7 / 4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156 / BLKCON156VHTM1SQSW1564.
+\t (00:26:25) Pick new location for the element(s).
+\i (00:26:25) zoom out 1 
+\i (00:26:25) setwindow pcb
+\i (00:26:25) zoom out -1450.30 -1724.14
+\i (00:26:25) trapsize 5578
+\i (00:26:25) zoom out 1 
+\i (00:26:25) setwindow pcb
+\i (00:26:25) zoom out -2398.58 -4407.20
+\i (00:26:25) trapsize 5578
+\i (00:26:26) pick grid -2677.48 -2711.46
+\t (00:26:26) last pick:  -2700.00 -2700.00
+\i (00:26:26) generaledit 
+\i (00:26:27) prepopup -1796.15 1516.73
+\i (00:26:30) pop dyn_option_select @:@Move 
+\i (00:26:30) move 
+\t (00:26:30) last pick:  -1800.00 1500.00
+\t (00:26:30) last pick:  -1950.00 1500.00
+\t (00:26:30) Moving J2 / 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100 / BLKCON100VHTM1SQSW1004.
+\t (00:26:30) Pick new location for the element(s).
+\i (00:26:31) pick grid -1874.24 -2867.65
+\t (00:26:31) last pick:  -1850.00 -2850.00
+\i (00:26:31) generaledit 
+\i (00:26:31) prepopup -1550.71 323.02
+\i (00:26:32) pop dyn_option_select @:@Move 
+\i (00:26:32) move 
+\t (00:26:32) last pick:  -1550.00 300.00
+\t (00:26:32) last pick:  -1600.00 300.00
+\t (00:26:32) Moving J5 / 1050170001_MOLEX_1050170001_1050170001 / MOLEX_1050170001.
+\t (00:26:33) Pick new location for the element(s).
+\i (00:26:33) pick grid -847.87 -3023.83
+\t (00:26:33) last pick:  -850.00 -3000.00
+\i (00:26:33) generaledit 
+\i (00:26:34) prepopup -1160.24 903.14
+\i (00:26:36) pop dyn_option_select @:@Move 
+\i (00:26:36) move 
+\t (00:26:36) last pick:  -1150.00 900.00
+\t (00:26:36) last pick:  -1300.00 900.00
+\t (00:26:36) Moving J3 / 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100 / BLKCON100VHTM1SQSW1004.
+\t (00:26:36) Pick new location for the element(s).
+\i (00:26:36) pick grid -44.62 -3023.83
+\t (00:26:36) last pick:  -50.00 -3000.00
+\i (00:26:36) generaledit 
+\i (00:26:38) prepopup -1082.15 -480.22
+\i (00:26:39) pop dyn_option_select @:@Move 
+\i (00:26:39) move 
+\t (00:26:39) last pick:  -1100.00 -500.00
+\t (00:26:39) last pick:  -1150.00 -500.00
+\t (00:26:39) Moving J9 / HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100 / BLKCON100VHTM1SQW1002.
+\t (00:26:39) Pick new location for the element(s).
+\i (00:26:40) pick grid 714.00 -3124.24
+\t (00:26:40) last pick:  700.00 -3100.00
+\i (00:26:40) generaledit 
+\i (00:26:42) prepopup -100.41 1405.17
+\i (00:26:42) pop dyn_option_select @:@Move 
+\i (00:26:43) move 
+\t (00:26:43) last pick:  -100.00 1400.00
+\t (00:26:43) last pick:  -500.00 1450.00
+\t (00:26:43) Moving J4 / CON10_BLKCON100VHTM1SQW10010_CON10 / BLKCON100VHTM1SQW10010.
+\t (00:26:43) Pick new location for the element(s).
+\i (00:26:43) pick grid 1427.99 -3157.71
+\t (00:26:43) last pick:  1450.00 -3150.00
+\i (00:26:43) generaledit 
+\i (00:26:44) prepopup 1372.21 -413.29
+\i (00:26:45) pop dyn_option_select @:@Move 
+\i (00:26:45) move 
+\t (00:26:45) last pick:  1350.00 -400.00
+\t (00:26:45) last pick:  1100.00 -450.00
+\t (00:26:45) Moving J10 / CON8_BLKCON100VHTM1SQSW1008_SPARE / BLKCON100VHTM1SQSW1008.
+\t (00:26:45) Pick new location for the element(s).
+\i (00:26:46) pick grid 2967.55 -3325.05
+\t (00:26:46) last pick:  2950.00 -3350.00
+\i (00:26:46) generaledit 
+\i (00:26:47) prepopup 490.87 825.05
+\i (00:26:48) pop dyn_option_select @:@Move 
+\i (00:26:48) move 
+\t (00:26:48) last pick:  500.00 850.00
+\t (00:26:48) last pick:  200.00 850.00
+\t (00:26:48) Moving J8 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563.
+\t (00:26:48) Pick new location for the element(s).
+\i (00:26:49) pick grid 4228.19 -3302.74
+\t (00:26:49) last pick:  4250.00 -3300.00
+\i (00:26:49) generaledit 
+\i (00:26:50) prepopup 267.75 122.21
+\i (00:26:52) pop dyn_option_select @:@Move 
+\i (00:26:52) move 
+\t (00:26:52) last pick:  250.00 100.00
+\t (00:26:52) last pick:  50.00 150.00
+\t (00:26:52) Moving J6 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563.
+\t (00:26:52) Pick new location for the element(s).
+\i (00:26:52) pick grid 3926.98 -2889.96
+\t (00:26:52) last pick:  3950.00 -2900.00
+\i (00:26:53) generaledit 
+\i (00:26:56) done 
+\i (00:26:56) place manual 
+\t (00:26:56) Selected item not valid for current operation, ignored: Shape "J6, Package Geometry/Place_Bound_Top"
+\t (00:26:56) No valid items selected for the current operation, exiting.
+\i (00:26:56) FORM plc_manual placement_list 
+\e (00:26:56) Form not found
+\i (00:26:56) FORM plc_manual categories Components by refdes 
+\e (00:26:56) Form not found
+\i (00:26:56) trapsize 5578
+\i (00:26:56) generaledit 
+\i (00:27:04) done 
+\i (00:27:04) place manual 
+\t (00:27:04) Selected item not valid for current operation, ignored: Shape "J6, Package Geometry/Place_Bound_Top"
+\t (00:27:04) No valid items selected for the current operation, exiting.
+\i (00:27:04) FORM plc_manual placement_list 
+\e (00:27:04) Form not found
+\i (00:27:04) FORM plc_manual categories Components by refdes 
+\e (00:27:04) Form not found
+\i (00:27:04) trapsize 5578
+\i (00:27:04) generaledit 
+\i (00:27:10) pick grid -3625.76 2130.32
+\t (00:27:10) last pick:  -3650.00 2150.00
+\i (00:27:10) pick grid dbl -3625.76 2141.48
+\t (00:27:10) last pick:  -3650.00 2150.00
+\i (00:27:10) pick grid -3625.76 2141.48
+\t (00:27:10) last pick:  -3650.00 2150.00
+\i (00:27:14) done 
+\i (00:27:14) place manual 
+\i (00:27:14) setwindow form.plc_manual
+\i (00:27:14) FORM plc_manual tree  'Components by refdes' 
+\i (00:27:14) setwindow pcb
+\i (00:27:14) FORM plc_manual placement_list 
+\i (00:27:14) FORM plc_manual categories Components by refdes 
+\i (00:27:14) trapsize 5578
+\i (00:27:16) setwindow form.plc_manual
+\i (00:27:16) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:27:16) Placing C1 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:17) setwindow pcb
+\i (00:27:17) pick grid -2945.23 -3135.40
+\t (00:27:17) last pick:  -2950.00 -3150.00
+\t (00:27:17) Placing C2 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:19) zoom out 1 
+\i (00:27:19) setwindow pcb
+\i (00:27:19) zoom out -2465.52 -3492.39
+\i (00:27:19) trapsize 5578
+\i (00:27:19) zoom out 1 
+\i (00:27:19) setwindow pcb
+\i (00:27:19) zoom out -2465.52 -3492.39
+\i (00:27:19) trapsize 5578
+\i (00:27:20) zoom in 1 
+\i (00:27:20) setwindow pcb
+\i (00:27:20) zoom in -2220.08 -3470.08
+\i (00:27:20) trapsize 2789
+\i (00:27:21) zoom out 1 
+\i (00:27:21) setwindow pcb
+\i (00:27:21) zoom out -2220.08 -3296.15
+\i (00:27:21) trapsize 5578
+\i (00:27:21) zoom out 1 
+\i (00:27:21) setwindow pcb
+\i (00:27:21) zoom out -2175.46 -3559.33
+\i (00:27:21) trapsize 5578
+\i (00:27:22) zoom in 1 
+\i (00:27:22) setwindow pcb
+\i (00:27:22) zoom in -145.03 -446.76
+\i (00:27:22) trapsize 2789
+\i (00:27:22) zoom out 1 
+\i (00:27:22) setwindow pcb
+\i (00:27:22) zoom out -139.45 -491.38
+\i (00:27:22) trapsize 5578
+\i (00:27:23) zoom in 1 
+\i (00:27:23) setwindow pcb
+\i (00:27:23) zoom in -457.40 -4909.23
+\i (00:27:23) trapsize 2789
+\i (00:27:24) zoom out 1 
+\i (00:27:24) setwindow pcb
+\i (00:27:24) zoom out -457.40 -4015.72
+\i (00:27:24) trapsize 5578
+\i (00:27:25) pick grid -2967.55 -3458.93
+\t (00:27:25) last pick:  -2950.00 -3450.00
+\t (00:27:25) Placing C3 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:27:26) pick grid -2621.70 -3202.33
+\t (00:27:26) last pick:  -2600.00 -3200.00
+\t (00:27:26) Placing C4 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:27:26) pick grid -2610.55 -3380.83
+\t (00:27:26) last pick:  -2600.00 -3400.00
+\t (00:27:26) Placing C5 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:27:26) pick grid -2365.11 -3191.18
+\t (00:27:26) last pick:  -2350.00 -3200.00
+\t (00:27:26) Placing C6 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:27) pick grid -2287.02 -3425.46
+\t (00:27:27) last pick:  -2300.00 -3450.00
+\t (00:27:27) Placing C7 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:27) pick grid -2119.68 -3258.11
+\t (00:27:27) last pick:  -2100.00 -3250.00
+\t (00:27:27) Placing C8 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:28) pick grid -2019.27 -3492.39
+\t (00:27:28) last pick:  -2000.00 -3500.00
+\t (00:27:28) Placing C9 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:28) pick grid -1718.05 -3157.71
+\t (00:27:28) last pick:  -1700.00 -3150.00
+\t (00:27:28) Placing C10 / C_SMC0805_100NF / SMC0805 on Top.
+\i (00:27:29) pick grid -1651.12 -3425.46
+\t (00:27:29) last pick:  -1650.00 -3450.00
+\t (00:27:29) Placing C11 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:29) pick grid -1472.62 -3235.80
+\t (00:27:29) last pick:  -1450.00 -3250.00
+\t (00:27:29) Placing C12 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:30) pick grid -1115.62 -3414.30
+\t (00:27:30) last pick:  -1100.00 -3400.00
+\t (00:27:30) Placing C13 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:30) pick grid -714.00 -3447.77
+\t (00:27:30) last pick:  -700.00 -3450.00
+\t (00:27:30) Placing C14 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:31) pick grid -368.15 -3425.46
+\t (00:27:31) last pick:  -350.00 -3450.00
+\t (00:27:31) Placing C15 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:31) pick grid 78.09 -3447.77
+\t (00:27:31) last pick:  100.00 -3450.00
+\t (00:27:31) Placing C16 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:31) pick grid 479.72 -3447.77
+\t (00:27:31) last pick:  500.00 -3450.00
+\t (00:27:31) Placing C17 / C_SMC0805_100N / SMC0805 on Top.
+\i (00:27:32) pick grid 780.93 -3458.93
+\t (00:27:32) last pick:  800.00 -3450.00
+\t (00:27:32) Placing C20 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:32) pick grid 1026.37 -3492.39
+\t (00:27:32) last pick:  1050.00 -3500.00
+\t (00:27:32) Placing C21 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:33) pick grid 1427.99 -3514.71
+\t (00:27:33) last pick:  1450.00 -3500.00
+\t (00:27:33) Placing C22 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:33) pick grid 1829.61 -3537.02
+\t (00:27:34) last pick:  1850.00 -3550.00
+\t (00:27:34) Placing C23 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:35) pick grid -1216.02 -3570.49
+\t (00:27:35) last pick:  -1200.00 -3550.00
+\t (00:27:35) Placing C24 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:35) pick grid -1015.21 -3626.27
+\t (00:27:35) last pick:  -1000.00 -3650.00
+\t (00:27:35) Placing C25 / C_SMC0805_10UF / SMC0805 on Top.
+\i (00:27:36) pick grid -769.78 -3704.36
+\t (00:27:36) last pick:  -750.00 -3700.00
+\t (00:27:36) Placing D1 / LED_3_SMD0805_RED / SMD0805 on Top.
+\i (00:27:36) pick grid -524.34 -3704.36
+\t (00:27:36) last pick:  -500.00 -3700.00
+\t (00:27:36) Placing D2 / LED_2_SMD0805_RED / SMD0805 on Top.
+\i (00:27:36) pick grid -223.12 -3748.99
+\t (00:27:36) last pick:  -200.00 -3750.00
+\t (00:27:36) Placing D3 / LED_3_SMD0805_RED / SMD0805 on Top.
+\i (00:27:37) pick grid -22.31 -3782.46
+\t (00:27:37) last pick:  0.00 -3800.00
+\t (00:27:37) Placing D4 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:27:37) pick grid 234.28 -3793.61
+\t (00:27:37) last pick:  250.00 -3800.00
+\t (00:27:37) Placing D7 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:27:38) pick grid 535.50 -3760.14
+\t (00:27:38) last pick:  550.00 -3750.00
+\t (00:27:38) Placing D10 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:27:38) pick grid 780.93 -3793.61
+\t (00:27:38) last pick:  800.00 -3800.00
+\t (00:27:38) Placing D13 / BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT / SOT23 on Top.
+\i (00:27:39) pick grid 1026.37 -3815.92
+\t (00:27:39) last pick:  1050.00 -3800.00
+\t (00:27:39) Placing D17 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:39) pick grid 1282.96 -3827.08
+\t (00:27:39) last pick:  1300.00 -3850.00
+\t (00:27:39) Placing D18 / LED_3_SMD0805_GREEN / SMD0805 on Top.
+\i (00:27:40) pick grid 1740.37 -3882.86
+\t (00:27:40) last pick:  1750.00 -3900.00
+\t (00:27:40) Placing D19 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:40) pick grid 2130.83 -3894.02
+\t (00:27:40) last pick:  2150.00 -3900.00
+\t (00:27:40) Placing D20 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:42) pick grid -3034.48 -3994.42
+\t (00:27:42) last pick:  -3050.00 -4000.00
+\t (00:27:42) Placing D21 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:42) pick grid -2465.52 -3994.42
+\t (00:27:42) last pick:  -2450.00 -4000.00
+\t (00:27:42) Placing D22 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:43) pick grid -1974.65 -4050.20
+\t (00:27:43) last pick:  -1950.00 -4050.00
+\t (00:27:43) Placing D23 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:43) pick grid -1416.84 -4105.98
+\t (00:27:43) last pick:  -1400.00 -4100.00
+\e (00:27:43) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\t (00:27:43) Placing D23 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\t (00:27:43) Placing D24 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:44) pick grid -1405.68 -4072.52
+\t (00:27:44) last pick:  -1400.00 -4050.00
+\t (00:27:44) Placing D25 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:45) pick grid -914.81 -4139.45
+\t (00:27:45) last pick:  -900.00 -4150.00
+\e (00:27:45) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\t (00:27:45) Placing D25 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\t (00:27:45) Placing D26 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\i (00:27:45) pick grid -825.56 -4161.77
+\t (00:27:46) last pick:  -850.00 -4150.00
+\e (00:27:46) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\t (00:27:46) Placing D26 / DIODE SCHOTTKY_1_SMDO214AA_SK24-TP / SMDO214AA on Top.
+\t (00:27:46) Placing D27 / LED_3_SMD0805_GREEN / SMD0805 on Top.
+\i (00:27:46) pick grid -423.94 -4172.92
+\t (00:27:46) last pick:  -400.00 -4150.00
+\e (00:27:46) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\t (00:27:46) Placing D27 / LED_3_SMD0805_GREEN / SMD0805 on Top.
+\w (00:27:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:27:46) Placing J1 / TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL / TAG_TC2030-IDC-NL on Top.
+\i (00:27:47) pick grid -22.31 -4239.86
+\t (00:27:47) last pick:  0.00 -4250.00
+\e (00:27:47) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\t (00:27:47) Placing J1 / TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL / TAG_TC2030-IDC-NL on Top.
+\t (00:27:47) Placing Q1 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\t (00:27:48) last pick:  -479.72 -4340.26
+\w (00:27:48) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:27:49) last pick:  -736.31 -4674.95
+\w (00:27:49) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:27:50) last pick:  -780.93 -4518.76
+\w (00:27:50) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:27:56) pick grid -4172.41 -2923.43
+\t (00:27:56) last pick:  -4150.00 -2900.00
+\t (00:27:56) Placing Q2 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:27:56) pick grid -4473.63 -3581.64
+\t (00:27:56) last pick:  -4450.00 -3600.00
+\t (00:27:56) Placing Q3 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:27:57) pick grid -4663.29 -1818.97
+\t (00:27:57) last pick:  -4650.00 -1800.00
+\t (00:27:57) Placing Q4 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:27:57) pick grid -4094.32 -1584.69
+\t (00:27:57) last pick:  -4100.00 -1600.00
+\t (00:27:57) Placing Q5 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:27:58) pick grid -3815.42 -2242.90
+\t (00:27:58) last pick:  -3800.00 -2250.00
+\t (00:27:58) Placing Q6 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:27:59) pick grid -5009.13 -2744.93
+\t (00:27:59) last pick:  -5000.00 -2750.00
+\t (00:27:59) Placing Q7 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:27:59) pick grid -5098.38 -1116.13
+\t (00:27:59) last pick:  -5100.00 -1100.00
+\t (00:27:59) Placing Q8 / MOSFET P DGS_1_SMDPAK_IRFR5305 / SMDPAK on Top.
+\i (00:27:59) pick grid -4417.85 -770.28
+\t (00:28:00) last pick:  -4400.00 -750.00
+\t (00:28:00) Placing Q9 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:28:00) pick grid -3670.39 -1038.03
+\t (00:28:00) last pick:  -3650.00 -1050.00
+\t (00:28:00) Placing Q10 / 2N3904_0_SMSOT23BEC_MMBT4401LT1G / SMSOT23BEC on Top.
+\i (00:28:00) pick grid -4585.19 -1093.81
+\t (00:28:00) last pick:  -4600.00 -1100.00
+\t (00:28:00) Placing Q11 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:28:01) pick grid -4975.66 77.59
+\t (00:28:01) last pick:  -5000.00 100.00
+\t (00:28:01) Placing Q12 / MOSFET N DGS_0_SMDPAK_IRFR4105 / SMDPAK on Top.
+\i (00:28:01) pick grid -4060.85 -56.29
+\t (00:28:01) last pick:  -4050.00 -50.00
+\t (00:28:01) Placing R1 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:02) pick grid -3670.39 -335.19
+\t (00:28:02) last pick:  -3650.00 -350.00
+\t (00:28:02) Placing R2 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:02) pick grid -4741.38 -223.63
+\t (00:28:02) last pick:  -4750.00 -200.00
+\t (00:28:02) Placing R3 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:03) pick grid -4529.41 479.21
+\t (00:28:03) last pick:  -4550.00 500.00
+\t (00:28:03) Placing R6 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:03) pick grid -4272.82 825.05
+\t (00:28:03) last pick:  -4250.00 850.00
+\t (00:28:03) Placing R7 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:04) pick grid -3670.39 691.18
+\t (00:28:04) last pick:  -3650.00 700.00
+\t (00:28:04) Placing R8 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:04) pick grid -4886.41 1382.86
+\t (00:28:04) last pick:  -4900.00 1400.00
+\t (00:28:04) Placing R11 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:05) pick grid -4417.85 1427.48
+\t (00:28:05) last pick:  -4400.00 1450.00
+\t (00:28:05) Placing R12 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:05) pick grid -3848.88 1315.92
+\t (00:28:05) last pick:  -3850.00 1300.00
+\t (00:28:05) Placing R13 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:06) pick grid -4696.75 2029.92
+\t (00:28:06) last pick:  -4700.00 2050.00
+\t (00:28:06) Placing R14 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:06) pick grid -4306.29 1974.14
+\t (00:28:06) last pick:  -4300.00 1950.00
+\t (00:28:06) Placing R15 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:06) pick grid -3871.20 1840.26
+\t (00:28:06) last pick:  -3850.00 1850.00
+\t (00:28:06) Placing R16 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:07) pick grid -4730.22 2610.04
+\t (00:28:07) last pick:  -4750.00 2600.00
+\t (00:28:07) Placing R19 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:07) pick grid -4350.91 2465.01
+\t (00:28:07) last pick:  -4350.00 2450.00
+\t (00:28:07) Placing R21 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:08) pick grid -3915.82 2275.35
+\t (00:28:08) last pick:  -3900.00 2300.00
+\t (00:28:08) Placing R22 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:08) pick grid -4551.72 2877.79
+\t (00:28:08) last pick:  -4550.00 2900.00
+\t (00:28:08) Placing R23 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:09) pick grid -4272.82 2788.54
+\t (00:28:09) last pick:  -4250.00 2800.00
+\t (00:28:09) Placing R24 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:09) pick grid -3915.82 2665.82
+\t (00:28:09) last pick:  -3900.00 2650.00
+\t (00:28:09) Placing R25 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:10) pick grid -4495.94 3201.32
+\t (00:28:10) last pick:  -4500.00 3200.00
+\t (00:28:10) Placing R26 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:10) pick grid -4172.41 3112.07
+\t (00:28:10) last pick:  -4150.00 3100.00
+\t (00:28:10) Placing R27 / R_SMR0805_4.7K / SMR0805 on Top.
+\i (00:28:10) pick grid -3860.04 2922.41
+\t (00:28:10) last pick:  -3850.00 2900.00
+\t (00:28:10) Placing R28 / R_SMR0805_4.7K / SMR0805 on Top.
+\i (00:28:11) pick grid -4228.19 3390.97
+\t (00:28:11) last pick:  -4250.00 3400.00
+\t (00:28:11) Placing R29 / R_SMR0805_4.7K / SMR0805 on Top.
+\i (00:28:12) pick grid -3915.82 3290.57
+\t (00:28:12) last pick:  -3900.00 3300.00
+\t (00:28:12) Placing R30 / R_SMR0805_OMIT / SMR0805 on Top.
+\i (00:28:12) pick grid -3670.39 3156.69
+\t (00:28:12) last pick:  -3650.00 3150.00
+\t (00:28:12) Placing R31 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:13) pick grid -3781.95 3558.32
+\t (00:28:13) last pick:  -3800.00 3550.00
+\t (00:28:13) Placing R32 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:13) pick grid -3346.86 3223.63
+\t (00:28:13) last pick:  -3350.00 3200.00
+\t (00:28:13) Placing R33 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:13) pick grid -2967.55 2967.04
+\t (00:28:13) last pick:  -2950.00 2950.00
+\t (00:28:13) Placing R34 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:14) pick grid -3235.29 3547.16
+\t (00:28:14) last pick:  -3250.00 3550.00
+\t (00:28:14) Placing R35 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:14) pick grid -2766.73 3156.69
+\t (00:28:14) last pick:  -2750.00 3150.00
+\t (00:28:14) Placing R36 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:15) pick grid -2432.05 2822.01
+\t (00:28:15) last pick:  -2450.00 2800.00
+\t (00:28:15) Placing R37 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:15) pick grid -2777.89 3681.03
+\t (00:28:15) last pick:  -2800.00 3700.00
+\t (00:28:15) Placing R38 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:16) pick grid -2275.86 3268.25
+\t (00:28:16) last pick:  -2300.00 3250.00
+\t (00:28:16) Placing R39 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:16) pick grid -2063.89 3033.97
+\t (00:28:16) last pick:  -2050.00 3050.00
+\t (00:28:16) Placing R40 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:16) pick grid -2197.77 3547.16
+\t (00:28:16) last pick:  -2200.00 3550.00
+\t (00:28:16) Placing R41 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:17) pick grid -1918.86 3201.32
+\t (00:28:17) last pick:  -1900.00 3200.00
+\t (00:28:17) Placing R42 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:17) pick grid -1573.02 2967.04
+\t (00:28:17) last pick:  -1550.00 2950.00
+\t (00:28:17) Placing R43 / R_SMR0805_20K / SMR0805 on Top.
+\i (00:28:18) pick grid -1840.77 3625.25
+\t (00:28:18) last pick:  -1850.00 3650.00
+\t (00:28:18) Placing R44 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:18) pick grid -1673.43 3446.75
+\t (00:28:18) last pick:  -1650.00 3450.00
+\t (00:28:18) Placing R45 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:19) pick grid -1338.74 3223.63
+\t (00:28:19) last pick:  -1350.00 3200.00
+\t (00:28:19) Placing R46 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:19) pick grid -1427.99 3692.19
+\t (00:28:19) last pick:  -1450.00 3700.00
+\t (00:28:19) Placing R47 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:20) pick grid -1216.02 3402.13
+\t (00:28:20) last pick:  -1200.00 3400.00
+\t (00:28:20) Placing R48 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:20) pick grid -1070.99 3167.85
+\t (00:28:20) last pick:  -1050.00 3150.00
+\t (00:28:20) Placing R49 / R_SMR1206_50MR / SMR1206 on Top.
+\i (00:28:20) pick grid -1082.15 3681.03
+\t (00:28:20) last pick:  -1100.00 3700.00
+\t (00:28:20) Placing R50 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:21) pick grid -814.40 3324.04
+\t (00:28:21) last pick:  -800.00 3300.00
+\t (00:28:21) Placing R51 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:21) pick grid -624.75 3067.44
+\t (00:28:21) last pick:  -600.00 3050.00
+\t (00:28:21) Placing R52 / R_SMR0805_20K / SMR0805 on Top.
+\i (00:28:22) pick grid -635.90 3580.63
+\t (00:28:22) last pick:  -650.00 3600.00
+\t (00:28:22) Placing R53 / R_SMR0805_1K / SMR0805 on Top.
+\i (00:28:22) pick grid -301.22 3223.63
+\t (00:28:22) last pick:  -300.00 3200.00
+\t (00:28:22) Placing R54 / R_SMR0805_10K / SMR0805 on Top.
+\i (00:28:22) pick grid -111.56 3022.82
+\t (00:28:22) last pick:  -100.00 3000.00
+\t (00:28:22) Placing R55 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:23) pick grid -178.50 3747.97
+\t (00:28:23) last pick:  -200.00 3750.00
+\t (00:28:23) Placing R56 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:23) pick grid 89.25 3368.66
+\t (00:28:23) last pick:  100.00 3350.00
+\t (00:28:23) Placing R57 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:23) pick grid 290.06 3067.44
+\t (00:28:23) last pick:  300.00 3050.00
+\t (00:28:23) Placing R58 / R_SMR0805_0R / SMR0805 on Top.
+\i (00:28:24) pick grid 312.37 3625.25
+\t (00:28:24) last pick:  300.00 3650.00
+\t (00:28:24) Placing TP1 / TP_1_TP_RTS / TP on Top.
+\i (00:28:24) pick grid 490.87 3268.25
+\t (00:28:24) last pick:  500.00 3250.00
+\t (00:28:24) Placing TP2 / TP_1_TP_USB ID / TP on Top.
+\i (00:28:24) pick grid 635.90 2967.04
+\t (00:28:24) last pick:  650.00 2950.00
+\t (00:28:24) Placing TP3 / TP_1_TP_TP3 / TP on Top.
+\i (00:28:25) pick grid 736.31 3580.63
+\t (00:28:25) last pick:  750.00 3600.00
+\t (00:28:25) Placing TP4 / TP_1_TP_TP3 / TP on Top.
+\i (00:28:25) pick grid 903.65 3324.04
+\t (00:28:25) last pick:  900.00 3300.00
+\t (00:28:25) Placing TP6 / TP_1_TP_TP3 / TP on Top.
+\i (00:28:26) pick grid 1082.15 3022.82
+\t (00:28:26) last pick:  1100.00 3000.00
+\t (00:28:26) Placing TP7 / TP_1_TP_TP3 / TP on Top.
+\i (00:28:26) pick grid 1584.18 2866.63
+\t (00:28:26) last pick:  1600.00 2850.00
+\t (00:28:26) Placing TP16 / TP_1_TP_TP3 / TP on Top.
+\i (00:28:27) pick grid 1405.68 3725.66
+\t (00:28:27) last pick:  1400.00 3750.00
+\t (00:28:27) Placing TP17 / TP_1_TP_TP3 / TP on Top.
+\i (00:28:27) pick grid 1896.55 3513.69
+\t (00:28:27) last pick:  1900.00 3500.00
+\t (00:28:27) Placing U1 / PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1 / PQFP44 on Top.
+\i (00:28:27) pick grid 2420.89 3078.60
+\t (00:28:27) last pick:  2400.00 3100.00
+\w (00:28:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:28:27) Placing U2 / INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL / SSOP28-065-102X52MM on Top.
+\i (00:28:28) pick grid 3335.70 2241.89
+\t (00:28:28) last pick:  3350.00 2250.00
+\t (00:28:28) Placing U3 / TLC27M2_SOIC8_TLC27M2 / SOIC8 on Top.
+\i (00:28:29) pick grid 3926.98 858.52
+\t (00:28:29) last pick:  3950.00 850.00
+\t (00:28:29) Placing U4 / 74HCT14_SOIC14_74HCT14_+5V_0 / SOIC14 on Top.
+\i (00:28:30) pick grid 3993.91 -625.25
+\t (00:28:30) last pick:  4000.00 -650.00
+\t (00:28:30) Placing U5 / 74HCT14_SOIC14_74HCT14_+5V_0 / SOIC14 on Top.
+\i (00:28:30) pick grid 4529.41 -1528.91
+\t (00:28:30) last pick:  4550.00 -1550.00
+\i (00:28:31) pick grid 4239.35 -2142.50
+\t (00:28:31) last pick:  4250.00 -2150.00
+\i (00:28:34) setwindow form.plc_manual
+\i (00:28:34) FORM plc_manual cancel  
+\i (00:28:34) setwindow pcb
+\i (00:28:34) generaledit 
+\i (00:28:51) pick grid 4217.04 -2979.21
+\t (00:28:51) last pick:  4200.00 -3000.00
+\i (00:28:52) pick grid 4094.32 -2901.12
+\t (00:28:52) last pick:  4100.00 -2900.00
+\i (00:29:04) pick grid 4183.57 -2889.96
+\t (00:29:04) last pick:  4200.00 -2900.00
+\i (00:29:06) prepopup 4183.57 -2889.96
+\i (00:29:09) pick grid 3904.67 -2845.34
+\t (00:29:09) last pick:  3900.00 -2850.00
+\i (00:29:48) helpcmd 
+\i (00:29:58) setwindow form.helpcmd
+\i (00:29:58) FORM helpcmd done  
+\i (00:30:06) setwindow pcb
+\i (00:30:06) pick grid 4127.79 -2867.65
+\t (00:30:06) last pick:  4150.00 -2850.00
+\i (00:30:10) pick grid 3982.76 -2856.49
+\t (00:30:10) last pick:  4000.00 -2850.00
+\i (00:30:11) rotate 
+\i (00:30:14) pick grid 4005.07 -2555.27
+\t (00:30:14) last pick:  4000.00 -2550.00
+\i (00:30:15) drag_start grid 3893.51 -2700.31
+\i (00:30:15) drag_stop 4072.01 -3202.33
+\i (00:30:15) pick grid 4083.16 -2901.12
+\t (00:30:15) last pick:  4100.00 -2900.00
+\i (00:32:34) pick grid 3960.45 -2979.21
+\t (00:32:34) last pick:  3950.00 -3000.00
+\i (00:32:36) pick grid 4038.54 -2889.96
+\t (00:32:36) last pick:  4050.00 -2900.00
+\i (00:32:36) prepopup 4038.54 -2889.96
+\i (00:32:38) pop dyn_option_select @:@Move 
+\i (00:32:38) move 
+\t (00:32:38) last pick:  4050.00 -2900.00
+\t (00:32:38) last pick:  3950.00 -2900.00
+\t (00:32:38) Moving J6 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563.
+\t (00:32:38) Pick new location for the element(s).
+\i (00:32:40) pick grid 2298.17 1282.45
+\t (00:32:40) last pick:  2300.00 1300.00
+\i (00:32:40) generaledit 
+\i (00:32:41) prepopup 2309.33 1282.45
+\i (00:32:42) pop dyn_option_select @:@Spin 
+\i (00:32:42) spin 
+\t (00:32:42) Moving J6 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563.
+\i (00:32:44) iangle -90.000
+\t (00:32:44) last angle:  270.000 Degrees
+\i (00:32:44) generaledit 
+\i (00:34:38) zoom in 1 
+\i (00:34:38) setwindow pcb
+\i (00:34:38) zoom in 2253.55 802.74
+\i (00:34:38) trapsize 2789
+\i (00:34:39) zoom out 1 
+\i (00:34:39) setwindow pcb
+\i (00:34:39) zoom out 2353.96 1025.87
+\i (00:34:39) trapsize 5578
+\i (00:34:40) pick grid 4295.13 -3224.65
+\t (00:34:40) last pick:  4300.00 -3200.00
+\i (00:34:41) prepopup 4295.13 -3224.65
+\i (00:34:42) pop dyn_option_select @:@Move 
+\i (00:34:42) move 
+\t (00:34:42) last pick:  4300.00 -3200.00
+\t (00:34:42) last pick:  4250.00 -3300.00
+\t (00:34:42) Moving J8 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563.
+\t (00:34:42) Pick new location for the element(s).
+\i (00:34:43) pick grid 2309.33 99.90
+\t (00:34:43) last pick:  2300.00 100.00
+\i (00:34:43) generaledit 
+\i (00:34:43) prepopup 2298.17 111.05
+\i (00:34:44) pop dyn_option_select @:@Spin 
+\i (00:34:44) spin 
+\t (00:34:44) Moving J8 / CON3_BLKCON156VHTM1SQSW1563_3-MTA-156 / BLKCON156VHTM1SQSW1563.
+\i (00:34:46) iangle 90.000
+\t (00:34:46) last angle:  90.000 Degrees
+\i (00:34:47) generaledit 
+\i (00:34:48) zoom in 1 
+\i (00:34:48) setwindow pcb
+\i (00:34:48) zoom in 2298.17 233.77
+\i (00:34:48) trapsize 2789
+\i (00:34:48) zoom in 1 
+\i (00:34:48) setwindow pcb
+\i (00:34:48) zoom in 2298.18 233.77
+\i (00:34:48) trapsize 1395
+\i (00:34:49) zoom out 1 
+\i (00:34:49) setwindow pcb
+\i (00:34:49) zoom out 2284.24 261.66
+\i (00:34:49) trapsize 2789
+\i (00:34:50) drag_start grid 2568.73 -234.78
+\i (00:34:51) drag_stop 1771.06 1578.10
+\i (00:34:52) prepopup 2245.20 1087.23
+\i (00:35:44) pick grid 1782.21 -720.08
+\t (00:35:44) last pick:  1800.00 -700.00
+\i (00:35:44) save 
+\i (00:35:47) fillin yes 
+\i (00:35:47) generaledit 
+\i (00:35:48) exit 
+\t (00:35:48)     Journal end - Thu Feb  2 15:20:01 2023

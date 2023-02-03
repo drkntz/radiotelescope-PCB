@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/02/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/02/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -236,32 +236,24 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn")
-      (Path "Design Resources"
-         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\radiotelescope.dsn")
+      (Path "Design Resources" ".\radiotelescope.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\radiotelescope.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "s:\projects\radiotelescope\radiotelescope-pcb\main project\library1.olb")
+      (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Layout")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 513"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 369"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 445 24 531")
-        (Scroll "747 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1034 24 387")
+        (Scroll "386 0")
         (Zoom "112")
         (Occurrence "/"))
       (Path
@@ -271,9 +263,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 445 24 531")
-        (Scroll "0 336")
-        (Zoom "212")
+        (Placement "44 0 1 -1 -1 5 24 5 1034 24 387")
+        (Scroll "0 0")
+        (Zoom "106")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
