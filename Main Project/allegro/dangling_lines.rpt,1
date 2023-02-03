@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Thu Feb  2 16:54:52 2023                      )
+(    Date/Time        : Fri Feb  3 17:08:44 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,8 +22,13 @@ Report methodology:
   - To suppress items in dangle report add the OK_DANGLE property to the via
     or connect line.
 
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  AZ_M-                TOP                   116.92      (1885.00 760.00) to *(1975.00 825.00)
+  AZ_M+                TOP                   141.92     *(1725.00 225.00) to  (1840.00 290.00)
 
 << Summary >>
-  Total dangling lines:       0
+  Total dangling lines:       2
   Total dangling vias:        0
   Total antenna vias:         0
