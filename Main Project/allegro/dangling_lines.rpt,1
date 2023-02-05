@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Fri Feb  3 17:08:44 2023                      )
+(    Date/Time        : Sun Feb  5 11:22:24 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -25,10 +25,25 @@ Report methodology:
 << Dangling Lines >>  - Location marked with a star (*) is dangling.
   Net                 Layer                  Length       Location
   ------------------------------------------------------------------------------------------
-  AZ_M-                TOP                   116.92      (1885.00 760.00) to *(1975.00 825.00)
-  AZ_M+                TOP                   141.92     *(1725.00 225.00) to  (1840.00 290.00)
+  AZ_CONTROL2          BOTTOM                 25.00     *(950.00 300.00) to  (975.00 300.00)
+  EL_CONTROL1          TOP                  1376.78     *(1275.00 -345.00) to  (1150.00 -1670.00)
+  AZ_M-                TOP                   123.99     *(1975.00 1400.00) to  (1880.00 1330.00)
+  AZ_M+                TOP                   109.85     *(2225.00 800.00) to  (2310.00 860.00)
+  AZ_M+                TOP                   134.85     *(1725.00 800.00) to  (1835.00 860.00)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  EL_CONTROL1          VIA                  (2550.00 -520.00) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  EL_CONTROL1          VIA                  (2550.00 -520.00) TOP/BOTTOM 
 
 << Summary >>
-  Total dangling lines:       2
-  Total dangling vias:        0
-  Total antenna vias:         0
+  Total dangling lines:       5
+  Total dangling vias:        1
+  Total antenna vias:         1

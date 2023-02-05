@@ -1,0 +1,12 @@
+step models for orcad
+storage location: C:\Cadence\SPB_17.4\share\local\pcb\step
+SMDPAK
+SMC0805
+SMD0805
+SMR0805
+SMR1206
+SOT23
+SMSOT23BEC
+SOIC8
+SMDO214AA
+BLKCON156VHTM1SQSW1563

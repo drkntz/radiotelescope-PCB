@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/03/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/05/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -106,7 +106,12 @@
       (Type "Board File")
       (OutputBoard ".\allegro\radiotelescope.brd")
       (NetListPath ".\allegro")
-      (ActiveBoard "1")))
+      (ActiveBoard "1"))
+    (File ".\allegro\hbridge_copy.mdd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\hbridge_copy.mdd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\radiotelescope.drc"
       (Type "Report"))
@@ -251,7 +256,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "SCHEMATIC1" "Main Electronics"))
+         "SCHEMATIC1" "Power & H-Bridge"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -262,8 +267,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1034 24 433")
-        (Scroll "385 728")
-        (Zoom "224")
+        (Scroll "-73 0")
+        (Zoom "56")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
@@ -272,9 +277,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1034 24 433")
-        (Scroll "1068 271")
-        (Zoom "212")
+        (Placement "44 0 1 -1 -1 0 0 5 1034 24 433")
+        (Scroll "121 474")
+        (Zoom "106")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")

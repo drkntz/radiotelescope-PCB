@@ -2,6 +2,12 @@ Revisions to Radiotelescope Project PCB design.
 Revision log is in reverse chronological order.
 ==================== ADD REVISION NOTES BELOW THIS LINE ====================
 
+2/3/23 Zach Martin: Hbridges layout
+
+2/3/23 Zach Martin: started layout in allegro, hbridge
+
+2/2/23 Zach Martin: changed PCB footprint files and some other stuff to get rid of allegro netlisting errors. Started blank allegro project
+
 2/1/23 Zach Martin: Completed footprints, fixed DRC
 
 1/16/23 Zach Martin:  Added footprint for PIC, added footprints for caps, LEDs, and resistors except for current shunts
