@@ -2,6 +2,8 @@ Revisions to Radiotelescope Project PCB design.
 Revision log is in reverse chronological order.
 ==================== ADD REVISION NOTES BELOW THIS LINE ====================
 
+2/5/23 Zach Martin: Completing both H-bridges and current sensors
+
 2/3/23 Zach Martin: Hbridges layout
 
 2/3/23 Zach Martin: started layout in allegro, hbridge
