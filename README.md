@@ -14,7 +14,7 @@ Screenshots:
 ![SCH_2](https://github.com/drkntz/radiotelescope-pcb/blob/main/Docs/radiotelescope-SCH-V01_2.png)
 
 # PCB Layout
-![PCB](https://github.com/drkntz/radiotelescope-pcb/blob/main/Docs/radiotelescope-PCB-V01.png)
+![PCB](https://github.com/drkntz/radiotelescope-pcb/blob/main/Docs/radiotelescope-LAY-V01.png)
 
 # PCB 3-D Model
 ![3D](https://github.com/drkntz/radiotelescope-pcb/blob/main/Docs/radiotelescope-3D-V01.png)
