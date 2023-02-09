@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/05/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/09/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -100,7 +100,21 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "/0x22/{Item}/0x22/,/0x22/{Quantity}/0x22/,/0x22/{Reference}/0x22/,/0x22/{PCB Footprint}/0x22/,/0x22/{Value}/0x22/")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
   (Folder "Layout"
     (File ".\allegro\radiotelescope.brd"
       (Type "Board File")
@@ -123,7 +137,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\radiotelescope.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -133,7 +149,23 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\netlist.log"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\genfeed.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\eco.txt")))
   (PartMRUSelector
     ("HEADER 2"
       (FullPartName "HEADER 2.Normal")
@@ -254,21 +286,22 @@
          "s:\projects\radiotelescope\radiotelescope-pcb\main project\library1.olb")
       (Path "Layout")
       (Path "Outputs")
+      (Path "Logs")
       (Select "Design Resources"
          "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
-         "SCHEMATIC1" "Power & H-Bridge"))
+         "SCHEMATIC1" "Main Electronics"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 415"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 453"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1034 24 433")
-        (Scroll "-73 0")
-        (Zoom "56")
+        (Placement "44 0 1 -1 -1 5 24 5 1034 24 471")
+        (Scroll "632 1248")
+        (Zoom "224")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
@@ -277,9 +310,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1034 24 433")
-        (Scroll "121 474")
-        (Zoom "106")
+        (Placement "44 0 1 -1 -1 0 0 5 1034 24 471")
+        (Scroll "-96 0")
+        (Zoom "53")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")

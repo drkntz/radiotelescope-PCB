@@ -1,6 +1,6 @@
 (ExpressProject "hbridge"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/24/22]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/09/23]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -34,6 +34,21 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (DCMOTOR
+      (FullPartName "DCMOTOR.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\FUNCTION.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
     (IRFRU5305
       (FullPartName "IRFRU5305.Normal")
       (LibraryName
@@ -52,13 +67,32 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge.dsn")
+      (Path "Design Resources"
+         "S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 590"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 453"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 639 24 471")
+        (Scroll "109 92")
+        (Zoom "114")
+        (Occurrence "/"))
+      (Path
+         "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\SIMULATION\HBRIDGE\HBRIDGE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
   (MPSSessionName "zach")
   (LastUsedLibraryBrowseDirectory
-     "S:\projects\radiotelescope-PCB\Simulation\spice models"))
+     "C:\Cadence\SPB_17.4\tools\capture\library\pspice"))

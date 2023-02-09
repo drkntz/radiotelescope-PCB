@@ -1,17 +1,12 @@
-{ Using PSTWRITER 17.4.0 d001Feb-02-2023 at 13:24:29 }
+{ Using PSTWRITER 17.4.0 d001Feb-09-2023 at 14:46:43 }
 
-#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.3" ignored for U2: SCHEMATIC1, Main Electronics (3.70, 6.20). Connecting pin to net "N18224".
-#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.11" ignored for U2: SCHEMATIC1, Main Electronics (3.70, 6.20). Connecting pin to net "N21472".
-#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.9" ignored for U2: SCHEMATIC1, Main Electronics (3.70, 6.20). Connecting pin to net "N21714".
-#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.10" ignored for U2: SCHEMATIC1, Main Electronics (3.70, 6.20). Connecting pin to net "N21744".
-#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U2.6" ignored for U2: SCHEMATIC1, Main Electronics (3.70, 6.20). Connecting pin to net "N21774".
 INFO(ORCAP-36080): Scanning netlist files ...
 
-Loading... S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\allegro\pstchip.dat
+Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstchip.dat
 
-Loading... S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\allegro\pstchip.dat
+Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstchip.dat
 
-Loading... S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\allegro\pstxprt.dat
+Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstxprt.dat
 
-Loading... S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\allegro\pstxnet.dat
+Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstxnet.dat
 packaging the design view...

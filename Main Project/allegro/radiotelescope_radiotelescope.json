@@ -1,0 +1,195 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [
+		{
+			"Name" : "D20",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93251@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "6"
+		},
+		{
+			"Name" : "D21",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93337@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "5"
+		},
+		{
+			"Name" : "D22",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93423@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "12"
+		},
+		{
+			"Name" : "D23",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93490@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "11"
+		},
+		{
+			"Name" : "D4",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins46271@radiotelescope.\\bzx84c5v1\/sot_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "13"
+		},
+		{
+			"Name" : "D7",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins138922@radiotelescope.\\bzx84c5v1\/sot_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "3"
+		},
+		{
+			"Name" : "J6",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32431@connector.\\con3.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "20"
+		},
+		{
+			"Name" : "Q1",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins31929@radiotelescope.\\mosfet p dgs_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "8"
+		},
+		{
+			"Name" : "Q2",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32270@radiotelescope.\\mosfet p dgs_1.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "7"
+		},
+		{
+			"Name" : "Q3",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins39345@radiotelescope.\\2n3904_0.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "14"
+		},
+		{
+			"Name" : "Q4",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins40104@radiotelescope.\\2n3904_0.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "1"
+		},
+		{
+			"Name" : "Q5",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins31882@radiotelescope.\\mosfet n dgs_0.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "17"
+		},
+		{
+			"Name" : "Q6",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32324@radiotelescope.\\mosfet n dgs_0.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "16"
+		},
+		{
+			"Name" : "R31",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins38933@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "9"
+		},
+		{
+			"Name" : "R32",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins39201@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "4"
+		},
+		{
+			"Name" : "R33",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins40029@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "10"
+		},
+		{
+			"Name" : "R34",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins40088@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "2"
+		},
+		{
+			"Name" : "R35",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32662@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "21"
+		},
+		{
+			"Name" : "R36",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32584@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "19"
+		},
+		{
+			"Name" : "R37",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32610@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "18"
+		},
+		{
+			"Name" : "R38",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32636@discrete.\\r.normal\\(chips)",
+			"PropName" : "REUSE_ID",
+			"Logical" : null,
+			"Physical" : "15"
+		}
+	],
+	"Net Property" : [
+		{
+			"Name" : "+5V",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\+5v\\",
+			"PropName" : "NO_RAT",
+			"Logical" : null,
+			"Physical" : "YES"
+		},
+		{
+			"Name" : "USB_D+",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\usb_d+\\",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "DP1",
+			"Physical" : null
+		},
+		{
+			"Name" : "USB_D-",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\usb_d-\\",
+			"PropName" : "DIFFERENTIAL_PAIR",
+			"Logical" : "DP1",
+			"Physical" : null
+		},
+		{
+			"Name" : "0",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\0\\",
+			"PropName" : "NO_RAT",
+			"Logical" : null,
+			"Physical" : "YES"
+		},
+		{
+			"Name" : "AZ_CONTROL1",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):az_control1",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "20 MIL"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : []
+}

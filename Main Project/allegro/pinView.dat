@@ -1,0 +1,401 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
+J!s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/radiotelescope.brd!Thu Feb  9 14:46:41 2023!-5500.00!-4250.00!5500.00!4250.00!0.01!mils!RADIOTELESCOPE!10.400000 mil!2!UP TO DATE!
+S!NAZ_CONTROL1!U1!19!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!NAZ_CONTROL2!U1!20!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N100934!U1!12!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N100938!U1!13!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!NEL_CONTROL1!U1!30!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!NEL_CONTROL2!U1!31!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!AZ_ENCODER1!U1!34!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!AZ_ENCODER2!U1!6!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!EL_ENCODER1!U1!32!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!EL_ENCODER2!U1!35!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!PGD/U2TX!U1!21!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!PGC/U2RX!U1!22!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!AUX1!U1!8!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!AUX2!U1!9!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101276!U1!10!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101280!U1!11!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101284!U1!14!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101288!U1!15!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!EL_CURRENT!U1!23!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!AZ_CURRENT!U1!24!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101036!U1!33!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101076!U1!41!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101098!U1!42!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101120!U1!43!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!I2C_CLK!U1!44!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!I2C_DAT!U1!1!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!NSTAT_LED!U1!25!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!EXT_LED!U1!26!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!BUTTON1!U1!27!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!BUTTON2!U1!36!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!BUTTON3!U1!37!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!DIAGS!U1!38!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!RX_FROM_PC!U1!2!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!TX_TO_PC!U1!3!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101010!U1!4!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N101014!U1!5!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!N09584!U1!7!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!+5V!U1!28!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!+5V!U1!17!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!+5V!U1!40!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!0!U1!16!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!0!U1!39!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!0!U1!29!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!/MCLR!U1!18!@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\pic24fv32ka304_0.normal\(chips)!PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1!!!F15!!!!!!!!!!
+S!0!C1!1!@radiotelescope.schematic1(sch_1):ins52759@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F137!!!!!!!!!!
+S!+5V!C1!2!@radiotelescope.schematic1(sch_1):ins52759@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F137!!!!!!!!!!
+S!+5V!C11!1!@radiotelescope.schematic1(sch_1):ins15738@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F136!!!!!!!!!!
+S!0!C11!2!@radiotelescope.schematic1(sch_1):ins15738@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F136!!!!!!!!!!
+S!0!C2!1!@radiotelescope.schematic1(sch_1):ins48717@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F135!!!!!!!!!!
+S!+5V!C2!2!@radiotelescope.schematic1(sch_1):ins48717@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F135!!!!!!!!!!
+S!+5V!C20!1!@radiotelescope.schematic1(sch_1):ins90866@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F134!!!!!!!!!!
+S!0!C20!2!@radiotelescope.schematic1(sch_1):ins90866@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F134!!!!!!!!!!
+S!+5V!C21!1!@radiotelescope.schematic1(sch_1):ins90964@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F133!!!!!!!!!!
+S!0!C21!2!@radiotelescope.schematic1(sch_1):ins90964@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F133!!!!!!!!!!
+S!+5V!C22!1!@radiotelescope.schematic1(sch_1):ins91847@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F132!!!!!!!!!!
+S!0!C22!2!@radiotelescope.schematic1(sch_1):ins91847@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F132!!!!!!!!!!
+S!+24V!C23!1!@radiotelescope.schematic1(sch_1):ins96489@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F131!!!!!!!!!!
+S!0!C23!2!@radiotelescope.schematic1(sch_1):ins96489@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F131!!!!!!!!!!
+S!+24V!C24!1!@radiotelescope.schematic1(sch_1):ins96639@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F130!!!!!!!!!!
+S!0!C24!2!@radiotelescope.schematic1(sch_1):ins96639@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F130!!!!!!!!!!
+S!+24V!C25!1!@radiotelescope.schematic1(sch_1):ins96665@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F129!!!!!!!!!!
+S!0!C25!2!@radiotelescope.schematic1(sch_1):ins96665@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F129!!!!!!!!!!
+S!0!C6!1!@radiotelescope.schematic1(sch_1):ins9516@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F128!!!!!!!!!!
+S!N09584!C6!2!@radiotelescope.schematic1(sch_1):ins9516@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F128!!!!!!!!!!
+S!0!C8!1!@radiotelescope.schematic1(sch_1):ins53819@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F127!!!!!!!!!!
+S!+5V!C8!2!@radiotelescope.schematic1(sch_1):ins53819@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F127!!!!!!!!!!
+S!0!C9!1!@radiotelescope.schematic1(sch_1):ins55183@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F126!!!!!!!!!!
+S!+5V!C9!2!@radiotelescope.schematic1(sch_1):ins55183@analog.\c.normal\(chips)!C_SMC0805_10UF!!!F126!!!!!!!!!!
+S!+5V!C10!1!@radiotelescope.schematic1(sch_1):ins15686@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F125!!!!!!!!!!
+S!0!C10!2!@radiotelescope.schematic1(sch_1):ins15686@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F125!!!!!!!!!!
+S!0!C3!1!@radiotelescope.schematic1(sch_1):ins9217@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F124!!!!!!!!!!
+S!+5V!C3!2!@radiotelescope.schematic1(sch_1):ins9217@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F124!!!!!!!!!!
+S!0!C4!1!@radiotelescope.schematic1(sch_1):ins9164@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F123!!!!!!!!!!
+S!+5V!C4!2!@radiotelescope.schematic1(sch_1):ins9164@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F123!!!!!!!!!!
+S!0!C5!1!@radiotelescope.schematic1(sch_1):ins6515@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F122!!!!!!!!!!
+S!+5V!C5!2!@radiotelescope.schematic1(sch_1):ins6515@analog.\c.normal\(chips)!C_SMC0805_100NF!!!F122!!!!!!!!!!
+S!N11711!C12!1!@radiotelescope.schematic1(sch_1):ins10232@analog.\c.normal\(chips)!C_SMC0805_100N!!!F121!!!!!!!!!!
+S!0!C12!2!@radiotelescope.schematic1(sch_1):ins10232@analog.\c.normal\(chips)!C_SMC0805_100N!!!F121!!!!!!!!!!
+S!+5V!C13!1!@radiotelescope.schematic1(sch_1):ins65341@analog.\c.normal\(chips)!C_SMC0805_100N!!!F120!!!!!!!!!!
+S!0!C13!2!@radiotelescope.schematic1(sch_1):ins65341@analog.\c.normal\(chips)!C_SMC0805_100N!!!F120!!!!!!!!!!
+S!AZ_CURRENT!C14!1!@radiotelescope.schematic1(sch_1):ins34548@analog.\c.normal\(chips)!C_SMC0805_100N!!!F119!!!!!!!!!!
+S!0!C14!2!@radiotelescope.schematic1(sch_1):ins34548@analog.\c.normal\(chips)!C_SMC0805_100N!!!F119!!!!!!!!!!
+S!EL_CURRENT!C15!1!@radiotelescope.schematic1(sch_1):ins44082@analog.\c.normal\(chips)!C_SMC0805_100N!!!F118!!!!!!!!!!
+S!0!C15!2!@radiotelescope.schematic1(sch_1):ins44082@analog.\c.normal\(chips)!C_SMC0805_100N!!!F118!!!!!!!!!!
+S!+5V!C16!1!@radiotelescope.schematic1(sch_1):ins70166@analog.\c.normal\(chips)!C_SMC0805_100N!!!F117!!!!!!!!!!
+S!0!C16!2!@radiotelescope.schematic1(sch_1):ins70166@analog.\c.normal\(chips)!C_SMC0805_100N!!!F117!!!!!!!!!!
+S!+5V!C17!1!@radiotelescope.schematic1(sch_1):ins89626@analog.\c.normal\(chips)!C_SMC0805_100N!!!F116!!!!!!!!!!
+S!0!C17!2!@radiotelescope.schematic1(sch_1):ins89626@analog.\c.normal\(chips)!C_SMC0805_100N!!!F116!!!!!!!!!!
+S!/MCLR!C7!1!@radiotelescope.schematic1(sch_1):ins135364@analog.\c.normal\(chips)!C_SMC0805_100N!!!F115!!!!!!!!!!
+S!0!C7!2!@radiotelescope.schematic1(sch_1):ins135364@analog.\c.normal\(chips)!C_SMC0805_100N!!!F115!!!!!!!!!!
+S!N87563!D1!A!@radiotelescope.schematic1(sch_1):ins56055@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_RED!!!F114!!!!!!!!!!
+S!NSTAT_LED!D1!C!@radiotelescope.schematic1(sch_1):ins56055@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_RED!!!F114!!!!!!!!!!
+S!+5V!D3!A!@radiotelescope.schematic1(sch_1):ins17423@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_RED!!!F113!!!!!!!!!!
+S!N18573!D3!C!@radiotelescope.schematic1(sch_1):ins17423@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_RED!!!F113!!!!!!!!!!
+S!!D10!2!@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F112!!!!!!!!!!
+S!N47330!D10!1!@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F112!!!!!!!!!!
+S!N43524!D10!3!@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F112!!!!!!!!!!
+S!!D13!2!@radiotelescope.schematic1(sch_1):ins139030@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F111!!!!!!!!!!
+S!N47554!D13!1!@radiotelescope.schematic1(sch_1):ins139030@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F111!!!!!!!!!!
+S!N43572!D13!3!@radiotelescope.schematic1(sch_1):ins139030@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F111!!!!!!!!!!
+S!!D4!2!@radiotelescope.schematic1(sch_1):ins46271@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F110!!!!!!!!!!
+S!N46355!D4!1!@radiotelescope.schematic1(sch_1):ins46271@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F110!!!!!!!!!!
+S!N38974!D4!3!@radiotelescope.schematic1(sch_1):ins46271@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F110!!!!!!!!!!
+S!!D7!2!@radiotelescope.schematic1(sch_1):ins138922@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F109!!!!!!!!!!
+S!N46827!D7!1!@radiotelescope.schematic1(sch_1):ins138922@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F109!!!!!!!!!!
+S!N39239!D7!3!@radiotelescope.schematic1(sch_1):ins138922@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT!!!F109!!!!!!!!!!
+S!N90499!D17!A!@radiotelescope.schematic1(sch_1):ins90483@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F108!!!!!!!!!!
+S!+5V!D17!C!@radiotelescope.schematic1(sch_1):ins90483@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F108!!!!!!!!!!
+S!EL_M-!D19!A!@radiotelescope.schematic1(sch_1):ins93017@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F107!!!!!!!!!!
+S!+24V!D19!C!@radiotelescope.schematic1(sch_1):ins93017@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F107!!!!!!!!!!
+S!AZ_M-!D20!A!@radiotelescope.schematic1(sch_1):ins93251@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F106!!!!!!!!!!
+S!+24V!D20!C!@radiotelescope.schematic1(sch_1):ins93251@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F106!!!!!!!!!!
+S!AZ_M+!D21!A!@radiotelescope.schematic1(sch_1):ins93337@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F105!!!!!!!!!!
+S!+24V!D21!C!@radiotelescope.schematic1(sch_1):ins93337@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F105!!!!!!!!!!
+S!N32112!D22!A!@radiotelescope.schematic1(sch_1):ins93423@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F104!!!!!!!!!!
+S!AZ_M-!D22!C!@radiotelescope.schematic1(sch_1):ins93423@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F104!!!!!!!!!!
+S!N32112!D23!A!@radiotelescope.schematic1(sch_1):ins93490@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F103!!!!!!!!!!
+S!AZ_M+!D23!C!@radiotelescope.schematic1(sch_1):ins93490@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F103!!!!!!!!!!
+S!EL_M+!D24!A!@radiotelescope.schematic1(sch_1):ins93827@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F102!!!!!!!!!!
+S!+24V!D24!C!@radiotelescope.schematic1(sch_1):ins93827@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F102!!!!!!!!!!
+S!N43806!D25!A!@radiotelescope.schematic1(sch_1):ins93911@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F101!!!!!!!!!!
+S!EL_M-!D25!C!@radiotelescope.schematic1(sch_1):ins93911@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F101!!!!!!!!!!
+S!N43806!D26!A!@radiotelescope.schematic1(sch_1):ins93978@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F100!!!!!!!!!!
+S!EL_M+!D26!C!@radiotelescope.schematic1(sch_1):ins93978@radiotelescope.\diode schottky_1.normal\(chips)!DIODE SCHOTTKY_1_SMDO214AA_SK24-TP!!!F100!!!!!!!!!!
+S!N92108!D18!A!@radiotelescope.schematic1(sch_1):ins92090@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_GREEN!!!F99!!!!!!!!!!
+S!0!D18!C!@radiotelescope.schematic1(sch_1):ins92090@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_GREEN!!!F99!!!!!!!!!!
+S!N94087!D27!A!@radiotelescope.schematic1(sch_1):ins94089@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_GREEN!!!F98!!!!!!!!!!
+S!0!D27!C!@radiotelescope.schematic1(sch_1):ins94089@radiotelescope.\led_3.normal\(chips)!LED_3_SMD0805_GREEN!!!F98!!!!!!!!!!
+S!+5V!D2!A!@radiotelescope.schematic1(sch_1):ins17018@radiotelescope.\led_2.normal\(chips)!LED_2_SMD0805_RED!!!F97!!!!!!!!!!
+S!N22307!D2!C!@radiotelescope.schematic1(sch_1):ins17018@radiotelescope.\led_2.normal\(chips)!LED_2_SMD0805_RED!!!F97!!!!!!!!!!
+S!DIAGS!J1!1!@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)!TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL!!!F96!!!!!!!!!!
+S!PGC/U2RX!J1!2!@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)!TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL!!!F96!!!!!!!!!!
+S!PGD/U2TX!J1!3!@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)!TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL!!!F96!!!!!!!!!!
+S!0!J1!4!@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)!TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL!!!F96!!!!!!!!!!
+S!+5V!J1!5!@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)!TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL!!!F96!!!!!!!!!!
+S!/MCLR!J1!6!@radiotelescope.schematic1(sch_1):ins130097@\tc2030-idc-nl\.\tc2030-idc-nl.normal\(chips)!TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL!!!F96!!!!!!!!!!
+S!0!J10!1!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!N101280!J10!2!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!N101276!J10!3!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!N101120!J10!4!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!N101098!J10!5!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!N101076!J10!6!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!N101036!J10!7!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!+5V!J10!8!@radiotelescope.schematic1(sch_1):ins127318@connector.\con8.normal\(chips)!CON8_BLKCON100VHTM1SQSW1008_SPARE!!!F95!!!!!!!!!!
+S!0!J2!1!@radiotelescope.schematic1(sch_1):ins51819@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F94!!!!!!!!!!
+S!N52332!J2!2!@radiotelescope.schematic1(sch_1):ins51819@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F94!!!!!!!!!!
+S!N52322!J2!3!@radiotelescope.schematic1(sch_1):ins51819@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F94!!!!!!!!!!
+S!+5V!J2!4!@radiotelescope.schematic1(sch_1):ins51819@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F94!!!!!!!!!!
+S!0!J3!1!@radiotelescope.schematic1(sch_1):ins53915@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F93!!!!!!!!!!
+S!N53913!J3!2!@radiotelescope.schematic1(sch_1):ins53915@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F93!!!!!!!!!!
+S!N53909!J3!3!@radiotelescope.schematic1(sch_1):ins53915@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F93!!!!!!!!!!
+S!+5V!J3!4!@radiotelescope.schematic1(sch_1):ins53915@connector.\4 header.normal\(chips)!4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100!!!F93!!!!!!!!!!
+S!0!J4!1!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!+5V!J4!10!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N126718!J4!2!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N126733!J4!3!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N60515!J4!4!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N60420!J4!5!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N60320!J4!6!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N59824!J4!7!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!I2C_DAT!J4!8!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!I2C_CLK!J4!9!@radiotelescope.schematic1(sch_1):ins125609@connector.\con10.normal\(chips)!CON10_BLKCON100VHTM1SQW10010_CON10!!!F92!!!!!!!!!!
+S!N15288!J5!1!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!USB_D-!J5!2!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!USB_D+!J5!3!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N19574!J5!4!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!0!J5!5!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH1!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH2!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH3!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH4!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH5!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH6!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH7!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!N20299!J5!SH8!@radiotelescope.schematic1(sch_1):ins13014@\1050170001\.\1050170001.normal\(chips)!1050170001_MOLEX_1050170001_1050170001!!!F91!!!!!!!!!!
+S!AZ_M-!J6!1!@radiotelescope.schematic1(sch_1):ins32431@connector.\con3.normal\(chips)!CON3_BLKCON156VHTM1SQSW1563_3-MTA-156!!!F90!!!!!!!!!!
+S!AZ_M+!J6!2!@radiotelescope.schematic1(sch_1):ins32431@connector.\con3.normal\(chips)!CON3_BLKCON156VHTM1SQSW1563_3-MTA-156!!!F90!!!!!!!!!!
+S!SAFETY_GND!J6!3!@radiotelescope.schematic1(sch_1):ins32431@connector.\con3.normal\(chips)!CON3_BLKCON156VHTM1SQSW1563_3-MTA-156!!!F90!!!!!!!!!!
+S!EL_M-!J8!1!@radiotelescope.schematic1(sch_1):ins43368@connector.\con3.normal\(chips)!CON3_BLKCON156VHTM1SQSW1563_3-MTA-156!!!F89!!!!!!!!!!
+S!EL_M+!J8!2!@radiotelescope.schematic1(sch_1):ins43368@connector.\con3.normal\(chips)!CON3_BLKCON156VHTM1SQSW1563_3-MTA-156!!!F89!!!!!!!!!!
+S!SAFETY_GND!J8!3!@radiotelescope.schematic1(sch_1):ins43368@connector.\con3.normal\(chips)!CON3_BLKCON156VHTM1SQSW1563_3-MTA-156!!!F89!!!!!!!!!!
+S!0!J7!1!@radiotelescope.schematic1(sch_1):ins31849@connector.\4 header.normal\(chips)!4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156!!!F88!!!!!!!!!!
+S!0!J7!2!@radiotelescope.schematic1(sch_1):ins31849@connector.\4 header.normal\(chips)!4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156!!!F88!!!!!!!!!!
+S!+24V!J7!3!@radiotelescope.schematic1(sch_1):ins31849@connector.\4 header.normal\(chips)!4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156!!!F88!!!!!!!!!!
+S!+24V!J7!4!@radiotelescope.schematic1(sch_1):ins31849@connector.\4 header.normal\(chips)!4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156!!!F88!!!!!!!!!!
+S!N90499!J9!1!@radiotelescope.schematic1(sch_1):ins153063@connector.\header 2.normal\(chips)!HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100!!!F87!!!!!!!!!!
+S!0!J9!2!@radiotelescope.schematic1(sch_1):ins153063@connector.\header 2.normal\(chips)!HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100!!!F87!!!!!!!!!!
+S!AZ_M-!Q1!4!@radiotelescope.schematic1(sch_1):ins31929@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F86!!!!!!!!!!
+S!N38974!Q1!1!@radiotelescope.schematic1(sch_1):ins31929@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F86!!!!!!!!!!
+S!+24V!Q1!3!@radiotelescope.schematic1(sch_1):ins31929@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F86!!!!!!!!!!
+S!AZ_M+!Q2!4!@radiotelescope.schematic1(sch_1):ins32270@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F85!!!!!!!!!!
+S!N39239!Q2!1!@radiotelescope.schematic1(sch_1):ins32270@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F85!!!!!!!!!!
+S!+24V!Q2!3!@radiotelescope.schematic1(sch_1):ins32270@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F85!!!!!!!!!!
+S!EL_M-!Q7!4!@radiotelescope.schematic1(sch_1):ins43534@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F84!!!!!!!!!!
+S!N43524!Q7!1!@radiotelescope.schematic1(sch_1):ins43534@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F84!!!!!!!!!!
+S!+24V!Q7!3!@radiotelescope.schematic1(sch_1):ins43534@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F84!!!!!!!!!!
+S!EL_M+!Q8!4!@radiotelescope.schematic1(sch_1):ins43552@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F83!!!!!!!!!!
+S!N43572!Q8!1!@radiotelescope.schematic1(sch_1):ins43552@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F83!!!!!!!!!!
+S!+24V!Q8!3!@radiotelescope.schematic1(sch_1):ins43552@radiotelescope.\mosfet p dgs_1.normal\(chips)!MOSFET P DGS_1_SMDPAK_IRFR5305!!!F83!!!!!!!!!!
+S!N43662!Q10!B!@radiotelescope.schematic1(sch_1):ins43608@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F82!!!!!!!!!!
+S!N47554!Q10!C!@radiotelescope.schematic1(sch_1):ins43608@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F82!!!!!!!!!!
+S!0!Q10!E!@radiotelescope.schematic1(sch_1):ins43608@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F82!!!!!!!!!!
+S!N120965!Q3!B!@radiotelescope.schematic1(sch_1):ins39345@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F81!!!!!!!!!!
+S!N46355!Q3!C!@radiotelescope.schematic1(sch_1):ins39345@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F81!!!!!!!!!!
+S!0!Q3!E!@radiotelescope.schematic1(sch_1):ins39345@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F81!!!!!!!!!!
+S!N40124!Q4!B!@radiotelescope.schematic1(sch_1):ins40104@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F80!!!!!!!!!!
+S!N46827!Q4!C!@radiotelescope.schematic1(sch_1):ins40104@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F80!!!!!!!!!!
+S!0!Q4!E!@radiotelescope.schematic1(sch_1):ins40104@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F80!!!!!!!!!!
+S!N120971!Q9!B!@radiotelescope.schematic1(sch_1):ins43590@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F79!!!!!!!!!!
+S!N47330!Q9!C!@radiotelescope.schematic1(sch_1):ins43590@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F79!!!!!!!!!!
+S!0!Q9!E!@radiotelescope.schematic1(sch_1):ins43590@radiotelescope.\2n3904_0.normal\(chips)!2N3904_0_SMSOT23BEC_MMBT4401LT1G!!!F79!!!!!!!!!!
+S!EL_M-!Q11!4!@radiotelescope.schematic1(sch_1):ins43762@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F78!!!!!!!!!!
+S!EL_CONTROL1!Q11!1!@radiotelescope.schematic1(sch_1):ins43762@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F78!!!!!!!!!!
+S!N43806!Q11!3!@radiotelescope.schematic1(sch_1):ins43762@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F78!!!!!!!!!!
+S!EL_M+!Q12!4!@radiotelescope.schematic1(sch_1):ins43780@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F77!!!!!!!!!!
+S!EL_CONTROL2!Q12!1!@radiotelescope.schematic1(sch_1):ins43780@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F77!!!!!!!!!!
+S!N43806!Q12!3!@radiotelescope.schematic1(sch_1):ins43780@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F77!!!!!!!!!!
+S!AZ_M-!Q5!4!@radiotelescope.schematic1(sch_1):ins31882@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F76!!!!!!!!!!
+S!AZ_CONTROL1!Q5!1!@radiotelescope.schematic1(sch_1):ins31882@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F76!!!!!!!!!!
+S!N32112!Q5!3!@radiotelescope.schematic1(sch_1):ins31882@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F76!!!!!!!!!!
+S!AZ_M+!Q6!4!@radiotelescope.schematic1(sch_1):ins32324@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F75!!!!!!!!!!
+S!AZ_CONTROL2!Q6!1!@radiotelescope.schematic1(sch_1):ins32324@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F75!!!!!!!!!!
+S!N32112!Q6!3!@radiotelescope.schematic1(sch_1):ins32324@radiotelescope.\mosfet n dgs_0.normal\(chips)!MOSFET N DGS_0_SMDPAK_IRFR4105!!!F75!!!!!!!!!!
+S!/MCLR!R1!1!@radiotelescope.schematic1(sch_1):ins135013@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F74!!!!!!!!!!
+S!+5V!R1!2!@radiotelescope.schematic1(sch_1):ins135013@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F74!!!!!!!!!!
+S!+5V!R11!1!@radiotelescope.schematic1(sch_1):ins5771@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F73!!!!!!!!!!
+S!I2C_DAT!R11!2!@radiotelescope.schematic1(sch_1):ins5771@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F73!!!!!!!!!!
+S!+5V!R12!1!@radiotelescope.schematic1(sch_1):ins5787@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F72!!!!!!!!!!
+S!I2C_CLK!R12!2!@radiotelescope.schematic1(sch_1):ins5787@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F72!!!!!!!!!!
+S!+5V!R13!1!@radiotelescope.schematic1(sch_1):ins60246@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F71!!!!!!!!!!
+S!N60320!R13!2!@radiotelescope.schematic1(sch_1):ins60246@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F71!!!!!!!!!!
+S!+5V!R14!1!@radiotelescope.schematic1(sch_1):ins60344@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F70!!!!!!!!!!
+S!N60420!R14!2!@radiotelescope.schematic1(sch_1):ins60344@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F70!!!!!!!!!!
+S!+5V!R15!1!@radiotelescope.schematic1(sch_1):ins60437@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F69!!!!!!!!!!
+S!N60515!R15!2!@radiotelescope.schematic1(sch_1):ins60437@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F69!!!!!!!!!!
+S!FT232_NRST!R19!1!@radiotelescope.schematic1(sch_1):ins10597@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F68!!!!!!!!!!
+S!0!R19!2!@radiotelescope.schematic1(sch_1):ins10597@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F68!!!!!!!!!!
+S!+5V!R2!1!@radiotelescope.schematic1(sch_1):ins52264@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F67!!!!!!!!!!
+S!N52322!R2!2!@radiotelescope.schematic1(sch_1):ins52264@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F67!!!!!!!!!!
+S!+5V!R3!1!@radiotelescope.schematic1(sch_1):ins52306@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F66!!!!!!!!!!
+S!N52332!R3!2!@radiotelescope.schematic1(sch_1):ins52306@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F66!!!!!!!!!!
+S!AZ_CONTROL2!R33!1!@radiotelescope.schematic1(sch_1):ins40029@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F65!!!!!!!!!!
+S!N120965!R33!2!@radiotelescope.schematic1(sch_1):ins40029@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F65!!!!!!!!!!
+S!AZ_CONTROL1!R34!1!@radiotelescope.schematic1(sch_1):ins40088@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F64!!!!!!!!!!
+S!N40124!R34!2!@radiotelescope.schematic1(sch_1):ins40088@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F64!!!!!!!!!!
+S!EL_CONTROL2!R44!1!@radiotelescope.schematic1(sch_1):ins43574@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F63!!!!!!!!!!
+S!N120971!R44!2!@radiotelescope.schematic1(sch_1):ins43574@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F63!!!!!!!!!!
+S!EL_CONTROL1!R45!1!@radiotelescope.schematic1(sch_1):ins43626@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F62!!!!!!!!!!
+S!N43662!R45!2!@radiotelescope.schematic1(sch_1):ins43626@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F62!!!!!!!!!!
+S!N94087!R54!1!@radiotelescope.schematic1(sch_1):ins94069@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F61!!!!!!!!!!
+S!+24V!R54!2!@radiotelescope.schematic1(sch_1):ins94069@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F61!!!!!!!!!!
+S!+5V!R7!1!@radiotelescope.schematic1(sch_1):ins53875@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F60!!!!!!!!!!
+S!N53909!R7!2!@radiotelescope.schematic1(sch_1):ins53875@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F60!!!!!!!!!!
+S!+5V!R8!1!@radiotelescope.schematic1(sch_1):ins53891@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F59!!!!!!!!!!
+S!N53913!R8!2!@radiotelescope.schematic1(sch_1):ins53891@discrete.\r.normal\(chips)!R_SMR0805_10K!!!F59!!!!!!!!!!
+S!N58839!R16!1!@radiotelescope.schematic1(sch_1):ins59804@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F58!!!!!!!!!!
+S!N59824!R16!2!@radiotelescope.schematic1(sch_1):ins59804@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F58!!!!!!!!!!
+S!+24V!R31!1!@radiotelescope.schematic1(sch_1):ins38933@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F57!!!!!!!!!!
+S!N38974!R31!2!@radiotelescope.schematic1(sch_1):ins38933@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F57!!!!!!!!!!
+S!+24V!R32!1!@radiotelescope.schematic1(sch_1):ins39201@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F56!!!!!!!!!!
+S!N39239!R32!2!@radiotelescope.schematic1(sch_1):ins39201@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F56!!!!!!!!!!
+S!N32112!R39!1!@radiotelescope.schematic1(sch_1):ins33670@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F55!!!!!!!!!!
+S!N33654!R39!2!@radiotelescope.schematic1(sch_1):ins33670@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F55!!!!!!!!!!
+S!0!R40!1!@radiotelescope.schematic1(sch_1):ins33417@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F54!!!!!!!!!!
+S!N33531!R40!2!@radiotelescope.schematic1(sch_1):ins33417@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F54!!!!!!!!!!
+S!+24V!R41!1!@radiotelescope.schematic1(sch_1):ins43458@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F53!!!!!!!!!!
+S!N43524!R41!2!@radiotelescope.schematic1(sch_1):ins43458@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F53!!!!!!!!!!
+S!+24V!R42!1!@radiotelescope.schematic1(sch_1):ins43474@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F52!!!!!!!!!!
+S!N43572!R42!2!@radiotelescope.schematic1(sch_1):ins43474@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F52!!!!!!!!!!
+S!N43806!R50!1!@radiotelescope.schematic1(sch_1):ins43954@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F51!!!!!!!!!!
+S!N43998!R50!2!@radiotelescope.schematic1(sch_1):ins43954@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F51!!!!!!!!!!
+S!0!R51!1!@radiotelescope.schematic1(sch_1):ins44000@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F50!!!!!!!!!!
+S!N44064!R51!2!@radiotelescope.schematic1(sch_1):ins44000@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F50!!!!!!!!!!
+S!N92108!R53!1!@radiotelescope.schematic1(sch_1):ins92074@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F49!!!!!!!!!!
+S!+5V!R53!2!@radiotelescope.schematic1(sch_1):ins92074@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F49!!!!!!!!!!
+S!N87563!R6!1!@radiotelescope.schematic1(sch_1):ins57424@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F48!!!!!!!!!!
+S!+5V!R6!2!@radiotelescope.schematic1(sch_1):ins57424@discrete.\r.normal\(chips)!R_SMR0805_1K!!!F48!!!!!!!!!!
+S!N10882!R21!1!@radiotelescope.schematic1(sch_1):ins12303@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F47!!!!!!!!!!
+S!RX_FROM_PC!R21!2!@radiotelescope.schematic1(sch_1):ins12303@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F47!!!!!!!!!!
+S!N10888!R22!1!@radiotelescope.schematic1(sch_1):ins12335@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F46!!!!!!!!!!
+S!TX_TO_PC!R22!2!@radiotelescope.schematic1(sch_1):ins12335@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F46!!!!!!!!!!
+S!N21472!R23!1!@radiotelescope.schematic1(sch_1):ins18271@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F45!!!!!!!!!!
+S!0!R23!2!@radiotelescope.schematic1(sch_1):ins18271@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F45!!!!!!!!!!
+S!N21714!R24!1!@radiotelescope.schematic1(sch_1):ins21698@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F44!!!!!!!!!!
+S!0!R24!2!@radiotelescope.schematic1(sch_1):ins21698@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F44!!!!!!!!!!
+S!N21744!R25!1!@radiotelescope.schematic1(sch_1):ins21728@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F43!!!!!!!!!!
+S!0!R25!2!@radiotelescope.schematic1(sch_1):ins21728@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F43!!!!!!!!!!
+S!N21774!R26!1!@radiotelescope.schematic1(sch_1):ins21758@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F42!!!!!!!!!!
+S!0!R26!2!@radiotelescope.schematic1(sch_1):ins21758@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F42!!!!!!!!!!
+S!AZ_CONTROL1!R55!1!@radiotelescope.schematic1(sch_1):ins100760@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F41!!!!!!!!!!
+S!NAZ_CONTROL1!R55!2!@radiotelescope.schematic1(sch_1):ins100760@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F41!!!!!!!!!!
+S!AZ_CONTROL2!R56!1!@radiotelescope.schematic1(sch_1):ins100802@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F40!!!!!!!!!!
+S!NAZ_CONTROL2!R56!2!@radiotelescope.schematic1(sch_1):ins100802@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F40!!!!!!!!!!
+S!EL_CONTROL1!R57!1!@radiotelescope.schematic1(sch_1):ins100830@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F39!!!!!!!!!!
+S!NEL_CONTROL1!R57!2!@radiotelescope.schematic1(sch_1):ins100830@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F39!!!!!!!!!!
+S!EL_CONTROL2!R58!1!@radiotelescope.schematic1(sch_1):ins100858@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F38!!!!!!!!!!
+S!NEL_CONTROL2!R58!2!@radiotelescope.schematic1(sch_1):ins100858@discrete.\r.normal\(chips)!R_SMR0805_0R!!!F38!!!!!!!!!!
+S!N17212!R27!1!@radiotelescope.schematic1(sch_1):ins17043@discrete.\r.normal\(chips)!R_SMR0805_4.7K!!!F37!!!!!!!!!!
+S!N22307!R27!2!@radiotelescope.schematic1(sch_1):ins17043@discrete.\r.normal\(chips)!R_SMR0805_4.7K!!!F37!!!!!!!!!!
+S!N17635!R28!1!@radiotelescope.schematic1(sch_1):ins17407@discrete.\r.normal\(chips)!R_SMR0805_4.7K!!!F36!!!!!!!!!!
+S!N18573!R28!2!@radiotelescope.schematic1(sch_1):ins17407@discrete.\r.normal\(chips)!R_SMR0805_4.7K!!!F36!!!!!!!!!!
+S!N15288!R29!1!@radiotelescope.schematic1(sch_1):ins13246@discrete.\r.normal\(chips)!R_SMR0805_4.7K!!!F35!!!!!!!!!!
+S!FT232_NRST!R29!2!@radiotelescope.schematic1(sch_1):ins13246@discrete.\r.normal\(chips)!R_SMR0805_4.7K!!!F35!!!!!!!!!!
+S!N20299!R30!1!@radiotelescope.schematic1(sch_1):ins20422@discrete.\r.normal\(chips)!R_SMR0805_OMIT!!!F34!!!!!!!!!!
+S!0!R30!2!@radiotelescope.schematic1(sch_1):ins20422@discrete.\r.normal\(chips)!R_SMR0805_OMIT!!!F34!!!!!!!!!!
+S!N32112!R35!1!@radiotelescope.schematic1(sch_1):ins32662@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F33!!!!!!!!!!
+S!0!R35!2!@radiotelescope.schematic1(sch_1):ins32662@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F33!!!!!!!!!!
+S!N32112!R36!1!@radiotelescope.schematic1(sch_1):ins32584@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F32!!!!!!!!!!
+S!0!R36!2!@radiotelescope.schematic1(sch_1):ins32584@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F32!!!!!!!!!!
+S!N32112!R37!1!@radiotelescope.schematic1(sch_1):ins32610@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F31!!!!!!!!!!
+S!0!R37!2!@radiotelescope.schematic1(sch_1):ins32610@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F31!!!!!!!!!!
+S!N32112!R38!1!@radiotelescope.schematic1(sch_1):ins32636@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F30!!!!!!!!!!
+S!0!R38!2!@radiotelescope.schematic1(sch_1):ins32636@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F30!!!!!!!!!!
+S!N43806!R46!1!@radiotelescope.schematic1(sch_1):ins43874@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F29!!!!!!!!!!
+S!0!R46!2!@radiotelescope.schematic1(sch_1):ins43874@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F29!!!!!!!!!!
+S!N43806!R47!1!@radiotelescope.schematic1(sch_1):ins43890@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F28!!!!!!!!!!
+S!0!R47!2!@radiotelescope.schematic1(sch_1):ins43890@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F28!!!!!!!!!!
+S!N43806!R48!1!@radiotelescope.schematic1(sch_1):ins43906@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F27!!!!!!!!!!
+S!0!R48!2!@radiotelescope.schematic1(sch_1):ins43906@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F27!!!!!!!!!!
+S!N43806!R49!1!@radiotelescope.schematic1(sch_1):ins43922@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F26!!!!!!!!!!
+S!0!R49!2!@radiotelescope.schematic1(sch_1):ins43922@discrete.\r.normal\(chips)!R_SMR1206_50MR!!!F26!!!!!!!!!!
+S!N33531!R43!1!@radiotelescope.schematic1(sch_1):ins33401@discrete.\r.normal\(chips)!R_SMR0805_20K!!!F25!!!!!!!!!!
+S!AZ_CURRENT!R43!2!@radiotelescope.schematic1(sch_1):ins33401@discrete.\r.normal\(chips)!R_SMR0805_20K!!!F25!!!!!!!!!!
+S!N44064!R52!1!@radiotelescope.schematic1(sch_1):ins44102@discrete.\r.normal\(chips)!R_SMR0805_20K!!!F24!!!!!!!!!!
+S!EL_CURRENT!R52!2!@radiotelescope.schematic1(sch_1):ins44102@discrete.\r.normal\(chips)!R_SMR0805_20K!!!F24!!!!!!!!!!
+S!N18224!TP1!1!@radiotelescope.schematic1(sch_1):ins18210@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_RTS!!!F23!!!!!!!!!!
+S!N101284!TP16!1!@radiotelescope.schematic1(sch_1):ins101238@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_TP3!!!F22!!!!!!!!!!
+S!N101288!TP17!1!@radiotelescope.schematic1(sch_1):ins101256@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_TP3!!!F21!!!!!!!!!!
+S!N100934!TP3!1!@radiotelescope.schematic1(sch_1):ins100902@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_TP3!!!F20!!!!!!!!!!
+S!N100938!TP4!1!@radiotelescope.schematic1(sch_1):ins100922@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_TP3!!!F19!!!!!!!!!!
+S!N101010!TP6!1!@radiotelescope.schematic1(sch_1):ins100980@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_TP3!!!F18!!!!!!!!!!
+S!N101014!TP7!1!@radiotelescope.schematic1(sch_1):ins100998@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_TP3!!!F17!!!!!!!!!!
+S!N19574!TP2!1!@radiotelescope.schematic1(sch_1):ins19562@radiotelescope.\tp_1.normal\(chips)!TP_1_TP_USB ID!!!F16!!!!!!!!!!
+S!!U2!24!!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!!!!!!!!!!!
+S!!U2!8!!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!!!!!!!!!!!
+S!N11711!U2!17!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N17212!U2!23!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N17635!U2!22!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!!U2!13!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!!U2!14!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!!U2!12!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N21472!U2!11!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N21744!U2!10!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N21714!U2!9!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!!U2!2!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!0!U2!7!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!0!U2!18!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!0!U2!21!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!0!U2!25!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!!U2!27!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!!U2!28!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N10888!U2!5!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!FT232_NRST!U2!19!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N21774!U2!6!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N18224!U2!3!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!0!U2!26!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N10882!U2!1!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!USB_D-!U2!16!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!USB_D+!U2!15!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!+5V!U2!20!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!+5V!U2!4!@radiotelescope.schematic1(sch_1):ins7204@\interface-ft232rlssop28\.\interface-ft232rl.normal\(chips)!INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL!!!F14!!!!!!!!!!
+S!N33654!U3!3!@radiotelescope.schematic1(sch_1):ins64558@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F13!!!!!!!!!!
+S!N33531!U3!2!@radiotelescope.schematic1(sch_1):ins64558@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F13!!!!!!!!!!
+S!0!U3!4!@radiotelescope.schematic1(sch_1):ins64558@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F13!!!!!!!!!!
+S!0!U3!4!@radiotelescope.schematic1(sch_1):ins65828@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F12!!!!!!!!!!
+S!AZ_CURRENT!U3!1!@radiotelescope.schematic1(sch_1):ins64558@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F13!!!!!!!!!!
+S!+5V!U3!8!@radiotelescope.schematic1(sch_1):ins64558@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F13!!!!!!!!!!
+S!+5V!U3!8!@radiotelescope.schematic1(sch_1):ins65828@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F12!!!!!!!!!!
+S!N43998!U3!5!@radiotelescope.schematic1(sch_1):ins65828@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F12!!!!!!!!!!
+S!N44064!U3!6!@radiotelescope.schematic1(sch_1):ins65828@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F12!!!!!!!!!!
+S!EL_CURRENT!U3!7!@radiotelescope.schematic1(sch_1):ins65828@opamp.\tlc27m2.normal\(chips)!TLC27M2_SOIC8_TLC27M2!!!F12!!!!!!!!!!
+S!0!U4!7!!74HCT14_SOIC14_74HCT14_+5V_0!!!!!!!!!!!!!
+S!+5V!U4!14!!74HCT14_SOIC14_74HCT14_+5V_0!!!!!!!!!!!!!
+S!N52322!U4!1!@radiotelescope.schematic1(sch_1):ins74053@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F11!!!!!!!!!!
+S!AZ_ENCODER2!U4!2!@radiotelescope.schematic1(sch_1):ins74053@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F11!!!!!!!!!!
+S!N52332!U4!3!@radiotelescope.schematic1(sch_1):ins74270@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F10!!!!!!!!!!
+S!AZ_ENCODER1!U4!4!@radiotelescope.schematic1(sch_1):ins74270@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F10!!!!!!!!!!
+S!N53909!U4!5!@radiotelescope.schematic1(sch_1):ins74485@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F9!!!!!!!!!!
+S!EL_ENCODER2!U4!6!@radiotelescope.schematic1(sch_1):ins74485@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F9!!!!!!!!!!
+S!N53913!U4!9!@radiotelescope.schematic1(sch_1):ins74702@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F8!!!!!!!!!!
+S!EL_ENCODER1!U4!8!@radiotelescope.schematic1(sch_1):ins74702@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F8!!!!!!!!!!
+S!0!U4!11!@radiotelescope.schematic1(sch_1):ins74917@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F7!!!!!!!!!!
+S!!U4!10!@radiotelescope.schematic1(sch_1):ins74917@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F7!!!!!!!!!!
+S!N126718!U4!13!@radiotelescope.schematic1(sch_1):ins75132@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F6!!!!!!!!!!
+S!AUX1!U4!12!@radiotelescope.schematic1(sch_1):ins75132@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F6!!!!!!!!!!
+S!0!U5!7!!74HCT14_SOIC14_74HCT14_+5V_0!!!!!!!!!!!!!
+S!+5V!U5!14!!74HCT14_SOIC14_74HCT14_+5V_0!!!!!!!!!!!!!
+S!0!U5!1!@radiotelescope.schematic1(sch_1):ins80512@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F5!!!!!!!!!!
+S!!U5!2!@radiotelescope.schematic1(sch_1):ins80512@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F5!!!!!!!!!!
+S!EXT_LED!U5!3!@radiotelescope.schematic1(sch_1):ins80727@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F4!!!!!!!!!!
+S!N58839!U5!4!@radiotelescope.schematic1(sch_1):ins80727@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F4!!!!!!!!!!
+S!N60420!U5!5!@radiotelescope.schematic1(sch_1):ins80942@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F3!!!!!!!!!!
+S!BUTTON2!U5!6!@radiotelescope.schematic1(sch_1):ins80942@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F3!!!!!!!!!!
+S!N60515!U5!9!@radiotelescope.schematic1(sch_1):ins81157@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F2!!!!!!!!!!
+S!BUTTON3!U5!8!@radiotelescope.schematic1(sch_1):ins81157@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F2!!!!!!!!!!
+S!N60320!U5!11!@radiotelescope.schematic1(sch_1):ins81372@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F1!!!!!!!!!!
+S!BUTTON1!U5!10!@radiotelescope.schematic1(sch_1):ins81372@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F1!!!!!!!!!!
+S!N126733!U5!13!@radiotelescope.schematic1(sch_1):ins81587@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F0!!!!!!!!!!
+S!AUX2!U5!12!@radiotelescope.schematic1(sch_1):ins81587@gate.\74hct14.normal\(chips)!74HCT14_SOIC14_74HCT14_+5V_0!!!F0!!!!!!!!!!
