@@ -1,5 +1,11 @@
 # Radio Telescope PCB
-This Repository contains the design files for a control PCB for a small scale radio telescope project. 
+This Repository contains the design files for a control PCB for Penn State Harrisburg Radio telescope project. 
+
+This project runs an embedded microcontroller PCB which controls the alt-az motor system. It communicates over USB with a PC.
+
+Firmware repository: https://github.com/drkntz/radiotelescope-firmware
+
+Main program software: https://github.com/RidhaChowdhury/MiniRadioTelescope
 
 Created by Zach Martin, Aaron Olsen, Loc Pham. 
 Init date October 2022. 
