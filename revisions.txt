@@ -2,6 +2,12 @@ Revisions to Radiotelescope Project PCB design.
 Revision log is in reverse chronological order.
 ==================== ADD REVISION NOTES BELOW THIS LINE ====================
 
+2/15/23 and 2/16/23 Aaron Olsen: Various edits to the PCD layout. Moved U5A inverter to J4 connector rather
+than U4F so the trace doesn't go across the board. PCB layout is finished. 
+Extra headers/pin connections were placed at the outside of the board. 
+
+2/13/23 Aaron Olsen: Rearranged some of the silk screen to look better. Rearranged some components for easier connections. 
+
 2/9/23 Zach Martin: Added all components and laid out ftdi USB-UART section
 
 2/5/23 Zach Martin: Completing both H-bridges and current sensors

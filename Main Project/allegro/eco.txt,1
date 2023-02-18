@@ -3,77 +3,16 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  s:.../radiotelescope-pcb/main project/allegro/radiotelescope.brd            |
-|                                                    Mon Feb  6 16:38:14 2023  |
+|                                                    Thu Feb  9 14:46:44 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| NET PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|     net  name   |   property   |                    value                    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  0            pins MOVED FROM this net (to net name listed on right)
-                                 U5.5                           
-                                                                         N60420
-                                 U5.9                           
-                                                                         N60515
-                                 U5.11                          
-                                                                         N60320
-                                 U5.13                          
-                                                                        N126733
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  AUX1         pins MOVED FROM this net (to net name listed on right)
-                                 J4.2            -1050.0 -1725.0
-                                                                        N126718
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  AUX2         pins MOVED FROM this net (to net name listed on right)
-                                 J4.3            -1150.0 -1725.0
-                                                                        N126733
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.12                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BUTTON1      pins DELETED FROM this net (pin now not on any net)
-                                 U4.10            -77.50 1325.00
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.10                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BUTTON2      pins MOVED FROM this net (to net name listed on right)
-                                 U4.12            -77.50 1425.00
-                                                                           AUX1
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.6                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BUTTON3      pins DELETED FROM this net (pin now not on any net)
-                                 U5.2                           
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.8                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43528       net RENAMED (to net name listed on right)           N43572       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N60320       pins MOVED FROM this net (to net name listed on right)
-                                 U4.11            -77.50 1375.00
-                                                                              0
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ USB_D+            DIFFERENTIAL_P DP1
+ USB_D-            DIFFERENTIAL_P DP1
 |------------------------------------------------------------------------------|
-|  s:.../radiotelescope-pcb/main project/allegro/radiotelescope.brd            |
-|                                                    Mon Feb  6 16:38:14 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N60420       pins MOVED FROM this net (to net name listed on right)
-                                 U4.13            -77.50 1475.00
-                                                                        N126718
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N60515       pins MOVED FROM this net (to net name listed on right)
-                                 U5.1                           
-                                                                              0
-|------------------------------------------------------------------------------|
-|       Nets changed          :      17                                        |
+|       Net property added    :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      17                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

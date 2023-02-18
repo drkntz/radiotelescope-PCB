@@ -2,17 +2,146 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  s:.../radiotelescope-pcb/main project/allegro/radiotelescope.brd            |
-|                                                    Thu Feb  9 14:46:44 2023  |
+|  C:.../radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd        |
+|                                                    Thu Feb 16 15:02:17 2023  |
 |------------------------------------------------------------------------------|
-| NET PROPERTIES added to design                                               |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|     net  name   |   property   |                    value                    |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- USB_D+            DIFFERENTIAL_P DP1
- USB_D-            DIFFERENTIAL_P DP1
+  0            pins MOVED FROM this net (to net name listed on right)
+                                 U5.1            -1322.5 -1175.0
+                                                                        N126718
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUX1         pins DELETED FROM this net (pin now not on any net)
+                                 U4.12            347.50 1450.00
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.2            -1322.5 -1225.0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N126718      pins MOVED FROM this net (to net name listed on right)
+                                 U4.13            347.50 1500.00
+                                                                              0
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Net property added    :       2                                        |
+|  C:.../radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd        |
+|                                                    Thu Feb 16 15:02:17 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 2N3904_0_SMSOT23BEC_MMBT4401LT1
+ 4 HEADER_BLKCON100VHTM1SQSW1004
+ 4 HEADER_BLKCON156VHTM1SQSW1564
+ 1050170001_MOLEX_1050170001_105
+ BZX84C5V1/SOT_1_SOT23_BZX84C5V1
+ CON3_BLKCON156VHTM1SQSW1563_3-M
+ CON8_BLKCON100VHTM1SQSW1008_SPA
+ CON10_BLKCON100VHTM1SQW10010_CO
+ DIODE SCHOTTKY_1_SMDO214AA_SK24
+ HEADER 2_BLKCON100VHTM1SQW1002_
+ INTERFACE-FT232RL_SSOP28-065-10
+ PIC24FV32KA304_0_PQFP44_PIC24FV
+ TC2030-IDC-NL_TAG_TC2030-IDC-NL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd        |
+|                                                    Thu Feb 16 15:02:17 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D4                  BZX84C5V1/SOT_1_SOT23_BZX84C5V1 2100.00 1670.00 BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT
+ D7                  BZX84C5V1/SOT_1_SOT23_BZX84C5V1 1250.00  270.00 BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT
+ D10                 BZX84C5V1/SOT_1_SOT23_BZX84C5V1 1125.00 -425.00 BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT
+ D13                 BZX84C5V1/SOT_1_SOT23_BZX84C5V1 1250.00 -1870.0 BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT
+ D17                 DIODE SCHOTTKY_1_SMDO214AA_SK24 -700.00 1425.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D19                 DIODE SCHOTTKY_1_SMDO214AA_SK24 1600.00 -670.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D20                 DIODE SCHOTTKY_1_SMDO214AA_SK24 1600.00 1470.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D21                 DIODE SCHOTTKY_1_SMDO214AA_SK24 1600.00  720.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D22                 DIODE SCHOTTKY_1_SMDO214AA_SK24 2100.00 1270.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D23                 DIODE SCHOTTKY_1_SMDO214AA_SK24 2100.00  920.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D24                 DIODE SCHOTTKY_1_SMDO214AA_SK24 1600.00 -1420.0 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D25                 DIODE SCHOTTKY_1_SMDO214AA_SK24 2100.00 -870.00 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ D26                 DIODE SCHOTTKY_1_SMDO214AA_SK24 2100.00 -1220.0 DIODE SCHOTTKY_1_SMDO214AA_SK24-TP
+ J1                  TC2030-IDC-NL_TAG_TC2030-IDC-NL -1750.0 -175.00 TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL
+ J2                  4 HEADER_BLKCON100VHTM1SQSW1004 -150.00 1800.00 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100
+ J3                  4 HEADER_BLKCON100VHTM1SQSW1004  575.00 1800.00 4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100
+ J4                  CON10_BLKCON100VHTM1SQW10010_CO -1000.0 -1750.0 CON10_BLKCON100VHTM1SQW10010_CON10
+ J5                  1050170001_MOLEX_1050170001_105 -1800.0 1925.00 1050170001_MOLEX_1050170001_1050170001
+ J6                  CON3_BLKCON156VHTM1SQSW1563_3-M 2700.00 1220.00 CON3_BLKCON156VHTM1SQSW1563_3-MTA-156
+ J7                  4 HEADER_BLKCON156VHTM1SQSW1564 2100.00  200.00 4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156
+ J8                  CON3_BLKCON156VHTM1SQSW1563_3-M 2700.00 -920.00 CON3_BLKCON156VHTM1SQSW1563_3-MTA-156
+ J9                  HEADER 2_BLKCON100VHTM1SQW1002_ -675.00 1875.00 HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100
+ J10                 CON8_BLKCON100VHTM1SQSW1008_SPA -2500.0  450.00 CON8_BLKCON100VHTM1SQSW1008_SPARE
+ Q3                  2N3904_0_SMSOT23BEC_MMBT4401LT1 2050.00 1820.00 2N3904_0_SMSOT23BEC_MMBT4401LT1G
+ Q4                  2N3904_0_SMSOT23BEC_MMBT4401LT1 1050.00  270.00 2N3904_0_SMSOT23BEC_MMBT4401LT1G
+ Q9                  2N3904_0_SMSOT23BEC_MMBT4401LT1  925.00 -425.00 2N3904_0_SMSOT23BEC_MMBT4401LT1G
+ Q10                 2N3904_0_SMSOT23BEC_MMBT4401LT1 1050.00 -1870.0 2N3904_0_SMSOT23BEC_MMBT4401LT1G
+ U1                  PIC24FV32KA304_0_PQFP44_PIC24FV -550.00  150.00 PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1
+ U2                  INTERFACE-FT232RL_SSOP28-065-10 -1775.0 1500.00 INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd        |
+|                                                    Thu Feb 16 15:02:17 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D4.3           2100.00 1670.00 PRIM_FILE      .\pstchip.dat
+ D7.3           1250.00  270.00 PRIM_FILE      .\pstchip.dat
+ D10.3          1125.00 -425.00 PRIM_FILE      .\pstchip.dat
+ D13.3          1250.00 -1870.0 PRIM_FILE      .\pstchip.dat
+ D17.C          -700.00 1425.00 PRIM_FILE      .\pstchip.dat
+ D19.C          1600.00 -670.00 PRIM_FILE      .\pstchip.dat
+ D20.C          1600.00 1470.00 PRIM_FILE      .\pstchip.dat
+ D21.C          1600.00  720.00 PRIM_FILE      .\pstchip.dat
+ D22.C          2100.00 1270.00 PRIM_FILE      .\pstchip.dat
+ D23.C          2100.00  920.00 PRIM_FILE      .\pstchip.dat
+ D24.C          1600.00 -1420.0 PRIM_FILE      .\pstchip.dat
+ D25.C          2100.00 -870.00 PRIM_FILE      .\pstchip.dat
+ D26.C          2100.00 -1220.0 PRIM_FILE      .\pstchip.dat
+ J1.6           -1750.0 -175.00 PRIM_FILE      .\pstchip.dat
+ J2.4           -150.00 1800.00 PRIM_FILE      .\pstchip.dat
+ J3.4            575.00 1800.00 PRIM_FILE      .\pstchip.dat
+ J4.9           -1000.0 -1750.0 PRIM_FILE      .\pstchip.dat
+ J5.SH8         -1800.0 1925.00 PRIM_FILE      .\pstchip.dat
+ J6.3           2700.00 1220.00 PRIM_FILE      .\pstchip.dat
+ J7.4           2100.00  200.00 PRIM_FILE      .\pstchip.dat
+ J8.3           2700.00 -920.00 PRIM_FILE      .\pstchip.dat
+ J9.2           -675.00 1875.00 PRIM_FILE      .\pstchip.dat
+ J10.8          -2500.0  450.00 PRIM_FILE      .\pstchip.dat
+ Q3.E           2050.00 1820.00 PRIM_FILE      .\pstchip.dat
+ Q4.E           1050.00  270.00 PRIM_FILE      .\pstchip.dat
+ Q9.E            925.00 -425.00 PRIM_FILE      .\pstchip.dat
+ Q10.E          1050.00 -1870.0 PRIM_FILE      .\pstchip.dat
+ U1.18          -550.00  150.00 PRIM_FILE      .\pstchip.dat
+ U2.4           -1775.0 1500.00 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd        |
+|                                                    Thu Feb 16 15:02:17 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
+|       Comp definitions added:      13                                        |
+|       Components changed    :      29                                        |
+|       Slot property added   :      29                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:      75                                        |
 |------------------------------------------------------------------------------|

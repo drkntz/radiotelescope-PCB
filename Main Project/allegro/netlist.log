@@ -1,12 +1,12 @@
-{ Using PSTWRITER 17.4.0 d001Feb-09-2023 at 14:46:43 }
+{ Using PSTWRITER 17.4.0 d001Feb-16-2023 at 14:59:27 }
 
 INFO(ORCAP-36080): Scanning netlist files ...
 
-Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstchip.dat
+Loading... c:\users\aaron\documents\classes\ee 406\work on schematic\radiotelescope-pcb\main project\allegro\pstchip.dat
 
-Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstchip.dat
+Loading... c:\users\aaron\documents\classes\ee 406\work on schematic\radiotelescope-pcb\main project\allegro\pstchip.dat
 
-Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstxprt.dat
+Loading... c:\users\aaron\documents\classes\ee 406\work on schematic\radiotelescope-pcb\main project\allegro\pstxprt.dat
 
-Loading... s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro\pstxnet.dat
+Loading... c:\users\aaron\documents\classes\ee 406\work on schematic\radiotelescope-pcb\main project\allegro\pstxnet.dat
 packaging the design view...
