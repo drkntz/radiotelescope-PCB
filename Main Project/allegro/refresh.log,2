@@ -1,0 +1,83 @@
+Sat Feb 18 15:13:33 2023				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Sat Feb 18 15:13:33 2023
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : radiotelescope.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sat Feb 18 15:13:33 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Feb 18 15:13:33 2023				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/zach/AppData/Local/Temp/#Taaaaag11176.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           ../symbols/INTERFACE-FT232RL(SSOP28) 
+           ../symbols/PIC24FV32KA304-I-PT 
+           ../symbols/TC2030-IDC-NL 
+           ../symbols/USB_1050170001 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'TAG_TC2030-IDC-NL'  symbol refreshed successfully.
+
+
+------ Updating padstacks referring to the refreshed shapes and flash symbols.  ------
+
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+

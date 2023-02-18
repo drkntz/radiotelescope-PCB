@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TAG_TC2030-IDC-NL.dra                         )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sat Feb 18 14:47:31 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = S:/projects/radiotelescope/radiotelescope-PCB/Main Project/symbols
+    Name      = tag_tc2030-idc-nl.psm
+    User      = zach
+    Machine   = DESKTOP-NLG79LP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

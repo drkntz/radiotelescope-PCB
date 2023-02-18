@@ -1,0 +1,17 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Logo Import Log File                                             )
+(                                                                     )
+(    Drawing          : logo.dra                                      )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sat Feb 18 13:39:51 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Logo File: S:/projects/radiotelescope/logo/radiotelescope-logo_blk_2.bmp
+Logo to be added on:  BOARD GEOMETRY/SILKSCREEN_TOP
+
+Cannot import logo because the file format is not supported. Open the logo file in MS Paint, save as 16 Color Bitmap file (.bmp), and then import the logo again.
+
+Logo Import Failed

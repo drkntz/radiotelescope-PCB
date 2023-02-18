@@ -2,9 +2,9 @@
 (                                                                     )
 (    Dangling Line, Via and Antenna Report                            )
 (                                                                     )
-(    Drawing          : radiotelescope.brd                            )
+(    Drawing          : TAG_TC2030-IDC-NL.dra                         )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sat Feb 18 15:28:32 2023                      )
+(    Date/Time        : Sat Feb 18 15:11:13 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,17 +22,8 @@ Report methodology:
   - To suppress items in dangle report add the OK_DANGLE property to the via
     or connect line.
 
-<< Dangling Lines >>  - Location marked with a star (*) is dangling.
-  Net                 Layer                  Length       Location
-  ------------------------------------------------------------------------------------------
-  N09584               TOP                   245.00     *(-1041.00 118.00) to  (-796.00 118.00)
-  N43806               TOP                    40.00     *(2060.00 -685.00) to  (2100.00 -685.00)
-  AZ_M-                TOP                   123.99     *(1975.00 1400.00) to  (1880.00 1330.00)
-  AZ_M+                TOP                   109.85     *(2225.00 800.00) to  (2310.00 860.00)
-  AZ_M+                TOP                   134.85     *(1725.00 800.00) to  (1835.00 860.00)
-  N60320               TOP                    12.50      (-1127.50 -1325.00) to *(-1140.00 -1325.00)
 
 << Summary >>
-  Total dangling lines:       6
+  Total dangling lines:       0
   Total dangling vias:        0
   Total antenna vias:         0

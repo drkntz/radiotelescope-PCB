@@ -1,0 +1,58 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : TAG_TC2030-IDC-NL.dra                         )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sat Feb 18 15:03:24 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Feb 18 15:03:24 2023				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'S:/projects/radiotelescope/radiotelescope-PCB/Main Project/symbols/TAG_TC2030-IDC-NL.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           ../symbols/INTERFACE-FT232RL(SSOP28) 
+           ../symbols/PIC24FV32KA304-I-PT 
+           ../symbols/TC2030-IDC-NL 
+           ../symbols/USB_1050170001 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/padstacks 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'TAG_C_MOUNT'  pad stack refresh starting.
+
+     'TAG_C_MOUNT'  pad stack refreshed successfully.
+     
+'S_R78T78D10M78_78'  pad stack refresh starting.
+
+     'S_R78T78D10M78_78'  pad stack refreshed successfully.
+     
+'H_C99'  pad stack refresh starting.
+
+     'H_C99'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

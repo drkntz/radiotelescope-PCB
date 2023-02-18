@@ -1,54 +1,23 @@
-\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Thu Feb  2 12:43:22 2023
-\t (00:00:01)         Host=DESKTOP-NLG79LP User=zach Pid=8400 CPUs=4
-\t (00:00:01) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe S:\projects\radiotelescope\radiotelescope-PCB\Main Project\symbols\TC2030-IDC-NL\TAG_TC2030-IDC-NL.dra
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged TAG_TC2030-IDC-NL
-\d (00:00:03) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/symbols/TC2030-IDC-NL/TAG_TC2030-IDC-NL.dra
-\i (00:00:03) trapsize 15690
-\i (00:00:03) trapsize 17786
-\i (00:00:04) trapsize 15690
-\i (00:00:04) trapsize 33286
-\i (00:00:04) trapsize 33286
-\i (00:00:04) trapsize 4750
-\i (00:00:04) generaledit 
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in -1.0481 -0.3272
-\i (00:00:06) trapsize 2375
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in -1.0481 -0.3271
-\i (00:00:06) trapsize 1188
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in -1.0480 -0.3271
-\i (00:00:06) trapsize 594
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in -1.0480 -0.3271
-\i (00:00:06) trapsize 297
-\i (00:00:08) pick grid -1.3746 0.5102
-\t (00:00:08) last pick:  -2.5400 0.0000
-\i (00:00:08) prepopup -1.3746 0.5102
-\i (00:00:11) pick grid -1.1490 0.8011
-\t (00:00:11) last pick:  0.0000 0.0000
-\i (00:00:11) pick grid -1.1490 0.8011
-\t (00:00:11) last pick:  0.0000 0.0000
-\i (00:00:11) pick grid dbl -1.1490 0.8011
-\t (00:00:11) last pick:  0.0000 0.0000
-\i (00:00:13) pick grid -1.1668 0.7002
-\t (00:00:13) last pick:  0.0000 0.0000
-\i (00:00:13) pick grid -0.2048 0.6170
-\t (00:00:13) last pick:  0.0000 0.0000
-\i (00:00:18) padeditdb 
-\i (00:00:22) setwindow form.mini
-\i (00:00:22) FORM mini padlist H_C99 
-\i (00:00:23) FORM mini padlist S_R78T78D10M78_78 
-\i (00:00:23) FORM mini padlist H_C99 
-\i (00:00:25) FORM mini padlist S_R78T78D10M78_78 
-\i (00:01:47) setwindow pcb
-\i (00:01:47) exit 
-\t (00:01:47)     Journal end - Thu Feb  2 12:45:08 2023
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Feb 18 15:13:05 2023
+\t (00:00:02)         Host=DESKTOP-NLG79LP User=zach Pid=11176 CPUs=4
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "TAG_TC2030-IDC-NL"
+\d (00:00:05) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/symbols/TAG_TC2030-IDC-NL.dra
+\i (00:00:05) trapsize 513
+\i (00:00:05) trapsize 527
+\i (00:00:05) trapsize 513
+\i (00:00:05) trapsize 605
+\i (00:00:05) trapsize 624
+\i (00:00:06) generaledit 
+\i (00:00:11) opencd 'S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd' 
+\t (00:00:11) Opening existing design...
+\i (00:00:11) trapsize 1628
+\i (00:00:11) trapsize 1684
+\i (00:00:11) trapsize 1628
+\i (00:00:11) trapsize 1628
+\t (00:00:12) > Sending response DoneOpenBoard
+\t (00:00:12)     Journal end - Sat Feb 18 15:13:15 2023

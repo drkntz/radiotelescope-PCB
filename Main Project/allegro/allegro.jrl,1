@@ -1,131 +1,42 @@
-\t (00:00:04) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Thu Feb 16 17:02:35 2023
-\t (00:00:04)         Host=AARON-LAPTOP User=Aaron Pid=8020 CPUs=8
-\t (00:00:04) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe C:\Users\Aaron\Documents\Classes\EE 406\Work on Schematic\radiotelescope-pcb\Main Project\allegro\radiotelescope.brd
-\t (00:00:04) 
-   (00:00:04) Loading axlcore.cxt 
-\t (00:00:07) Opening existing design...
-\i (00:00:18) fillin yes 
-\i (00:00:18) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
-\d (00:00:18) Design opened: C:/Users/Aaron/Documents/Classes/EE 406/Work on Schematic/radiotelescope-pcb/Main Project/allegro/radiotelescope.brd
-\i (00:00:18) trapsize 1176
-\i (00:00:19) trapsize 1198
-\i (00:00:19) trapsize 1176
-\i (00:00:19) trapsize 1176
-\t (00:00:19) > Sending response DoneOpenBoard
-\i (00:00:20) generaledit 
-\i (00:00:20) zoom out 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom out -1861.36 831.76
-\i (00:00:20) trapsize 2349
-\i (00:00:21) zoom in 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom in -1275.84 857.52
-\i (00:00:21) trapsize 1175
-\i (00:00:22) roam start
-\i (00:00:23) roam x -16
-\i (00:00:23) roam y -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam y -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x 16
-\i (00:00:23) roam x 32
-\i (00:00:23) roam y 32
-\i (00:00:23) roam x 16
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 16
-\i (00:00:23) roam x 16
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 16
-\i (00:00:23) roam x 48
-\i (00:00:23) roam y 48
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 16
-\i (00:00:23) roam x 32
-\i (00:00:23) roam y 32
-\i (00:00:23) roam x 32
-\i (00:00:23) roam y 16
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 32
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 32
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 32
-\i (00:00:23) roam x 16
-\i (00:00:23) roam y 16
-\i (00:00:23) roam y 16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam y -16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam y -16
-\i (00:00:24) roam y -16
-\i (00:00:24) roam x -16
-\i (00:00:25) roam x 16
-\i (00:00:25) roam end
-\i (00:00:27) 3d 
-\i (00:00:32) generaledit 
-\i (00:00:35) QtSignal pcb3dViewerCamMenu Top triggered
-\i (00:00:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1305 788 1305 882 0 0 120
-\i (00:00:36) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1317 793 1317 887 0 0 120
-\i (00:00:37) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1348 801 1348 895 0 0 -120
-\i (00:00:38) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1346 801 1346 895 0 0 120
-\i (00:01:00) zoom in 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom in 1393.04 -765.89
-\i (00:01:00) trapsize 587
-\i (00:01:01) zoom in 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom in 1391.87 -764.72
-\i (00:01:01) trapsize 294
-\i (00:01:01) prepopup 1147.54 -762.95
-\i (00:01:02) prepopup 1198.05 -822.86
-\i (00:01:04) pop dyn_option_select 'Super filter@:@Text' 
-\i (00:01:04) drag_start grid 1318.46 -714.79
-\i (00:01:04) drag_stop 1469.40 -676.61
-\i (00:01:05) prepopup 1465.88 -706.57
-\i (00:01:05) pop dyn_option_select @:@Move 
-\i (00:01:05) move 
-\t (00:01:05) last pick:  1470.00 -710.00
-\t (00:01:05) Pick new location for the element(s).
-\i (00:01:06) prepopup 1407.73 -715.96
-\i (00:01:06) rotate 
-\t (00:01:06) Spin the element(s).
-\i (00:01:07) iangle 90.000
-\t (00:01:07) last angle:  +90.000 Degrees
-\i (00:01:08) pick grid 1345.47 -851.05
-\t (00:01:08) last pick:  1350.00 -850.00
-\i (00:01:08) generaledit 
-\i (00:01:08) prepopup 1221.54 -836.96
-\i (00:01:09) pick grid 1202.16 -815.22
-\t (00:01:09) last pick:  1200.00 -820.00
-\i (00:01:09) zoom out 1 
-\i (00:01:09) setwindow pcb
-\i (00:01:09) zoom out 1204.51 -802.89
-\i (00:01:09) trapsize 587
-\i (00:01:09) zoom out 1 
-\i (00:01:09) setwindow pcb
-\i (00:01:09) zoom out 1204.51 -795.84
-\i (00:01:09) trapsize 1175
-\i (00:02:10) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777249 67108864 false 1
-\i (00:02:10) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 83 67108864 false 1 
-\i (00:02:12) save 
-\i (00:02:16) fillin yes 
-\e (00:02:16) File "radiotelescope.brd" is being edited by user "Aaron" on date "Mon Feb 13 15:53:52 2023" on system "AARON-LAPTOP".  Save design to another name or contact user to remove their lock.
-\i (00:02:17) fillin confirm
-\i (00:02:18) generaledit 
-\i (00:02:23) exit 
-\e (00:02:23) Do you want to save the changes you made to radiotelescope.brd?
-\i (00:02:25) fillin yes 
-\e (00:02:25) File "radiotelescope.brd" is being edited by user "Aaron" on date "Mon Feb 13 15:53:52 2023" on system "AARON-LAPTOP".  Save design to another name or contact user to remove their lock.
-\i (00:02:26) fillin confirm
-\i (00:02:26) generaledit 
-\i (00:02:27) exit 
-\e (00:02:27) Do you want to save the changes you made to radiotelescope.brd?
-\i (00:02:27) fillin no 
-\i (00:02:27) QtSignal pcb3dViewer pcb3dViewer closed
-\t (00:02:28)     Journal end - Thu Feb 16 17:04:58 2023
+\t (00:00:12) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Sat Feb 18 15:13:15 2023
+\t (00:00:12)         Host=DESKTOP-NLG79LP User=zach Pid=11176 CPUs=4
+\t (00:00:12) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:12) 
+\d (00:00:12) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:12) trapsize 1197
+\i (00:00:12) generaledit 
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in -1898.85 -174.74
+\i (00:00:12) trapsize 598
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -1898.85 -174.74
+\i (00:00:13) trapsize 299
+\i (00:00:13) prepopup -2025.68 -141.23
+\i (00:00:14) pick grid -2108.24 -113.71
+\t (00:00:14) last pick:  -2110.00 -110.00
+\i (00:00:21) refresh symbol 
+\i (00:00:23) setwindow form.upd_element
+\i (00:00:23) FORM upd_element tree  'Package symbols' 
+\i (00:00:26) FORM upd_element tree  TAG_TC2030-IDC-NL 'Package symbols' 
+\i (00:00:26) FORM upd_element tree 'MULTISEL YES' TAG_TC2030-IDC-NL 'Package symbols' 
+\i (00:00:30) FORM upd_element refresh  
+\t (00:00:30) Starting Refresh Symbol...
+\t (00:00:30) Opening existing design...
+\i (00:00:30) setwindow pcb
+\i (00:00:30) trapsize 299
+\i (00:00:34) setwindow form.upd_element
+\i (00:00:34) FORM upd_element close  
+\i (00:00:34) setwindow pcb
+\i (00:00:34) generaledit 
+\i (00:00:37) opencd 'S:/projects/radiotelescope/radiotelescope-PCB/Main Project/symbols/TAG_TC2030-IDC-NL.dra' 
+\e (00:00:37) Do you want to save the changes you made to S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd?
+\i (00:00:39) fillin yes 
+\t (00:00:39) Opening existing design...
+\i (00:00:39) trapsize 445
+\i (00:00:39) trapsize 456
+\i (00:00:39) trapsize 445
+\i (00:00:39) trapsize 630
+\t (00:00:39)     Journal end - Sat Feb 18 15:13:42 2023

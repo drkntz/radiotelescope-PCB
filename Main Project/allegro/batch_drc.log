@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : radiotelescopetemp.brd                        )
-(    Software Version : 17.4P001                                      )
-(    Date/Time        : Thu Feb 16 15:02:59 2023                      )
+(    Drawing          : radiotelescope.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sat Feb 18 15:19:16 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  4
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
