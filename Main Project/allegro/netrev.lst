@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : radiotelescopetemp.brd                        )
-(    Software Version : unreleased                                    )
-(    Date/Time        : Thu Feb 16 15:02:17 2023                      )
+(    Drawing          : radiotelescope.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Feb 19 16:44:58 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,52 +17,56 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '.'
-Design Directory:            'C:/Users/Aaron/Documents/Classes/EE 406/Work on Schematic/radiotelescope-pcb/Main Project/allegro'
-Old design name:             'C:/Users/Aaron/Documents/Classes/EE 406/Work on Schematic/radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd'
-New design name:             'C:/Users/Aaron/Documents/Classes/EE 406/Work on Schematic/radiotelescope-pcb/Main Project/allegro/radiotelescopetemp.brd'
+Schematic directory:         's:\projects\radiotelescope\radiotelescope-pcb\main project\allegro'
+Design Directory:            's:/projects/radiotelescope/radiotelescope-pcb/main project/allegro'
+Old design name:             's:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/radiotelescope.brd'
+New design name:             's:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/radiotelescope.brd'
 
-CmdLine: netrev -y 1 -h -q netrev_constraint_report.xml C:/Users/Aaron/Documents/Classes/EE 406/Work on Schematic/radiotelescope-pcb/Main Project/allegro/#Taaaado23048.tmp
+CmdLine: netrev -y 1 -i s:\projects\radiotelescope\radiotelescope-pcb\main project\allegro -h -q netrev_constraint_report.xml s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/#Taaaaaf18544.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read ./pstchip.dat 
-   Finished reading ./pstchip.dat (00:00:00.01)
-Starting to read ./pstxprt.dat 
-   Finished reading ./pstxprt.dat (00:00:00.00)
-Starting to read ./pstxnet.dat 
-   Finished reading ./pstxnet.dat (00:00:00.00)
+Starting to read s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/pstchip.dat 
+   Finished reading s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/pstchip.dat (00:00:00.02)
+Starting to read s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/pstxprt.dat 
+   Finished reading s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/pstxprt.dat (00:00:00.00)
+Starting to read s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/pstxnet.dat 
+   Finished reading s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/cadence/spb_17.4/share/local/pcb/modules 
+           C:/Cadence/SPB_17.4/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.4/share/local/pcb/symbols 
-           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           ../symbols/INTERFACE-FT232RL(SSOP28) 
+           ../symbols/PIC24FV32KA304-I-PT 
+           ../symbols/TC2030-IDC-NL 
+           ../symbols/USB_1050170001 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.4/share/local/pcb/padstacks 
-           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Feb 16 15:02:17 2023
+netrev run on Feb 19 16:44:58 2023
    DESIGN NAME : 'RADIOTELESCOPE'
-   PACKAGING ON Oct  7 2019 04:16:49
+   PACKAGING ON Jan 14 2023 14:52:27
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -85,6 +89,6 @@ netrev run on Feb 16 15:02:17 2023
  No oversight detected
  No warning detected
 
-cpu time      0:02:20
-elapsed time  0:00:01
+cpu time      0:00:53
+elapsed time  0:00:00
 

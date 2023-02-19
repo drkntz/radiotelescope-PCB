@@ -1,5 +1,5 @@
 A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
-J!S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd!Sun Feb 19 15:45:21 2023!-5500.00!-4250.00!5500.00!4250.00!0.01!mils!RADIOTELESCOPE!10.400000 mil!2!UP TO DATE!
+J!s:/projects/radiotelescope/radiotelescope-pcb/main project/allegro/radiotelescope.brd!Sun Feb 19 16:44:50 2023!-5500.00!-4250.00!5500.00!4250.00!0.01!mils!RADIOTELESCOPE!10.400000 mil!2!UP TO DATE!
 S!!D10!2!@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1!!!F112!!!!!!!!!!
 S!N47330!D10!1!@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1!!!F112!!!!!!!!!!
 S!N43524!D10!3!@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\bzx84c5v1/sot_1.normal\(chips)!BZX84C5V1/SOT_1_SOT23_BZX84C5V1!!!F112!!!!!!!!!!

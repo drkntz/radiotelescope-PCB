@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sat Feb 18 15:28:32 2023                      )
+(    Date/Time        : Sun Feb 19 18:25:16 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -32,7 +32,19 @@ Report methodology:
   AZ_M+                TOP                   134.85     *(1725.00 800.00) to  (1835.00 860.00)
   N60320               TOP                    12.50      (-1127.50 -1325.00) to *(-1140.00 -1325.00)
 
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  +5V                  VIA                  (40.00 1160.00)  TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  +5V                  VIA                  (40.00 1160.00)  TOP/BOTTOM 
+
 << Summary >>
   Total dangling lines:       6
-  Total dangling vias:        0
-  Total antenna vias:         0
+  Total dangling vias:        1
+  Total antenna vias:         1

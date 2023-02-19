@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Feb-16-2023 at 14:59:28}
+{ Using PSTWRITER 17.4.0 d001Feb-19-2023 at 16:44:57}
 primitive 'C_SMC0805_10UF';
   pin
     '1':
@@ -60,7 +60,7 @@ primitive 'LED_3_SMD0805_RED';
     VALUE='RED';
   end_body;
 end_primitive;
-primitive 'BZX84C5V1/SOT_1_SOT23_BZX84C5V1';
+primitive 'BZX84C5V1/SOT_1_SOT23_BZX84C5V1/SOT';
   pin
     'ANODE':
       PIN_NUMBER='(1)';
@@ -78,7 +78,7 @@ primitive 'BZX84C5V1/SOT_1_SOT23_BZX84C5V1';
     VALUE='BZX84C5V1/SOT';
   end_body;
 end_primitive;
-primitive 'DIODE SCHOTTKY_1_SMDO214AA_SK24';
+primitive 'DIODE SCHOTTKY_1_SMDO214AA_SK24-TP';
   pin
     'A':
       PIN_NUMBER='(A)';
@@ -123,7 +123,7 @@ primitive 'LED_2_SMD0805_RED';
     VALUE='RED';
   end_body;
 end_primitive;
-primitive 'TC2030-IDC-NL_TAG_TC2030-IDC-NL';
+primitive 'TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -150,7 +150,7 @@ primitive 'TC2030-IDC-NL_TAG_TC2030-IDC-NL';
     VALUE='TC2030-IDC-NL';
   end_body;
 end_primitive;
-primitive 'CON8_BLKCON100VHTM1SQSW1008_SPA';
+primitive 'CON8_BLKCON100VHTM1SQSW1008_SPARE';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -183,7 +183,7 @@ primitive 'CON8_BLKCON100VHTM1SQSW1008_SPA';
     VALUE='SPARE';
   end_body;
 end_primitive;
-primitive '4 HEADER_BLKCON100VHTM1SQSW1004';
+primitive '4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -204,7 +204,7 @@ primitive '4 HEADER_BLKCON100VHTM1SQSW1004';
     VALUE='4-MTA-100';
   end_body;
 end_primitive;
-primitive 'CON10_BLKCON100VHTM1SQW10010_CO';
+primitive 'CON10_BLKCON100VHTM1SQW10010_CON10';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -243,7 +243,7 @@ primitive 'CON10_BLKCON100VHTM1SQW10010_CO';
     VALUE='CON10';
   end_body;
 end_primitive;
-primitive '1050170001_MOLEX_1050170001_105';
+primitive '1050170001_MOLEX_1050170001_1050170001';
   pin
     'SHIELD__1':
       PIN_NUMBER='(SH2)';
@@ -291,7 +291,7 @@ primitive '1050170001_MOLEX_1050170001_105';
     VALUE='1050170001';
   end_body;
 end_primitive;
-primitive 'CON3_BLKCON156VHTM1SQSW1563_3-M';
+primitive 'CON3_BLKCON156VHTM1SQSW1563_3-MTA-156';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -309,7 +309,7 @@ primitive 'CON3_BLKCON156VHTM1SQSW1563_3-M';
     VALUE='3-MTA-156';
   end_body;
 end_primitive;
-primitive '4 HEADER_BLKCON156VHTM1SQSW1564';
+primitive '4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -330,7 +330,7 @@ primitive '4 HEADER_BLKCON156VHTM1SQSW1564';
     VALUE='4-MTA-156';
   end_body;
 end_primitive;
-primitive 'HEADER 2_BLKCON100VHTM1SQW1002_';
+primitive 'HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -363,7 +363,7 @@ primitive 'MOSFET P DGS_1_SMDPAK_IRFR5305';
     VALUE='IRFR5305';
   end_body;
 end_primitive;
-primitive '2N3904_0_SMSOT23BEC_MMBT4401LT1';
+primitive '2N3904_0_SMSOT23BEC_MMBT4401LT1G';
   pin
     'C':
       PIN_NUMBER='(C)';
@@ -540,7 +540,7 @@ primitive 'TP_1_TP_USB ID';
     VALUE='USB ID';
   end_body;
 end_primitive;
-primitive 'PIC24FV32KA304_0_PQFP44_PIC24FV';
+primitive 'PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1';
   pin
     'RA10':
       PIN_NUMBER='(12)';
@@ -757,7 +757,7 @@ primitive 'PIC24FV32KA304_0_PQFP44_PIC24FV';
     VALUE='PIC24FV32KA304_1';
   end_body;
 end_primitive;
-primitive 'INTERFACE-FT232RL_SSOP28-065-10';
+primitive 'INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL';
   pin
     'TXD':
       PIN_NUMBER='(1)';

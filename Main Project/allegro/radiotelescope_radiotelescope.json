@@ -1,7 +1,20 @@
 {
 	"Gate Swap" : [],
 	"Ref Des" : [],
-	"Pin Swap" : [],
+	"Pin Swap" : [
+		{
+			"Name" : "J9.1",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins153063@connector.\\header 2.normal\\(chips):\\1\\",
+			"Logical" : "J9.1",
+			"Physical" : "J9.2"
+		},
+		{
+			"Name" : "J9.2",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins153063@connector.\\header 2.normal\\(chips):\\2\\",
+			"Logical" : "J9.2",
+			"Physical" : "J9.1"
+		}
+	],
 	"Component Property" : [
 		{
 			"Name" : "D20",
@@ -160,20 +173,6 @@
 			"Physical" : "YES"
 		},
 		{
-			"Name" : "USB_D+",
-			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\usb_d+\\",
-			"PropName" : "DIFFERENTIAL_PAIR",
-			"Logical" : "DP1",
-			"Physical" : null
-		},
-		{
-			"Name" : "USB_D-",
-			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\usb_d-\\",
-			"PropName" : "DIFFERENTIAL_PAIR",
-			"Logical" : "DP1",
-			"Physical" : null
-		},
-		{
 			"Name" : "0",
 			"C_PATH" : "@radiotelescope.schematic1(sch_1):\\0\\",
 			"PropName" : "NO_RAT",
@@ -189,7 +188,195 @@
 		}
 	],
 	"Pin Property" : [],
-	"Component" : [],
+	"Component" : [
+		{
+			"Name" : "D10",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins138972@radiotelescope.\\bzx84c5v1\/sot_1.normal\\(chips)",
+			"Logical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1\/SOT",
+			"Physical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1"
+		},
+		{
+			"Name" : "D13",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins139030@radiotelescope.\\bzx84c5v1\/sot_1.normal\\(chips)",
+			"Logical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1\/SOT",
+			"Physical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1"
+		},
+		{
+			"Name" : "D17",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins90483@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D19",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93017@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D20",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93251@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D21",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93337@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D22",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93423@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D23",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93490@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D24",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93827@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D25",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93911@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D26",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins93978@radiotelescope.\\diode schottky_1.normal\\(chips)",
+			"Logical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24-TP",
+			"Physical" : "DIODE SCHOTTKY_1_SMDO214AA_SK24"
+		},
+		{
+			"Name" : "D4",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins46271@radiotelescope.\\bzx84c5v1\/sot_1.normal\\(chips)",
+			"Logical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1\/SOT",
+			"Physical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1"
+		},
+		{
+			"Name" : "D7",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins138922@radiotelescope.\\bzx84c5v1\/sot_1.normal\\(chips)",
+			"Logical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1\/SOT",
+			"Physical" : "BZX84C5V1\/SOT_1_SOT23_BZX84C5V1"
+		},
+		{
+			"Name" : "J1",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins130097@\\tc2030-idc-nl\\.\\tc2030-idc-nl.normal\\(chips)",
+			"Logical" : "TC2030-IDC-NL_TAG_TC2030-IDC-NL_TC2030-IDC-NL",
+			"Physical" : "TC2030-IDC-NL_TAG_TC2030-IDC-NL"
+		},
+		{
+			"Name" : "J10",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins127318@connector.\\con8.normal\\(chips)",
+			"Logical" : "CON8_BLKCON100VHTM1SQSW1008_SPARE",
+			"Physical" : "CON8_BLKCON100VHTM1SQSW1008_SPA"
+		},
+		{
+			"Name" : "J2",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins51819@connector.\\4 header.normal\\(chips)",
+			"Logical" : "4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100",
+			"Physical" : "4 HEADER_BLKCON100VHTM1SQSW1004"
+		},
+		{
+			"Name" : "J3",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins53915@connector.\\4 header.normal\\(chips)",
+			"Logical" : "4 HEADER_BLKCON100VHTM1SQSW1004_4-MTA-100",
+			"Physical" : "4 HEADER_BLKCON100VHTM1SQSW1004"
+		},
+		{
+			"Name" : "J4",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins125609@connector.\\con10.normal\\(chips)",
+			"Logical" : "CON10_BLKCON100VHTM1SQW10010_CON10",
+			"Physical" : "CON10_BLKCON100VHTM1SQW10010_CO"
+		},
+		{
+			"Name" : "J5",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins13014@\\1050170001\\.\\1050170001.normal\\(chips)",
+			"Logical" : "1050170001_MOLEX_1050170001_1050170001",
+			"Physical" : "1050170001_MOLEX_1050170001_105"
+		},
+		{
+			"Name" : "J6",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins32431@connector.\\con3.normal\\(chips)",
+			"Logical" : "CON3_BLKCON156VHTM1SQSW1563_3-MTA-156",
+			"Physical" : "CON3_BLKCON156VHTM1SQSW1563_3-M"
+		},
+		{
+			"Name" : "J7",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins31849@connector.\\4 header.normal\\(chips)",
+			"Logical" : "4 HEADER_BLKCON156VHTM1SQSW1564_4-MTA-156",
+			"Physical" : "4 HEADER_BLKCON156VHTM1SQSW1564"
+		},
+		{
+			"Name" : "J8",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins43368@connector.\\con3.normal\\(chips)",
+			"Logical" : "CON3_BLKCON156VHTM1SQSW1563_3-MTA-156",
+			"Physical" : "CON3_BLKCON156VHTM1SQSW1563_3-M"
+		},
+		{
+			"Name" : "J9",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins153063@connector.\\header 2.normal\\(chips)",
+			"Logical" : "HEADER 2_BLKCON100VHTM1SQW1002_2-MTA-100",
+			"Physical" : "HEADER 2_BLKCON100VHTM1SQW1002_"
+		},
+		{
+			"Name" : "Q10",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins43608@radiotelescope.\\2n3904_0.normal\\(chips)",
+			"Logical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1G",
+			"Physical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1"
+		},
+		{
+			"Name" : "Q3",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins39345@radiotelescope.\\2n3904_0.normal\\(chips)",
+			"Logical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1G",
+			"Physical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1"
+		},
+		{
+			"Name" : "Q4",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins40104@radiotelescope.\\2n3904_0.normal\\(chips)",
+			"Logical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1G",
+			"Physical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1"
+		},
+		{
+			"Name" : "Q9",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins43590@radiotelescope.\\2n3904_0.normal\\(chips)",
+			"Logical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1G",
+			"Physical" : "2N3904_0_SMSOT23BEC_MMBT4401LT1"
+		},
+		{
+			"Name" : "U1",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins132631@radiotelescope.\\pic24fv32ka304_0.normal\\(chips)",
+			"Logical" : "PIC24FV32KA304_0_PQFP44_PIC24FV32KA304_1",
+			"Physical" : "PIC24FV32KA304_0_PQFP44_PIC24FV"
+		},
+		{
+			"Name" : "U2",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins7204@\\interface-ft232rlssop28\\.\\interface-ft232rl.normal\\(chips)",
+			"Logical" : "INTERFACE-FT232RL_SSOP28-065-102X52MM_FT232RL",
+			"Physical" : "INTERFACE-FT232RL_SSOP28-065-10"
+		}
+	],
 	"Net" : [],
-	"Connection" : []
+	"Connection" : [
+		{
+			"Name" : "J9.2",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins153063@connector.\\header 2.normal\\(chips):\\2\\",
+			"Logical" : "N90499",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "J9.1",
+			"C_PATH" : "@radiotelescope.schematic1(sch_1):ins153063@connector.\\header 2.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : "N90499"
+		}
+	]
 }
