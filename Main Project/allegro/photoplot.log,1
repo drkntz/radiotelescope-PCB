@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Mon Feb 20 09:18:10 2023                      )
+(    Date/Time        : Mon Feb 20 10:02:45 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -139,9 +139,183 @@ Results from parameter file ...
      BOTTOM created with warnings
 
 
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-2030.37 -29.72) in MIL
+           ... ignored.
+
+    WARNING: 0 width line found at (-1635.00 1300.00) in MIL
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (-1292.50 -1500.00) in MIL
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: Arc segment with end points of
+	(-60.905, -14.593) and (-64.136 -14.598) converted to a line.
+	Its center location (-59.936 -1744.241) is too large for
+	specified integer accuracy of 3 places.
+
+
+
+  APERTURES USED (UNIT = MM):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.19990                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.29997                                  DARK 
+  CIRCLE     0.38100                                  DARK 
+
+     SILK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < TOP_MASK >
+     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/TOP_MASK.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = MM):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.98704                                  DARK 
+  CIRCLE     0.99111                                  DARK 
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.47320                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.57480                                  DARK 
+  CIRCLE     1.64998                                  DARK 
+  CIRCLE     2.37490                                  DARK 
+  CIRCLE     2.54000                                  DARK 
+  CIRCLE     2.66700                                  DARK 
+  SQUARE     1.27000                     0.000 NO     DARK 
+  SQUARE     1.47320                     0.000 NO     DARK 
+  SQUARE     1.52400                     0.000 NO     DARK 
+  SQUARE     1.57480                     0.000 NO     DARK 
+  SQUARE     2.54000                     0.000 NO     DARK 
+  RECTANGLE  0.59995     x 1.70002      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 0.55880       0.000 NO     DARK 
+  RECTANGLE  0.63500     x 0.55880      90.000 NO     DARK 
+  RECTANGLE  0.86360     x 1.01600      90.000 NO     DARK 
+  RECTANGLE  0.86360     x 1.27000      90.000 NO     DARK 
+  RECTANGLE  1.39700     x 0.76200       0.000 NO     DARK 
+  RECTANGLE  1.42240     x 1.82880       0.000 NO     DARK 
+  RECTANGLE  1.52400     x 0.58420       0.000 NO     DARK 
+  RECTANGLE  1.52400     x 0.58420      90.000 NO     DARK 
+  RECTANGLE  1.54991     x 0.59995      90.000 NO     DARK 
+  RECTANGLE  1.93040     x 1.21920      90.000 NO     DARK 
+  RECTANGLE  2.10007     x 1.40005      90.000 NO     DARK 
+  RECTANGLE  2.10007     x 1.70002      90.000 NO     DARK 
+  RECTANGLE  2.61620     x 2.74320      90.000 NO     DARK 
+  RECTANGLE  5.58800     x 5.84200       0.000 NO     DARK 
+  OBLONG     2.10007     x 1.15011      90.000 NO     DARK 
+
+     TOP_MASK created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOT_MASK >
+     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/BOT_MASK.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = MM):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.99111                                  DARK 
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.47320                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.57480                                  DARK 
+  CIRCLE     1.64998                                  DARK 
+  CIRCLE     2.37490                                  DARK 
+  CIRCLE     2.54000                                  DARK 
+  CIRCLE     2.66700                                  DARK 
+  SQUARE     1.47320                     0.000 NO     DARK 
+  SQUARE     1.57480                     0.000 NO     DARK 
+  SQUARE     2.54000                     0.000 NO     DARK 
+  OBLONG     2.10007     x 1.15011      90.000 NO     DARK 
+
+     BOT_MASK created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOARD_GEO >
+     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/BOARD_GEO.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     BOARD_GEO created with warnings
+
+
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
         BOTTOM created with warnings
+        SILK_TOP created with warnings
+        TOP_MASK created with warnings
+        BOT_MASK created with warnings
+        BOARD_GEO created with warnings
 
  ARTWORK had warnings

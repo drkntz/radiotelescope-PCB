@@ -1,77 +1,160 @@
-\t (00:00:06) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:06)     Journal start - Mon Feb 20 10:13:11 2023
-\t (00:00:06)         Host=DESKTOP-NLG79LP User=zach Pid=18520 CPUs=4
-\t (00:00:06) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
-\t (00:00:06) 
-   (00:00:06) Loading axlcore.cxt 
-\t (00:00:09) Opening existing design...
-\i (00:00:10) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
-\d (00:00:10) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
-\i (00:00:10) trapsize 642
-\i (00:00:10) trapsize 660
-\i (00:00:10) trapsize 642
-\i (00:00:10) trapsize 598
-\i (00:00:10) trapsize 616
-\t (00:00:10) > Sending response DoneOpenBoard
-\i (00:00:11) generaledit 
-\i (00:00:13) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 597.91 -1655.46
-\i (00:00:13) trapsize 1233
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 597.91 -1655.45
-\i (00:00:13) trapsize 2465
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 597.91 -1655.45
-\i (00:00:13) trapsize 4786
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 4091.21 95.72
-\i (00:00:13) trapsize 4786
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in -130.07 363.74
-\i (00:00:14) trapsize 2393
-\i (00:00:15) zoom out 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom out -163.57 124.44
-\i (00:00:15) trapsize 4786
-\i (00:00:15) zoom in 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom in -197.07 -114.87
-\i (00:00:16) trapsize 2393
-\i (00:00:36) ncdrill legend 
-   (00:00:37) Loading mfg.cxt 
-\i (00:00:41) setwindow form.nc_drilllegend
-\i (00:00:41) FORM nc_drilllegend cancel  
-\i (00:00:41) setwindow pcb
-\i (00:00:41) generaledit 
-\i (00:01:36) ncdrill customization 
-\i (00:01:36) generaledit 
-\i (00:01:52) setwindow form.nc_drillcustomization
-\i (00:01:52) FORM nc_drillcustomization auto_symbols  
-\i (00:01:58) fillin yes 
-\i (00:02:06) FORM nc_drillcustomization validate  
-\i (00:03:14) FORM nc_drillcustomization done  
-\i (00:03:18) fillin yes 
-\i (00:03:48) setwindow pcb
-\i (00:03:48) ncdrill param 
-\i (00:03:48) generaledit 
-\i (00:04:24) setwindow form.nc_parameters
-\i (00:04:24) FORM nc_parameters enhanced_format YES 
-\i (00:05:01) FORM nc_parameters cancel  
-\i (00:05:37) setwindow pcb
-\i (00:05:37) nctape_full 
-\i (00:05:42) setwindow form.nc_drill
-\i (00:05:42) FORM nc_drill auto_tool_select YES 
-\i (00:06:22) FORM nc_drill execute  
-\w (00:06:22) WARNING(SPMHMF-269): Design contains slot holes that cannot be drilled. They can be processed by NC Route instead.
-\t (00:06:22) Starting Generating NC Drill...
-\i (00:06:45) FORM nc_drill cancel  
-\i (00:06:45) setwindow pcb
-\i (00:06:45) generaledit 
-\i (00:06:45) exit 
-\t (00:06:46)     Journal end - Mon Feb 20 10:19:51 2023
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Feb 20 10:47:27 2023
+\t (00:00:02)         Host=DESKTOP-NLG79LP User=zach Pid=5292 CPUs=4
+\t (00:00:02) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
+\d (00:00:05) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:05) trapsize 1
+\i (00:00:05) trapsize 1
+\t (00:00:05) > Sending response DoneOpenBoard
+\i (00:00:05) generaledit 
+\i (00:00:07) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -2775.10 1999.94
+\i (00:00:08) trapsize 1
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -2775.11 1999.94
+\i (00:00:08) trapsize 1
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -2774.98 1999.91
+\i (00:00:08) trapsize 2
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -2774.95 1999.92
+\i (00:00:08) trapsize 5
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -2774.79 1999.95
+\i (00:00:08) trapsize 10
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out -2775.33 2000.55
+\i (00:00:09) trapsize 20
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out -2775.96 2001.25
+\i (00:00:09) trapsize 39
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out -2768.53 1999.38
+\i (00:00:09) trapsize 78
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out -2760.23 1997.66
+\i (00:00:09) trapsize 156
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out -2723.94 1988.59
+\i (00:00:09) trapsize 313
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -2723.93 1987.97
+\i (00:00:10) trapsize 626
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -2723.93 1987.98
+\i (00:00:10) trapsize 1252
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -2706.41 1992.98
+\i (00:00:10) trapsize 2503
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -2376.12 1997.98
+\i (00:00:10) trapsize 4786
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 1066.44 1292.23
+\i (00:00:10) trapsize 4786
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 1889.64 689.19
+\i (00:00:11) trapsize 2393
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 1066.44 392.46
+\i (00:00:56) trapsize 4786
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 243.24 86.15
+\i (00:00:56) trapsize 4786
+\i (00:04:05) pdf out 
+\i (00:04:11) setwindow form.pdf_out
+\i (00:04:11) FORM pdf_out pdftree  BOARD_GEO 
+\i (00:04:12) FORM pdf_out pdftree 'MULTISEL YES' BOARD_GEO 
+\i (00:04:18) FORM pdf_out filename radiotelescope-PCB 
+\i (00:04:29) FORM pdf_out pdftree  BOTTOM 
+\i (00:04:29) FORM pdf_out pdftree 'MULTISEL YES' BOTTOM 
+\i (00:04:30) FORM pdf_out pdftree  BOT_MASK 
+\i (00:04:30) FORM pdf_out pdftree 'MULTISEL YES' BOT_MASK 
+\i (00:04:31) FORM pdf_out pdftree  BOTTOM 
+\i (00:04:31) FORM pdf_out pdftree 'MULTISEL NO' BOTTOM 
+\i (00:04:32) FORM pdf_out pdftree  BOT_MASK 
+\i (00:04:32) FORM pdf_out pdftree 'MULTISEL NO' BOT_MASK 
+\i (00:04:36) FORM pdf_out pdftree  SILK_TOP 
+\i (00:04:37) FORM pdf_out pdftree 'MULTISEL YES' SILK_TOP 
+\i (00:04:37) FORM pdf_out pdftree  TOP 
+\i (00:04:37) FORM pdf_out pdftree 'MULTISEL YES' TOP 
+\i (00:04:55) FORM pdf_out property_parameters  
+\i (00:04:55) FORM pdf_out attrtree  Component 
+\i (00:04:56) FORM pdf_out page_setup  
+\i (00:04:58) FORM pdf_out pdf_export  
+\i (00:04:59) FORM pdf_out export  
+\t (00:04:59) Starting Exporting PDF File...
+\t (00:05:03) PDF output completed.
+\i (00:05:30) FORM pdf_out black_white YES 
+\i (00:14:01) FORM pdf_out browse  
+\i (00:14:03) fillin "menu_cancel"
+\i (00:14:03) FORM pdf_out page_setup  
+\i (00:14:04) FORM pdf_out property_parameters  
+\i (00:14:05) FORM pdf_out page_setup  
+\i (00:14:09) FORM pdf_out pdf_export  
+\i (00:14:25) FORM pdf_out export  
+\t (00:14:25) Starting Exporting PDF File...
+\t (00:14:27) PDF output completed.
+\i (00:15:14) FORM pdf_out cancel  
+\i (00:15:14) setwindow pcb
+\i (00:15:14) generaledit 
+\i (00:15:15) 3d 
+\i (00:15:26) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 0 BLKCON100VHTM1SQSW1004
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 1 BLKCON100VHTM1SQSW1008
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 2 BLKCON100VHTM1SQW10010
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 3 BLKCON100VHTM1SQW1002
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 4 BLKCON156VHTM1SQSW1563
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 5 BLKCON156VHTM1SQSW1564
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 6 "MOLEX_1050170001"
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 7 MTHOLE1
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 8 PQFP44
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 9 SMC0805
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 10 SMD0805
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 11 SMDO214AA
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 12 SMDPAK
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 13 SMR0805
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 14 SMR1206
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 15 SMSOT23BEC
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 16 SOIC14
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 17 SOIC8
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 18 SOT23
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 19 "SSOP28-065-102X52MM"
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 20 "TAG_TC2030-IDC-NL"
+\i (00:15:31) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 21 TP
+\i (00:15:32) generaledit 
+\i (00:15:36) QtSignal pcb3dViewerCamMenu Top triggered
+\i (00:15:48) QtSignal pcb3dViewerSetupMenu pcb3dViewerPreferences triggered
+\i (00:15:51) QtSignal 3DPreferencesDialog 3DColorThemeComboBox CurrentIndexChanged Black
+\i (00:15:52) QtSignal Collision_Detection collisionTolerance editingFinished 0
+\i (00:15:52) QtSignal 3DPreferencesDialog 3DPrefOKButton clicked
+\i (00:16:01) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777250 0 false 1
+\i (00:16:01) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 301989888 false 1
+\i (00:16:34) exit 
+\e (00:16:34) Do you want to save the changes you made to radiotelescope.brd?
+\i (00:16:35) fillin yes 
+\i (00:16:35) QtSignal pcb3dViewer pcb3dViewer closed
+\t (00:16:36)     Journal end - Mon Feb 20 11:04:01 2023

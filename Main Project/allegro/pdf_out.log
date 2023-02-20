@@ -1,13 +1,14 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    PDF Export                                                       )
 (                                                                     )
-(    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Mon Feb 20 10:02:45 2023                      )
+(    Date/Time        : Mon Feb 20 11:01:50 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-0 warnings, 0 errors detected, 0 errors could be fixed.
+Output file: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope-PCB.pdf
+Design file: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+pdf_out complete.
