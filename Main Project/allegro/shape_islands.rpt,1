@@ -1,0 +1,32 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : radiotelescope.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Feb 19 20:37:22 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 15
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (120.02 1055.85)  Net: +5V
+	Point on shape: (-879.85 43.98)  Net: +5V
+	Point on shape: (-988.55 12.36)  Net: +5V
+	Point on shape: (-635.98 -126.02)  Net: +5V
+	Point on shape: (-667.98 -126.02)  Net: +5V
+	Point on shape: (-1912.14 -150.02)  Net: +5V
+	Point on shape: (-1883.54 1420.44)  Net: +5V
+	Point on shape: (99.98 673.76)  Net: +5V
+	Point on shape: (-637.25 541.06)  Net: +5V
+	Point on shape: (-937.51 523.06)  Net: +5V
+	Point on shape: (-280.02 496.17)  Net: +5V
+	Point on shape: (-432.02 461.17)  Net: +5V
+	Point on shape: (-1901.66 -129.98)  Net: +5V
+	Point on shape: (-699.98 -126.02)  Net: +5V
+	Point on shape: (-1976.10 -230.26)  Net: +5V

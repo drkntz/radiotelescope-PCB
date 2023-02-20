@@ -1,13 +1,77 @@
-\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Sun Feb 19 18:44:10 2023
-\t (00:00:02)         Host=DESKTOP-NLG79LP User=zach Pid=14896 CPUs=4
-\t (00:00:02) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:08) fillin no 
-\e (00:00:08) Failed to open design since it is locked - S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
-\t (00:00:08) Starting new design...
-\i (00:00:09) trapsize 116667
-\i (00:00:09) exit 
-\t (00:00:09)     Journal end - Sun Feb 19 18:44:17 2023
+\t (00:00:06) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Mon Feb 20 10:13:11 2023
+\t (00:00:06)         Host=DESKTOP-NLG79LP User=zach Pid=18520 CPUs=4
+\t (00:00:06) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\i (00:00:10) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
+\d (00:00:10) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:10) trapsize 642
+\i (00:00:10) trapsize 660
+\i (00:00:10) trapsize 642
+\i (00:00:10) trapsize 598
+\i (00:00:10) trapsize 616
+\t (00:00:10) > Sending response DoneOpenBoard
+\i (00:00:11) generaledit 
+\i (00:00:13) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 597.91 -1655.46
+\i (00:00:13) trapsize 1233
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 597.91 -1655.45
+\i (00:00:13) trapsize 2465
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 597.91 -1655.45
+\i (00:00:13) trapsize 4786
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 4091.21 95.72
+\i (00:00:13) trapsize 4786
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -130.07 363.74
+\i (00:00:14) trapsize 2393
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out -163.57 124.44
+\i (00:00:15) trapsize 4786
+\i (00:00:15) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -197.07 -114.87
+\i (00:00:16) trapsize 2393
+\i (00:00:36) ncdrill legend 
+   (00:00:37) Loading mfg.cxt 
+\i (00:00:41) setwindow form.nc_drilllegend
+\i (00:00:41) FORM nc_drilllegend cancel  
+\i (00:00:41) setwindow pcb
+\i (00:00:41) generaledit 
+\i (00:01:36) ncdrill customization 
+\i (00:01:36) generaledit 
+\i (00:01:52) setwindow form.nc_drillcustomization
+\i (00:01:52) FORM nc_drillcustomization auto_symbols  
+\i (00:01:58) fillin yes 
+\i (00:02:06) FORM nc_drillcustomization validate  
+\i (00:03:14) FORM nc_drillcustomization done  
+\i (00:03:18) fillin yes 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) ncdrill param 
+\i (00:03:48) generaledit 
+\i (00:04:24) setwindow form.nc_parameters
+\i (00:04:24) FORM nc_parameters enhanced_format YES 
+\i (00:05:01) FORM nc_parameters cancel  
+\i (00:05:37) setwindow pcb
+\i (00:05:37) nctape_full 
+\i (00:05:42) setwindow form.nc_drill
+\i (00:05:42) FORM nc_drill auto_tool_select YES 
+\i (00:06:22) FORM nc_drill execute  
+\w (00:06:22) WARNING(SPMHMF-269): Design contains slot holes that cannot be drilled. They can be processed by NC Route instead.
+\t (00:06:22) Starting Generating NC Drill...
+\i (00:06:45) FORM nc_drill cancel  
+\i (00:06:45) setwindow pcb
+\i (00:06:45) generaledit 
+\i (00:06:45) exit 
+\t (00:06:46)     Journal end - Mon Feb 20 10:19:51 2023

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sun Feb 19 17:20:03 2023                      )
+(    Date/Time        : Sun Feb 19 20:57:19 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -26,26 +26,16 @@ Report methodology:
   Net                 Layer                  Length       Location
   ------------------------------------------------------------------------------------------
   N09584               TOP                   245.00     *(-1041.00 118.00) to  (-796.00 118.00)
-  AZ_ENCODER2          BOTTOM               1356.27     *(-20.00 710.00) to  (-910.00 150.00)
   N43806               TOP                    40.00     *(2060.00 -685.00) to  (2100.00 -685.00)
+  N120971              TOP                   153.07     *(920.00 -200.00) to  (925.00 -351.00)
+  N101120              TOP                  2203.88     *(-2520.00 230.00) to  (-678.00 396.00)
   AZ_M-                TOP                   123.99     *(1975.00 1400.00) to  (1880.00 1330.00)
   AZ_M+                TOP                   109.85     *(2225.00 800.00) to  (2310.00 860.00)
   AZ_M+                TOP                   134.85     *(1725.00 800.00) to  (1835.00 860.00)
   N60320               TOP                    12.50      (-1127.50 -1325.00) to *(-1140.00 -1325.00)
-
-
-<< Dangling Vias >>
-  Net                  Padstack               Location            Layers
-  ---------------------------------------------------------------------------
-  +5V                  VIA                  (40.00 1160.00)  TOP/BOTTOM 
-
-
-<< Antenna Vias >>
-  Net                  Padstack               Location            Layers
-  ---------------------------------------------------------------------------
-  +5V                  VIA                  (40.00 1160.00)  TOP/BOTTOM 
+  0                    TOP                   154.01     *(-1850.00 1410.00) to  (-1917.72 1512.80)
 
 << Summary >>
-  Total dangling lines:       7
-  Total dangling vias:        1
-  Total antenna vias:         1
+  Total dangling lines:       9
+  Total dangling vias:        0
+  Total antenna vias:         0
