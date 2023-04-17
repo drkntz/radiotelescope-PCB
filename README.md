@@ -7,7 +7,7 @@ Firmware repository: https://github.com/drkntz/radiotelescope-firmware
 
 Main program software: https://github.com/RidhaChowdhury/MiniRadioTelescope
 
-Created by Zach Martin, Aaron Olsen, Loc Pham. 
+Created by Zach Martin and Aaron Olsen.
 Init date October 2022. 
 
 # Schematic (In-progress)
