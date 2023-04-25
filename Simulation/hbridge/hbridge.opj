@@ -1,10 +1,10 @@
 (ExpressProject "hbridge"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/09/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/21/23]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
+    (Allegro Netlist Directory "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -25,29 +25,53 @@
          ".\hbridge-pspicefiles\schematic1\hbridge.sim"
         (DisplayName "SCHEMATIC1-hbridge")
         (Type "PSpice Profile")))
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
     (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
+      (File ".\hbridge-pspicefiles\hbridge.lib"
+        (DisplayName ".\hbridge-pspicefiles\hbridge.lib")
+        (Type "PSpiceLibrary"))
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+    (VCC_CIRCLE
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (DCMOTOR
-      (FullPartName "DCMOTOR.Normal")
+    (1n6047
+      (FullPartName "1n6047.Normal")
       (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\FUNCTION.OLB")
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\MSEMI_SUPRESSOR.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (1N4720
+      (FullPartName "1N4720.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
       (DeviceIndex "0"))
     (L
       (FullPartName "L.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (1N5822
+      (FullPartName "1N5822.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (DCMOTOR
+      (FullPartName "DCMOTOR.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\FUNCTION.OLB")
       (DeviceIndex "0"))
     (IRFRU5305
       (FullPartName "IRFRU5305.Normal")
@@ -85,8 +109,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 639 24 471")
-        (Scroll "109 92")
+        (Placement "44 0 1 -1 -1 5 24 5 1034 24 471")
+        (Scroll "0 76")
         (Zoom "114")
         (Occurrence "/"))
       (Path

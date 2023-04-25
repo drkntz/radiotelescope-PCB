@@ -30,7 +30,6 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "FALSE")
@@ -104,7 +103,7 @@
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.BOM")
+       "S:\projects\radiotelescope\radiotelescope-PCB\radiotelescope_bom_2023-03-08.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "/0x22/{Item}/0x22/,/0x22/{Quantity}/0x22/,/0x22/{Reference}/0x22/,/0x22/{PCB Footprint}/0x22/,/0x22/{Value}/0x22/")
@@ -114,7 +113,8 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "FALSE")
-    (BOM_View_Output "FALSE"))
+    (BOM_View_Output "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout"
     (File ".\allegro\radiotelescope.brd"
       (Type "Board File")
@@ -139,6 +139,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\radiotelescope.bom"
+      (Type "Report"))
+    (File "..\radiotelescope_bom_2023-03-08.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -283,18 +285,19 @@
       (Path "Outputs")
       (Path "Logs")
       (Select "Design Resources"
-         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"))
+         "s:\projects\radiotelescope\radiotelescope-pcb\main project\radiotelescope.dsn"
+         "SCHEMATIC1" "Main Electronics"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 597"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 453"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 927 24 615")
-        (Scroll "630 411")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1034 24 471")
+        (Scroll "0 401")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -304,8 +307,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 927 24 615")
-        (Scroll "630 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1034 24 471")
+        (Scroll "0 520")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -315,8 +318,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 927 24 615")
-        (Scroll "80 161")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1034 24 471")
+        (Scroll "-13 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path

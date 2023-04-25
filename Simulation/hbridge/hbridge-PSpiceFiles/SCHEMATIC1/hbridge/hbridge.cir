@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge-pspicefiles\schematic1\hbridge.sim ] 
+** Profile: "SCHEMATIC1-hbridge"  [ s:\projects\radiotelescope\radiotelescope-pcb\simulation\hbridge\hbridge-pspicefiles\schematic1\hbridge.sim ] 
 
 ** Creating circuit file "hbridge.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -6,6 +6,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../hbridge-pspicefiles/hbridge.lib" 
 * From [PSPICE NETLIST] section of C:\Users\zach\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
 .lib "nom.lib" 
 

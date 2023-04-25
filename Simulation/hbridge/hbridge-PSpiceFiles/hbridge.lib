@@ -1,0 +1,42 @@
+* PSpice Model Editor - Version 17.4.0
+*$
+*b Device model created by analog_uprev for 1n5822 on Mon Feb  5 06:57:23 IST 2001
+* updated using Model Editor release 17.4.0 on 02/20/23 at 22:18
+*DEVICE=awb1n5822,D
+.subckt awb1n5822 AN CAT 
++ params:
++ AREA=1.0
++ IS=15.82E-6
++ RS=19e-3
++ N=1.05
++ TT=0
++ CJO=474E-12
++ VJ=4
++ M=0.783
++ EG=0.69
++ XTI=2.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=44
++ IBV=1.0
+D_awb1n5822 AN CAT model22 {area} 
+.model model22 d
++ is={IS}
++ rs={RS}
++ n={N}
++ tt={TT}
++ cjo={CJO}
++ vj={VJ}
++ m={M}
++ eg={EG}
++ xti={XTI}
++ kf={KF}
++ af={AF}
++ fc={FC}
++ bv={BV}
++ ibv={IBV}
+.ends awb1n5822
+*
+*
+*$

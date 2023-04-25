@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Mon Feb 20 10:02:45 2023                      )
+(    Date/Time        : Mon Feb 20 10:10:36 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -155,13 +155,10 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: text composed 0 width line found at (-2030.37 -29.72) in MIL
-           ... ignored.
-
-    WARNING: 0 width line found at (-1635.00 1300.00) in MIL
-           ... ignored.
-
     WARNING: rectangle or unfilled shape composed 0 width line found at (-1292.50 -1500.00) in MIL
+           ... ignored.
+
+    WARNING: 0 width line found at (-1275.00 -1150.00) in MIL
            ... ignored.
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
@@ -185,6 +182,7 @@ Results from parameter file ...
   CIRCLE     0.15240                                  DARK 
   CIRCLE     0.19990                                  DARK 
   CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.25400                                  DARK 
   CIRCLE     0.29997                                  DARK 
   CIRCLE     0.38100                                  DARK 
 

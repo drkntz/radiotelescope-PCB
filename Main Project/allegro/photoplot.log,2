@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : radiotelescope.brd                            )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Mon Feb 20 10:09:31 2023                      )
+(    Date/Time        : Mon Feb 20 10:47:03 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -32,114 +32,6 @@ Results from parameter file ...
 
 
 ================================================================
-     PROCESSING FILM < TOP >
-     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/TOP.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.00
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.00
-  Offset y:                           0.00
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-    WARNING: Film contains objects with associated DRCs (1).
-           In the design editor view this film and enable visibility for the
-           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
-
-
-  APERTURES USED (UNIT = MM):
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.25400                                  DARK 
-  CIRCLE     0.38100                                  DARK 
-  CIRCLE     0.50800                                  DARK 
-  CIRCLE     0.60960                                  DARK 
-  CIRCLE     0.76200                                  DARK 
-  CIRCLE     0.78689                                  DARK 
-  CIRCLE     0.99111                                  DARK 
-  CIRCLE     1.27000                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.45009                                  DARK 
-  CIRCLE     1.47320                                  DARK 
-  CIRCLE     1.57480                                  DARK 
-  CIRCLE     2.37490                                  DARK 
-  CIRCLE     2.54000                                  DARK 
-  CIRCLE     2.79400                                  DARK 
-  CIRCLE     3.04800                                  DARK 
-  SQUARE     1.27000                     0.000 NO     DARK 
-  SQUARE     1.47320                     0.000 NO     DARK 
-  SQUARE     1.52400                     0.000 NO     DARK 
-  SQUARE     1.57480                     0.000 NO     DARK 
-  SQUARE     2.54000                     0.000 NO     DARK 
-  RECTANGLE  0.40005     x 1.50012      90.000 NO     DARK 
-  RECTANGLE  0.50800     x 0.43180       0.000 NO     DARK 
-  RECTANGLE  0.50800     x 0.43180      90.000 NO     DARK 
-  RECTANGLE  0.86360     x 1.01600      90.000 NO     DARK 
-  RECTANGLE  0.86360     x 1.27000      90.000 NO     DARK 
-  RECTANGLE  1.27000     x 0.48260       0.000 NO     DARK 
-  RECTANGLE  1.27000     x 0.48260      90.000 NO     DARK 
-  RECTANGLE  1.27000     x 0.63500       0.000 NO     DARK 
-  RECTANGLE  1.35001     x 0.40005      90.000 NO     DARK 
-  RECTANGLE  1.42240     x 1.82880       0.000 NO     DARK 
-  RECTANGLE  1.89992     x 1.19990      90.000 NO     DARK 
-  RECTANGLE  1.89992     x 1.50012      90.000 NO     DARK 
-  RECTANGLE  1.93040     x 1.21920      90.000 NO     DARK 
-  RECTANGLE  2.61620     x 2.74320      90.000 NO     DARK 
-  RECTANGLE  5.58800     x 5.84200       0.000 NO     DARK 
-  OBLONG     1.89992     x 0.94996      90.000 NO     DARK 
-
-     TOP created with warnings
-
-
-================================================================
-     PROCESSING FILM < BOTTOM >
-     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/BOTTOM.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.00
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.00
-  Offset y:                           0.00
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED (UNIT = MM):
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.25400                                  DARK 
-  CIRCLE     0.38100                                  DARK 
-  CIRCLE     0.50800                                  DARK 
-  CIRCLE     0.60960                                  DARK 
-  CIRCLE     0.76200                                  DARK 
-  CIRCLE     0.99111                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.45009                                  DARK 
-  CIRCLE     1.47320                                  DARK 
-  CIRCLE     1.57480                                  DARK 
-  CIRCLE     2.37490                                  DARK 
-  CIRCLE     2.54000                                  DARK 
-  SQUARE     1.47320                     0.000 NO     DARK 
-  SQUARE     1.57480                     0.000 NO     DARK 
-  SQUARE     2.54000                     0.000 NO     DARK 
-  OBLONG     1.89992     x 0.94996      90.000 NO     DARK 
-
-     BOTTOM created with warnings
-
-
-================================================================
      PROCESSING FILM < SILK_TOP >
      TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/SILK_TOP.art > ...
 ================================================================
@@ -155,16 +47,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: text composed 0 width line found at (-2030.37 -29.72) in MIL
-           ... ignored.
-
     WARNING: rectangle or unfilled shape composed 0 width line found at (-1292.50 -1500.00) in MIL
-           ... ignored.
-
-    WARNING: 0 width line found at (-1275.00 -1150.00) in MIL
-           ... ignored.
-
-    WARNING: Multiple 0 width lines; all will be treated the same as the first.
            ... ignored.
 
     WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
@@ -192,131 +75,8 @@ Results from parameter file ...
      SILK_TOP created with warnings
 
 
-================================================================
-     PROCESSING FILM < TOP_MASK >
-     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/TOP_MASK.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.00
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.00
-  Offset y:                           0.00
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED (UNIT = MM):
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.98704                                  DARK 
-  CIRCLE     0.99111                                  DARK 
-  CIRCLE     1.11760                                  DARK 
-  CIRCLE     1.47320                                  DARK 
-  CIRCLE     1.52400                                  DARK 
-  CIRCLE     1.57480                                  DARK 
-  CIRCLE     1.64998                                  DARK 
-  CIRCLE     2.37490                                  DARK 
-  CIRCLE     2.54000                                  DARK 
-  CIRCLE     2.66700                                  DARK 
-  SQUARE     1.27000                     0.000 NO     DARK 
-  SQUARE     1.47320                     0.000 NO     DARK 
-  SQUARE     1.52400                     0.000 NO     DARK 
-  SQUARE     1.57480                     0.000 NO     DARK 
-  SQUARE     2.54000                     0.000 NO     DARK 
-  RECTANGLE  0.59995     x 1.70002      90.000 NO     DARK 
-  RECTANGLE  0.63500     x 0.55880       0.000 NO     DARK 
-  RECTANGLE  0.63500     x 0.55880      90.000 NO     DARK 
-  RECTANGLE  0.86360     x 1.01600      90.000 NO     DARK 
-  RECTANGLE  0.86360     x 1.27000      90.000 NO     DARK 
-  RECTANGLE  1.39700     x 0.76200       0.000 NO     DARK 
-  RECTANGLE  1.42240     x 1.82880       0.000 NO     DARK 
-  RECTANGLE  1.52400     x 0.58420       0.000 NO     DARK 
-  RECTANGLE  1.52400     x 0.58420      90.000 NO     DARK 
-  RECTANGLE  1.54991     x 0.59995      90.000 NO     DARK 
-  RECTANGLE  1.93040     x 1.21920      90.000 NO     DARK 
-  RECTANGLE  2.10007     x 1.40005      90.000 NO     DARK 
-  RECTANGLE  2.10007     x 1.70002      90.000 NO     DARK 
-  RECTANGLE  2.61620     x 2.74320      90.000 NO     DARK 
-  RECTANGLE  5.58800     x 5.84200       0.000 NO     DARK 
-  OBLONG     2.10007     x 1.15011      90.000 NO     DARK 
-
-     TOP_MASK created with warnings
-
-
-================================================================
-     PROCESSING FILM < BOT_MASK >
-     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/BOT_MASK.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.00
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.00
-  Offset y:                           0.00
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED (UNIT = MM):
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.99111                                  DARK 
-  CIRCLE     1.11760                                  DARK 
-  CIRCLE     1.47320                                  DARK 
-  CIRCLE     1.52400                                  DARK 
-  CIRCLE     1.57480                                  DARK 
-  CIRCLE     1.64998                                  DARK 
-  CIRCLE     2.37490                                  DARK 
-  CIRCLE     2.54000                                  DARK 
-  CIRCLE     2.66700                                  DARK 
-  SQUARE     1.47320                     0.000 NO     DARK 
-  SQUARE     1.57480                     0.000 NO     DARK 
-  SQUARE     2.54000                     0.000 NO     DARK 
-  OBLONG     2.10007     x 1.15011      90.000 NO     DARK 
-
-     BOT_MASK created with warnings
-
-
-================================================================
-     PROCESSING FILM < BOARD_GEO >
-     TO FILE < S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/BOARD_GEO.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.00
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.00
-  Offset y:                           0.00
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:  NONE
-     BOARD_GEO created with warnings
-
-
 ------------------------------------------------------
  SUMMARY:
-        TOP created with warnings
-        BOTTOM created with warnings
         SILK_TOP created with warnings
-        TOP_MASK created with warnings
-        BOT_MASK created with warnings
-        BOARD_GEO created with warnings
 
  ARTWORK had warnings

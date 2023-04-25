@@ -1,7 +1,7 @@
 
-**** 02/09/23 11:21:14 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+**** 02/21/23 17:16:19 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge-pspicefiles\schematic1\
+ ** Profile: "SCHEMATIC1-hbridge"  [ s:\projects\radiotelescope\radiotelescope-pcb\simulation\hbridge\hbridge-pspicefiles\schematic1\
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,6 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
+.LIB "../../../hbridge-pspicefiles/hbridge.lib" 
 * From [PSPICE NETLIST] section of C:\Users\zach\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
 .lib "nom.lib" 
 
@@ -31,34 +32,36 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source HBRIDGE
-R_R8         N03767 N03951 100
-V_V1         N03377 0 24VDC
-R_R9         N03791 N03745 100
-R_R7         N03525 N03377 1K
-R_R6         N03745 N03761 10k
-V_V4         N03767 0  
-+PULSE 0 5 100u 10u 10u 50u 100u
-V_V3         N03745 0 0
+V_V1         +24VDC 0 24VDC
+R_R7         N03525 +24VDC 1K
+R_R6         0 N03761 10k
+V_V2         HBRIDGE_1 0  
++PULSE 0 5 10u 10u 10u 200u 400u
 Q_Q1         N05618 N03761 0 QbreakN 
-R_R5         N04776 N03767 10k
+R_R5         N04776 HBRIDGE_1 10k
 Q_Q2         N05606 N04776 0 QbreakN 
-R_R3         N03543 N03377 1k
+R_R3         N03543 +24VDC 1k
 X_D1         N05606 N03543 awbbzx84c5v1 PARAMS:               
 X_D2         N05618 N03525 awbbzx84c5v1 PARAMS:               
-X_U1         N03557 N03951 0 IRFRU4105
-X_U2         N03557 N03525 N03377 IRFRU5305
-X_U3         N03583 N03543 N03377 IRFRU5305
-X_U4         N03583 N03791 0 IRFRU4105
-X_U5         N03557 N03583 N08474 AWBDCMOTOR PARAMS: R=20 L=1m BACK_EMF=1
-+  K_TORQ=1 K_VISC=0 INERTIA=1M CONST_FRIC=0
-R_R10         N08474 0  100 TC=0,0 
+X_U1         N03557 N15780 0 IRFRU4105
+X_U2         N03557 N03525 +24VDC IRFRU5305
+X_U3         N03583 N03543 +24VDC IRFRU5305
+X_U4         N03583 N15669 0 IRFRU4105
+X_D4         N03583 +24VDC awb1n4720 PARAMS:                
+X_D5         N03557 +24VDC awb1n4720 PARAMS:                
+X_D6         0 N03583 awb1n4720 PARAMS:                
+X_D7         0 N03557 awb1n4720 PARAMS:                
+R_R11         N15669 0 100
+R_R12         HBRIDGE_1 N15780 100
+R_R17         N03557 N21687  7 TC=0,0 
+L_L2         N21687 N03583  1.3m  
 
 **** RESUMING hbridge.cir ****
 .END
 
-**** 02/09/23 11:21:14 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+**** 02/21/23 17:16:19 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge-pspicefiles\schematic1\
+ ** Profile: "SCHEMATIC1-hbridge"  [ s:\projects\radiotelescope\radiotelescope-pcb\simulation\hbridge\hbridge-pspicefiles\schematic1\
 
 
  ****     Diode MODEL PARAMETERS
@@ -128,10 +131,20 @@ R_R10         N08474 0  100 TC=0,0
           EG    1.2                                                          
          XTI    3.00272                                                      
 
-
-**** 02/09/23 11:21:14 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge-pspicefiles\schematic1\
+               X_D4.model22    X_D5.model22    X_D6.model22    X_D7.model22    
+          IS  361.000000E-09  361.000000E-09  361.000000E-09  361.000000E-09 
+           N    2.21            2.21            2.21            2.21         
+          BV  220             220             220             220            
+         IBV    1               1               1               1            
+          RS    2.850000E-03    2.850000E-03    2.850000E-03    2.850000E-03 
+          TT    1.000000E-09    1.000000E-09    1.000000E-09    1.000000E-09 
+          EG    1.11            1.11            1.11            1.11         
+
+
+**** 02/21/23 17:16:19 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-hbridge"  [ s:\projects\radiotelescope\radiotelescope-pcb\simulation\hbridge\hbridge-pspicefiles\schematic1\
 
 
  ****     BJT MODEL PARAMETERS
@@ -167,9 +180,9 @@ R_R10         N08474 0  100 TC=0,0
            D     .87         
 
 
-**** 02/09/23 11:21:14 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+**** 02/21/23 17:16:19 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge-pspicefiles\schematic1\
+ ** Profile: "SCHEMATIC1-hbridge"  [ s:\projects\radiotelescope\radiotelescope-pcb\simulation\hbridge\hbridge-pspicefiles\schematic1\
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -212,9 +225,9 @@ R_R10         N08474 0  100 TC=0,0
        XPART    0               0               0               0            
 
 
-**** 02/09/23 11:21:14 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+**** 02/21/23 17:16:19 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-hbridge"  [ S:\projects\radiotelescope\radiotelescope-PCB\Simulation\hbridge\hbridge-pspicefiles\schematic1\
+ ** Profile: "SCHEMATIC1-hbridge"  [ s:\projects\radiotelescope\radiotelescope-pcb\simulation\hbridge\hbridge-pspicefiles\schematic1\
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -227,25 +240,23 @@ R_R10         N08474 0  100 TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N03377)   24.0000 (N03525)   24.0000 (N03543)   24.0000 (N03557)   12.0100     
+(+24VDC)   24.0000 (N03525)   24.0000 (N03543)   24.0000 (N03557)   12.0100     
 
-(N03583)   12.0100 (N03745)    0.0000 (N03761) 240.0E-09 (N03767)    0.0000     
+(N03583)   12.0100 (N03761) 240.0E-09 (N04776) 240.0E-09 (N05606)   24.0000     
 
-(N03791) 3.603E-09 (N03951) 3.603E-09 (N04776) 240.0E-09 (N05606)   24.0000     
+(N05618)   24.0000 (N15669) 3.603E-09 (N15780) 3.603E-09 (N21687)   12.0100     
 
-(N05618)   24.0000 (N08474) 11.50E-12 (X_U1.4)    0.0000 (X_U1.5)   12.0100     
+(X_U1.4)    0.0000 (X_U1.5)   12.0100 (X_U1.6)   12.0100 (X_U1.7) 3.661E-09     
 
-(X_U1.6)   12.0100 (X_U1.7) 3.661E-09 (X_U1.8) 374.8E-15 (X_U1.9)   12.0100     
+(X_U1.8) 374.8E-15 (X_U1.9)   12.0100 (X_U2.4)    0.0000 (X_U2.5)  -11.9900     
 
-(X_U2.4)    0.0000 (X_U2.5)  -11.9900 (X_U2.6)  -11.9900 (X_U2.7)   24.0000     
+(X_U2.6)  -11.9900 (X_U2.7)   24.0000 (X_U2.8)   24.0000 (X_U2.9)   12.0100     
 
-(X_U2.8)   24.0000 (X_U2.9)   12.0100 (X_U3.4)    0.0000 (X_U3.5)  -11.9900     
+(X_U3.4)    0.0000 (X_U3.5)  -11.9900 (X_U3.6)  -11.9900 (X_U3.7)   24.0000     
 
-(X_U3.6)  -11.9900 (X_U3.7)   24.0000 (X_U3.8)   24.0000 (X_U3.9)   12.0100     
+(X_U3.8)   24.0000 (X_U3.9)   12.0100 (X_U4.4)    0.0000 (X_U4.5)   12.0100     
 
-(X_U4.4)    0.0000 (X_U4.5)   12.0100 (X_U4.6)   12.0100 (X_U4.7) 3.661E-09     
-
-(X_U4.8) 374.8E-15 (X_U4.9)   12.0100 (X_U5.1)   12.0100 (X_U5.2)   12.0100     
+(X_U4.6)   12.0100 (X_U4.7) 3.661E-09 (X_U4.8) 374.8E-15 (X_U4.9)   12.0100     
 
 (X_U1.10)   12.0100                   (X_U1.11)   12.0100                       
 
@@ -255,7 +266,7 @@ R_R10         N08474 0  100 TC=0,0
 
 (X_U4.10)   12.0100                   (X_U4.11)   12.0100                       
 
-(X_U5.AWBDCMOTOR_DUMMY1)    1.0000    (X_U5.AWBDCMOTOR_DUMMY2)    1.0000    
+(HBRIDGE_1)    0.0000                 
 
 
 
@@ -263,9 +274,8 @@ R_R10         N08474 0  100 TC=0,0
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -1.092E-05
-    V_V4         6.003E-11
-    V_V3         6.003E-11
+    V_V1        -1.164E-05
+    V_V2         6.003E-11
     X_U1.VFI2    1.201E-11
     X_U1.VFI1    0.000E+00
     X_U2.VFI2   -1.199E-11
@@ -275,34 +285,31 @@ R_R10         N08474 0  100 TC=0,0
     X_U4.VFI2    1.201E-11
     X_U4.VFI1    0.000E+00
 
-    TOTAL POWER DISSIPATION   2.62E-04  WATTS
+    TOTAL POWER DISSIPATION   2.79E-04  WATTS
 
 Reducing minimum delta to make the circuit converge.
 Reducing minimum delta to make the circuit converge.
 Reducing minimum delta to make the circuit converge.
 
-ERROR(ORPSIM-15138): Convergence problem in Transient Analysis at Time =  213.1E-09.
-         Time step =  363.8E-21, minimum allowable step size =  1.000E-18
+ERROR(ORPSIM-15138): Convergence problem in Transient Analysis at Time =  8.028E-06.
+         Time step =  495.2E-21, minimum allowable step size =  1.000E-18
 
   These supply currents failed to converge:
 
-    I(X_U1.EV16)              =         0A  \  -218.28pA
-    I(X_U2.EV16)              =  -953.67nA  \   272.85pA
-    I(X_U3.EV16)              =  -953.67nA  \   251.02pA
-    I(X_U4.EV16)              =         0A  \  -247.38pA
-    I(V_V1)                   =   -10.37uA  \   -10.92uA
-    I(V_V4)                   =    86.32pA  \    61.98pA
-    I(V_V3)                   =    81.97pA  \    62.02pA
-    I(X_U1.VFI2)              =    8.727nA  \   -1.968pA
-    I(X_U2.VFI2)              =    76.70nA  \    39.86pA
-    I(X_U3.VFI2)              =  -161.11nA  \   -16.59pA
-    I(X_U4.VFI2)              =    8.687nA  \    29.27pA
+    I(X_U1.EV16)              =   476.84nA  \  -169.39pA
+    I(X_U2.EV16)              =   953.67nA  \   221.92pA
+    I(X_U3.EV16)              =   953.67nA  \    65.48pA
+    I(X_U4.EV16)              =   476.84nA  \  -185.08pA
+    I(V_V1)                   =   -12.23uA  \   -11.64uA
+    I(V_V2)                   =    2.553nA  \   367.48pA
+    I(X_U1.VFI2)              =  -280.54nA  \   -54.54pA
+    I(X_U2.VFI2)              =  -320.84nA  \   188.34pA
+    I(X_U3.VFI2)              =  -310.59nA  \   -22.10pA
+    I(X_U4.VFI2)              =  -335.57nA  \   -38.80pA
 
   These devices failed to converge:
     X_U1.D1   X_U1.D2   X_U2.D1   X_U2.D2   X_U3.D1   X_U3.D2   X_U4.D1   
-    X_U4.D2   
-
-ERROR(ORPSIM-15659): Discontinuing simulation due to convergence problem
+    X_U4.D2   X_D1.xinstbzx84c5v1.DF1 X_D2.xinstbzx84c5v1.DF1 
 
 
 
@@ -311,25 +318,23 @@ ERROR(ORPSIM-15659): Discontinuing simulation due to convergence problem
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N03377)   24.0000 (N03525)   24.0000 (N03543)   24.0000 (N03557)   12.0100     
+(+24VDC)   24.0000 (N03525)   24.0000 (N03543)   24.0000 (N03557)   12.0100     
 
-(N03583)   12.0100 (N03745)    0.0000 (N03761) 240.0E-09 (N03767)    0.0000     
+(N03583)   12.0100 (N03761) 240.0E-09 (N04776) 240.0E-09 (N05606)   24.0000     
 
-(N03791) 5.797E-09 (N03951) 6.232E-09 (N04776) 240.0E-09 (N05606)   24.0000     
+(N05618)   24.0000 (N15669) 247.7E-09 (N15780) 252.9E-09 (N21687)   12.0100     
 
-(N05618)   24.0000 (N08474) 356.1E-21 (X_U1.4)    0.0000 (X_U1.5)   12.0100     
+(X_U1.4)    0.0000 (X_U1.5)   12.0100 (X_U1.6)   12.0100 (X_U1.7) 257.0E-09     
 
-(X_U1.6)   12.0100 (X_U1.7) 6.332E-09 (X_U1.8) 2.473E-09 (X_U1.9)   12.0100     
+(X_U1.8) 222.1E-09 (X_U1.9)   12.0100 (X_U2.4)    0.0000 (X_U2.5)  -11.9900     
 
-(X_U2.4)    0.0000 (X_U2.5)  -11.9900 (X_U2.6)  -11.9900 (X_U2.7)   24.0000     
+(X_U2.6)  -11.9900 (X_U2.7)   24.0000 (X_U2.8)   24.0000 (X_U2.9)   12.0100     
 
-(X_U2.8)   24.0000 (X_U2.9)   12.0100 (X_U3.4)    0.0000 (X_U3.5)  -11.9900     
+(X_U3.4)    0.0000 (X_U3.5)  -11.9900 (X_U3.6)  -11.9900 (X_U3.7)   24.0000     
 
-(X_U3.6)  -11.9900 (X_U3.7)   24.0000 (X_U3.8)   24.0000 (X_U3.9)   12.0100     
+(X_U3.8)   24.0000 (X_U3.9)   12.0100 (X_U4.4)    0.0000 (X_U4.5)   12.0100     
 
-(X_U4.4)    0.0000 (X_U4.5)   12.0100 (X_U4.6)   12.0100 (X_U4.7) 5.890E-09     
-
-(X_U4.8) 2.027E-09 (X_U4.9)   12.0100 (X_U5.1)   12.0100 (X_U5.2)   12.0100     
+(X_U4.6)   12.0100 (X_U4.7) 251.7E-09 (X_U4.8) 215.6E-09 (X_U4.9)   12.0100     
 
 (X_U1.10)   12.0100                   (X_U1.11)   12.0100                       
 
@@ -339,7 +344,7 @@ ERROR(ORPSIM-15659): Discontinuing simulation due to convergence problem
 
 (X_U4.10)   12.0100                   (X_U4.11)   12.0100                       
 
-(X_U5.AWBDCMOTOR_DUMMY1)    1.0000    (X_U5.AWBDCMOTOR_DUMMY2)    1.0000    
+(HBRIDGE_1)    0.0000                 
 
 
 **** Interrupt ****
