@@ -1,6 +1,6 @@
 (ExpressProject "radiotelescope"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[02/20/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[04/26/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -102,8 +102,7 @@
     ("Allegro Netlist User Defined Property" "FALSE")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File
-       "S:\projects\radiotelescope\radiotelescope-PCB\radiotelescope_bom_2023-03-08.BOM")
+    (BOM_Report_File "S:\projects\radiotelescope\2023-04-27-BOM.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "/0x22/{Item}/0x22/,/0x22/{Quantity}/0x22/,/0x22/{Reference}/0x22/,/0x22/{PCB Footprint}/0x22/,/0x22/{Value}/0x22/")
@@ -141,6 +140,8 @@
     (File ".\radiotelescope.bom"
       (Type "Report"))
     (File "..\radiotelescope_bom_2023-03-08.bom"
+      (Type "Report"))
+    (File "s:\projects\radiotelescope\2023-04-27-bom.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -297,8 +298,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1034 24 471")
-        (Scroll "0 401")
-        (Zoom "100")
+        (Scroll "-118 0")
+        (Zoom "50")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")
@@ -308,8 +309,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1034 24 471")
-        (Scroll "0 520")
-        (Zoom "100")
+        (Scroll "1202 741")
+        (Zoom "228")
         (Occurrence "/"))
       (Path
          "S:\PROJECTS\RADIOTELESCOPE\RADIOTELESCOPE-PCB\MAIN PROJECT\RADIOTELESCOPE.DSN")

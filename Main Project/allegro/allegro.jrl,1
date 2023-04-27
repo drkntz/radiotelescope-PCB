@@ -1,49 +1,89 @@
-\t (00:00:07) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:07)     Journal start - Thu Mar 30 14:11:00 2023
-\t (00:00:07)         Host=DESKTOP-NLG79LP User=zach Pid=15216 CPUs=4
-\t (00:00:07) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
-\t (00:00:07) 
-   (00:00:08) Loading axlcore.cxt 
-\t (00:00:08) Opening existing design...
-\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
-\d (00:00:08) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
-\i (00:00:09) trapsize 5247
-\i (00:00:09) trapsize 5484
-\i (00:00:09) trapsize 5743
-\i (00:00:09) trapsize 5484
-\i (00:00:09) trapsize 5042
-\i (00:00:09) trapsize 5042
-\t (00:00:09) > Sending response DoneOpenBoard
-\i (00:00:09) trapsize 4891
-\i (00:00:10) placementedit 
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in 1640.39 -1110.18
-\i (00:00:11) trapsize 2445
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 1410.53 -968.35
-\i (00:00:11) trapsize 4891
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in -1450.52 836.31
-\i (00:00:12) trapsize 2445
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out -545.74 537.98
-\i (00:00:13) trapsize 4891
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 55.81 229.86
-\i (00:00:14) trapsize 2445
-\i (00:00:18) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (00:00:19) zoom out 1 
-\i (00:00:19) setwindow pcb
-\i (00:00:19) zoom out 1283.38 420.60
-\i (00:00:19) trapsize 4891
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in -462.60 -308.11
-\i (00:00:20) trapsize 2445
-\i (00:12:59) exit 
-\t (00:12:59)     Journal end - Thu Mar 30 14:23:51 2023
+\t (00:00:03) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Apr 26 22:30:08 2023
+\t (00:00:03)         Host=DESKTOP-NLG79LP User=zach Pid=18524 CPUs=4
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged radiotelescope
+\d (00:00:04) Design opened: S:/projects/radiotelescope/radiotelescope-PCB/Main Project/allegro/radiotelescope.brd
+\i (00:00:04) trapsize 5247
+\i (00:00:04) trapsize 5484
+\i (00:00:05) trapsize 5743
+\i (00:00:05) trapsize 5484
+\i (00:00:05) trapsize 5042
+\i (00:00:05) trapsize 5042
+\t (00:00:05) > Sending response DoneOpenBoard
+\i (00:00:05) trapsize 4891
+\i (00:00:06) placementedit 
+\i (00:00:13) pdf out 
+\i (00:00:19) setwindow form.pdf_out
+\i (00:00:19) FORM pdf_out pdftree  TOP_MASK 
+\i (00:00:20) FORM pdf_out pdftree 'MULTISEL YES' TOP_MASK 
+\i (00:00:20) FORM pdf_out pdftree  TOP 
+\i (00:00:20) FORM pdf_out pdftree 'MULTISEL YES' TOP 
+\i (00:00:21) FORM pdf_out pdftree  SILK_TOP 
+\i (00:00:21) FORM pdf_out pdftree 'MULTISEL YES' SILK_TOP 
+\i (00:00:22) FORM pdf_out pdftree  PDF_FILM 
+\i (00:00:22) FORM pdf_out pdftree 'MULTISEL YES' PDF_FILM 
+\i (00:00:24) FORM pdf_out pdftree 'MULTISEL NO' PDF_FILM 
+\i (00:00:24) FORM pdf_out pdftree  BOT_MASK 
+\i (00:00:25) FORM pdf_out pdftree 'MULTISEL YES' BOT_MASK 
+\i (00:00:25) FORM pdf_out pdftree  BOTTOM 
+\i (00:00:25) FORM pdf_out pdftree 'MULTISEL YES' BOTTOM 
+\i (00:00:26) FORM pdf_out pdftree  BOARD_GEO 
+\i (00:00:26) FORM pdf_out pdftree 'MULTISEL YES' BOARD_GEO 
+\i (00:00:41) FORM pdf_out filename radiotelescope-gerber-drawing 
+\i (00:00:41) FORM pdf_out export  
+\t (00:00:41) Starting Exporting PDF File...
+\t (00:00:45) PDF output completed.
+\i (00:02:49) FORM pdf_out cancel  
+\i (00:02:49) setwindow pcb
+\i (00:02:49) placementedit 
+\i (00:02:51) pick grid -178.94 -865.65
+\t (00:02:51) last pick:  -180.00 -865.00
+\i (00:02:51) move 
+\t (00:02:51) last pick:  -1980.00 -900.00
+\t (00:02:51) Pick new location for the element(s).
+\i (00:02:51) pick grid dbl -178.94 -865.65
+\t (00:02:51) last pick:  -180.00 -865.00
+\i (00:02:51) placementedit 
+\i (00:02:52) undo 
+\i (00:02:52) trapsize 4891
+\i (00:02:52) placementedit 
+\i (00:02:53) prepopup -433.26 -894.99
+\i (00:02:55) pop dyn_option_select '@:@Text edit' 
+\i (00:02:55) text edit 
+\i (00:03:03) setwindow form.textedit
+\i (00:03:03) FORM textedit str 'ZACH MARTIN & AARON OLSEN' 
+\i (00:03:03) FORM textedit done  
+\i (00:03:03) setwindow pcb
+\i (00:03:03) pick 0.00 0.00
+\t (00:03:03) Pick text to edit.
+\i (00:03:03) setwindow pcb
+\i (00:03:03) placementedit 
+\i (00:03:10) pdf out 
+\i (00:03:19) setwindow form.pdf_out
+\i (00:03:19) FORM pdf_out filename radiotelescope-gerber-pdf 
+\i (00:03:19) FORM pdf_out pdftree  BOARD_GEO 
+\i (00:03:20) FORM pdf_out pdftree 'MULTISEL YES' BOARD_GEO 
+\i (00:03:20) FORM pdf_out pdftree  BOTTOM 
+\i (00:03:20) FORM pdf_out pdftree 'MULTISEL YES' BOTTOM 
+\i (00:03:22) FORM pdf_out pdftree  BOT_MASK 
+\i (00:03:22) FORM pdf_out pdftree 'MULTISEL YES' BOT_MASK 
+\i (00:03:24) FORM pdf_out pdftree  SILK_TOP 
+\i (00:03:24) FORM pdf_out pdftree 'MULTISEL YES' SILK_TOP 
+\i (00:03:25) FORM pdf_out pdftree  TOP 
+\i (00:03:25) FORM pdf_out pdftree 'MULTISEL YES' TOP 
+\i (00:03:26) FORM pdf_out pdftree  TOP_MASK 
+\i (00:03:26) FORM pdf_out pdftree 'MULTISEL YES' TOP_MASK 
+\i (00:03:27) FORM pdf_out export  
+\t (00:03:27) Starting Exporting PDF File...
+\t (00:03:29) PDF output completed.
+\i (09:13:26) FORM pdf_out cancel  
+\i (09:13:26) setwindow pcb
+\i (09:13:26) placementedit 
+\i (09:13:26) exit 
+\e (09:13:26) Do you want to save the changes you made to radiotelescope.brd?
+\i (09:13:27) fillin yes 
+\t (09:13:28)     Journal end - Thu Apr 27 07:43:32 2023
