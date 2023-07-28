@@ -1,3 +1,6 @@
+# News
+First place (tie), 2023 IEEE Susquehanna Section Capstone Competition. Project paper here: https://r2.ieee.org/susquehanna/wp-content/uploads/sites/24/2023/07/IEEE_RadioTelescopeControlSystem_Report.pdf
+ 
 # Radio Telescope PCB
 This Repository contains the design files for a control PCB for Penn State Harrisburg Radio telescope project. 
 
